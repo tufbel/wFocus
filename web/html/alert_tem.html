@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../src/css/index_alerts.css">
+
+
+    <script src="../dist/js/jquery-3.4.1.min.js"></script>
+    <script src="../src/js/wfajax.js"></script>
+    <script src="../src/js/nav.js"></script>
+    <script src="../src/js/header.js"></script>
+
+    <title>WF首页</title>
+</head>
+
+<body>
+    <header class="wf-header">
+        <input type="checkbox" name="header-manage" id="nav-judge">
+        <input type="checkbox" name="header-manage" id="search-judge">
+        <label class="header-nav" for="nav-judge">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="header-logo">
+            <i class="iconfont icon-WF-icon"></i>
+        </div>
+        <nav class="wf-nav">
+            <ul>
+                <li class="nav-li nav-li-now "><a href="#">首页</a><span></span></li>
+                <li class="nav-li"><a href="#">实时信息</a><span></span></li>
+                <li class="nav-li"><a href="#">战术模拟</a><span></span></li>
+                <li class="nav-li"><a href="#">武器配装</a><span></span></li>
+            </ul>
+        </nav>
+        <div class="header-search">
+            <label class="iconfont icon-chaxun" for="search-judge"></label>
+            <input class="search-input" type="text" placeholder="请输入关键字">
+            <article class="search-hint"></article>
+        </div>
+        <div class="header-user">
+            <label class="user-icon" for="user-judge">
+                <!-- <span>L</span><span>U</span> -->
+                <span class="iconfont icon-account"></span><span></span>
+            </label>
+
+            <input type="checkbox" name="header-manage" id="user-judge">
+            <div class="header-mask">
+                <div class="user">
+                    <div>
+                        <label class="iconfont icon-right" for="user-judge"></label>
+                        <!-- <a class="iconfont icon-tuichu"></a> -->
+                    </div>
+                    <article class="user-details">
+                        <article class="user-icon">
+                            <!-- <span>L</span><span>U</span> -->
+                            <span></span><span class="iconfont icon-account"></span>
+                        </article>
+                        <!-- <article>
+                            <p>昵&ensp;&ensp;称:</p>
+                            <input class="user-name" type="text" value="Regulus" />
+                            <input type="checkbox" name="hander-manage" id="name-editor-judge">
+                            <label class="iconfont icon-edit" for="name-editor-judge"></label>
+                        </article>
+                        <article>
+                            <p>账&ensp;&ensp;号:</p>
+                            <input class="user-id" type="text" value="15684161486" disabled />
+                        </article>
+                        <article>
+                            <p>游戏ID:</p>
+                            <input class="user-gamename" type="text" value="Regulus.coral" disabled />
+                        </article> -->
+                        <article>
+                            <a href="#">登录</a>
+                        </article>
+                    </article>
+                    <div class="user-function">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-account"></i>
+                                    <span>个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-cart-full-fill"></i>
+                                    <span>紫卡市场</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-admin"></i>
+                                    <span>后台管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="wf-main">
+        <div class="main-content">
+            <section alert sortie window-resize="30">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-sortie"></i>突击</span>
+                    </div>
+                    <div alert-content></div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert ostron window-resize="30">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-ostron"></i>希图斯讯息</span>
+                    </div>
+                    <div alert-content>
+                        <ul alert-content-page>
+                        </ul>
+                        <div alert-page>
+                        </div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert fortuna window-resize="30">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-fortuna"></i>福尔图娜讯息</span>
+                    </div>
+                    <div alert-content>
+                        <ul alert-content-page>
+                        </ul>
+                        <div alert-page>
+                        </div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert earth window-resize="30">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-earth"></i>地球讯息</span>
+                    </div>
+                    <div alert-content></div>
+                    <div alert-footer>
+                        <div alert-time>
+                        </div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert arbitration window-resize="30">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-arbitration"></i>仲裁</span>
+                    </div>
+                    <div alert-content></div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <div alert window-resize="30">
+                <div>
+                    <ul nav>
+                        <li invasion>入侵</li>
+                        <li fissure>裂缝</li>
+                    </ul>
+                    <article content>
+                        <div invasion style="display: none;">
+                            当前无入侵信息！
+                        </div>
+                        <div fissure style="display: none;">
+                            当前无裂缝信息
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="wf-footer">
+        <div class="footer-content">
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <div class="footer-logo">
+                    <i class="iconfont icon-WF-icon"></i>
+                </div>
+                <span class="footer-webname">Warframe/Focus Created By 2020</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>Warframe Focus</h1>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <a href="#">关于我们</a>
+                        <span>&ensp;|&ensp;</span>
+                        <a href="#">使用帮助</a>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <span>孙海超</span>
+                        <span>&ensp;|&ensp;</span>
+                        <span>吴伟东</span>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <address>yusheng@gmail.com</address>
+                    </div>
+                </section>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>友情链接</h1>
+                <section>
+                    <a href="#">Warframe官网 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文维基 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文论坛 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+            </article>
+        </div>
+    </footer>
+    <div class="wf-background">
+        <section class="back back1"></section>
+        <section class="back back2"></section>
+        <section class="back back3"></section>
+        <section class="back back4"></section>
+        <section class="back back5"></section>
+        <section class="back back6"></section>
+        <section class="back back7"></section>
+        <section class="back back8"></section>
+    </div>
+
+    <script src="../src/js/alerts/alerts.js" type="module"></script>
+</body>
+
+</html>

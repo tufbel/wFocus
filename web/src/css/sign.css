@@ -1,0 +1,213 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-12-03 17:01:57 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-12-03 22:11:45
+ * @description: 登录注册页面样式
+ */
+.wf-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/sign_bg.png);
+  background-color: #b8e5f8;
+  color: #9c9b9e;
+}
+.wf-main > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: linear-gradient(120deg, #fff, #dec4ddcf);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #8d8787;
+}
+.sign-form {
+  width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.sign-form > a {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 76px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sign-form > a i {
+  font-size: 2.6rem;
+}
+.sign-form > div {
+  width: 200%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: all 0.4s ease-in;
+}
+.sign-form > div article {
+  flex: 1;
+  padding: 0 10px;
+}
+#sign-form-manage:checked ~ div {
+  transform: translateX(-50%);
+}
+#sign-form-manage:checked ~ div #signup {
+  height: 100%;
+}
+#signup {
+  height: 0;
+}
+.input {
+  width: 100%;
+  height: 36px;
+  margin: 32px auto 16px auto;
+  position: relative;
+}
+.input input {
+  padding-left: 5px;
+  width: 100%;
+  height: 36px;
+  font-size: 1rem;
+  border-bottom: 1px solid #9c9b9e;
+  background: transparent;
+}
+.input input:focus + span {
+  bottom: 100%;
+  left: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.input span {
+  position: absolute;
+  bottom: 6px;
+  left: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in;
+  z-index: -1;
+}
+.input .fixed + span {
+  bottom: 100%;
+  left: 0;
+  font-size: 0.8rem;
+}
+.remember {
+  width: 100%;
+  height: 36px;
+  margin-top: 16px;
+}
+.remember input:checked ~ label i {
+  color: #0d28e8;
+  border: 1px solid transparent;
+}
+.remember label {
+  color: #9c9b9e;
+  cursor: pointer;
+}
+.remember label i {
+  border: solid 1px #9c9b9e;
+  color: transparent;
+  margin-right: 5px;
+}
+.remember label i:hover {
+  border: solid 1px #0d28e8;
+}
+.captcha {
+  width: 100%;
+  height: 32px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.captcha input {
+  width: 40%;
+  height: 32px;
+  padding-left: 5px;
+  font-size: 1rem;
+  border-bottom: 1px solid #9c9b9e;
+  background: transparent;
+  margin-right: 10px;
+}
+.captcha div {
+  width: 40%;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #392ad8;
+}
+.captcha img {
+  height: 42px;
+}
+.sign-manage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-manage label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #0d28e8;
+}
+.sign-manage button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  background: linear-gradient(to right, #0d28e8, #9c16bb);
+  color: #fff;
+}
+[data-input-check="true"] {
+  border-bottom: 1px solid #077bed !important;
+  color: #077bed;
+}
+[data-input-check="true"] + span {
+  color: #077bed;
+  font-weight: bold;
+}
+[data-input-check="false"] {
+  border-bottom: 1px solid red !important;
+}
+[data-input-check="false"] + span {
+  color: red;
+  font-weight: bold;
+}
+.no-click {
+  pointer-events: none;
+  background: #737278 !important;
+}
+@media screen and (max-width: 500px) {
+  .wf-main > div {
+    width: 95vh;
+    min-height: 580px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .wf-main > div {
+    width: 370px;
+    min-height: 580px;
+  }
+}

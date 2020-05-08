@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1485753_c4woehgym3m.css">
+
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../src/css/header.css">
+    <link rel="stylesheet" href="../mixin/css/header_user.css">
+
+    <script src="../dist/js/jquery-3.4.1.min.js"></script>
+
+    <title>WF首页</title>
+</head>
+
+<body>
+    <header class="wf-header">
+        <input type="checkbox" name="header-manage" id="nav-judge">
+        <input type="checkbox" name="header-manage" id="search-judge">
+        <label class="header-nav" for="nav-judge"></label>
+        <div class="header-logo"></div>
+        <nav class="wf-nav"></nav>
+        <div class="header-search"></div>
+        <div class="header-user">
+            <label class="user-icon" for="user-judge">
+                <span>L</span><span>U</span>
+            </label>
+            <input type="checkbox" name="header-manage" id="user-judge" checked>
+            <div class="header-mask">
+                <div class="user">
+                    <label class="fa fa-arrow-right fa-lg" for="user-judge"></label>
+                    <article class="user-details">
+                        <article class="user-icon">
+                            <span>L</span><span>U</span>
+                        </article>
+                        <article>
+                            <p>昵&ensp;&ensp;称:</p>
+                            <input class="user-name" type="text" value="Regulus" />
+                            <input type="checkbox" name="hander-manage" id="name-editor-judge">
+                            <label class="fa fa-pencil-square-o" for="name-editor-judge"></label>
+                        </article>
+                        <article>
+                            <p>账&ensp;&ensp;号:</p>
+                            <input class="user-id" type="text" value="15684161486" disabled />
+                        </article>
+                        <article>
+                            <p>游戏ID:</p>
+                            <input class="user-gamename" type="text" value="Regulus.coral" disabled />
+                        </article>
+                    </article>
+                    <div class="user-function">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-address-book"></i>
+                                    <span>个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>我的商品</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="wf-main">
+        内容
+
+    </main>
+    <footer class="wf-footer">
+        页脚
+    </footer>
+</body>
+
+</html>

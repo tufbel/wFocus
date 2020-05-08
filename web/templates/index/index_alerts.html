@@ -1,0 +1,145 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    <title>实时信息-wFocus</title>
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/index_alerts.css' %} ">
+{% endblock %}
+
+{% block nav %}
+    <li class="nav-li"><a href="{% url 'app_index:home' %}">首页</a><span></span></li>
+    <li class="nav-li nav-li-now"><a href="javascript:void(0)">实时信息</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:warframes' %}">战术模拟</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:weapons' %}">武器配装</a><span></span></li>
+{% endblock %}
+
+{% block main %}
+    <main class="wf-main">
+        <div class="main-content">
+            <section alert sortie window-resize="60">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-sortie"></i>突击</span>
+                        <span></span>
+                    </div>
+                    <div alert-content>
+                        <div></div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert ostron window-resize="60">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-ostron"></i>希图斯讯息</span>
+                        <span></span>
+                    </div>
+                    <div alert-content>
+                        <div>
+                            <ul alert-content-page>
+                            </ul>
+                            <div alert-page>
+                            </div>
+                        </div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert fortuna window-resize="60">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-fortuna"></i>福尔图娜讯息</span>
+                        <span></span>
+                    </div>
+                    <div alert-content>
+                        <div>
+                            <ul alert-content-page>
+                            </ul>
+                            <div alert-page>
+                            </div>
+                        </div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert earth window-resize="60">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-earth"></i>地球讯息</span>
+                        <span></span>
+                    </div>
+                    <div alert-content>
+                        <div></div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time>
+                        </div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <section alert construction window-resize="60">
+                <div>
+                    <div alert-title>
+                        <span><i class="iconfont icon-arbitration"></i>战舰建造进度</span>
+                        <span></span>
+                    </div>
+                    <div alert-content>
+                        <div></div>
+                    </div>
+                    <div alert-footer>
+                        <div alert-time></div>
+                    </div>
+                    <div alert-mask>
+                        <i class="iconfont icon-8"></i>
+                    </div>
+                </div>
+            </section>
+            <div alert window-resize="60">
+                <div>
+                    <ul nav>
+                        <li invasion class="select">入侵</li>
+                        <li fissure >裂缝</li>
+                    </ul>
+                    <article content>
+                        <div invasion>
+                            当前无入侵信息！
+                        </div>
+                        <div fissure style="display:none;">
+                            当前无裂缝信息
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script src=" {% static 'js/alerts/ostron.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/fortuna.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/sortie.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/earth.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/construction.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/invasion.js' %} " type="module"></script>
+    <script src=" {% static 'js/alerts/fissure.js' %} " type="module"></script>
+{% endblock %}

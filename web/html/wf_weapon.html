@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../src/css/wf_weapon.css">
+
+    <title>WF首页</title>
+</head>
+
+<body>
+    <header class="wf-header">
+        <input type="checkbox" name="header-manage" id="nav-judge">
+        <input type="checkbox" name="header-manage" id="search-judge">
+        <label class="header-nav" for="nav-judge">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="header-logo">
+            <i class="iconfont icon-WF-icon"></i>
+        </div>
+        <nav class="wf-nav">
+            <ul>
+                <li class="nav-li nav-li-now "><a href="#">首页</a><span></span></li>
+                <li class="nav-li"><a href="#">实时信息</a><span></span></li>
+                <li class="nav-li"><a href="#">战术模拟</a><span></span></li>
+                <li class="nav-li"><a href="#">武器配装</a><span></span></li>
+            </ul>
+        </nav>
+        <div class="header-search">
+            <label class="iconfont icon-chaxun" for="search-judge"></label>
+            <input class="search-input" type="text" placeholder="请输入关键字">
+            <article class="search-hint" style="display: none;">
+                <div>
+                    <!-- <a class="search-hint-tag" href="#" search-filter="false">
+                        <span class="span-warframe-tag">战甲</span>
+                        <span>Mesa</span>
+                    </a>
+                    <a class="search-hint-tag" href="#" search-filter="true">
+                        <span class="span-weapon-tag">武器</span>
+                        <span>雷霆</span>
+                    </a> -->
+                </div>
+            </article>
+        </div>
+        <div class="header-user">
+            <label class="user-icon" for="user-judge">
+                <span class="iconfont icon-account"></span><span></span>
+            </label>
+
+            <input type="checkbox" name="header-manage" id="user-judge">
+            <div class="header-mask">
+                <div class="user">
+                    <div>
+                        <label class="iconfont icon-right" for="user-judge"></label>
+                    </div>
+                    <article class="user-details">
+                        <article class="user-icon">
+                            <span></span><span class="iconfont icon-account"></span>
+                        </article>
+                        <article>
+                            <a href="#">登录</a>
+                        </article>
+                    </article>
+                    <div class="user-function">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-account"></i>
+                                    <span>个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-cart-full-fill"></i>
+                                    <span>紫卡市场</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-admin"></i>
+                                    <span>后台管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="wf-main">
+        <article class="weapon-info col-lg-4 col-md-5 col-sm-12" style="display: none;">
+            <article>
+                <span>螺钉步枪 Prime</span>
+                <img>
+            </article>
+            <section class="mod-size var-item">
+                <span>容量</span>
+                <span>60</span>
+                <span>74</span>
+                <i></i>
+            </section>
+            <section class="imm-item">
+                <span>武器类型</span>
+                <span>步枪</span>
+            </section>
+            <section class="imm-item">
+                <span>噪音等级</span>
+                <span>警戒</span>
+            </section>
+            <section class="imm-item">
+                <span>倾向</span>
+                <span>●●●●●(1.34)</span>
+            </section>
+            <div class="weapon-pattern">
+                <div>
+                    <span>normal attacks</span>
+                </div>
+            </div>
+            <div class="pattern-item">
+                <section class="var-item">
+                    <span>射速</span>
+                    <span>2.67r/s</span>
+                    <span></span>
+                </section>
+
+                <section class="var-item">
+                    <span>护甲</span>
+                    <span>85</span>
+                    <span>165</span>
+                </section>
+                <section class="var-item">
+                    <span>能量</span>
+                    <span>188</span>
+                    <span>188</span>
+                </section>
+                <section class="var-item">
+                    <span>冲刺速度</span>
+                    <span>1.1</span>
+                    <span>1.2</span>
+                </section>
+                <section class="var-item">
+                    <span>技能强度</span>
+                    <span>100%</span>
+                    <span>220%</span>
+                </section>
+            </div>
+        </article>
+        <article class="modboxs col-lg-8 col-md-7 col-sm-12" style="display: none;">
+            <div>
+                <section class="modbox">
+                    <article class="mod">
+                        <span class="mod-name">灭亡 Interface Prime</span>&ensp;
+                        <span class="mod-size iconfont icon-Madurai_px">10</span>
+                        <div class="mod-property">
+                            <span>基础伤害 +5%</span>
+                            <span>对Interface的终结伤害 +5%</span>
+                        </div>
+                        <i class="mod-remove iconfont icon-close"></i>
+                    </article>
+                    <div class="polarity" data-polarity="Null">
+                        <i class="iconfont icon-add" data-polarity="Null"></i>
+                        <i class="iconfont icon-Madurai_px" data-polarity="Madurai"></i>
+                        <i class="iconfont icon-Naramon_px" data-polarity="Naramon"></i>
+                        <i class="iconfont icon-Vazarin_px" data-polarity="Vazarin"></i>
+                        <i class="iconfont icon-Umbra_px" data-polarity="Umbra"></i>
+                    </div>
+                    <div class="modbox-manage">
+                        <i class="iconfont icon-add" name="modbox-add"></i>
+                    </div>
+                </section>
+                <section class="modbox">
+                    <div class="polarity" data-polarity="Null">
+                        <i class="iconfont icon-add" data-polarity="Null"></i>
+                        <i class="iconfont icon-Madurai_px" data-polarity="Madurai"></i>
+                        <i class="iconfont icon-Naramon_px" data-polarity="Naramon"></i>
+                        <i class="iconfont icon-Vazarin_px" data-polarity="Vazarin"></i>
+                        <i class="iconfont icon-Umbra_px" data-polarity="Umbra"></i>
+                    </div>
+                    <div class="modbox-manage">
+                        <i class="iconfont icon-add" name="modbox-add"></i>
+                    </div>
+                </section>
+                <section class="modbox"></section>
+                <section class="modbox"></section>
+                <section class="modbox"></section>
+                <section class="modbox"></section>
+                <section class="modbox"></section>
+                <section class="modbox"></section>
+                <div class="modboxs-function"><i class="modboxs-share iconfont icon-share"></i></div>
+            </div>
+        </article>
+        <article class="hot-modboxs col-lg-8 col-md-12 col-sm-12" style="display:none;">
+            <div>
+                <p class="hot-tag">hot<span></span><span></span><span></span><span></span></p>
+                <div class="hot-header">热门配卡</div>
+                <div class="hot-main">
+                    <section class="hot-main-modbox">
+                        <div class="hot-mods">
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">破灭 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <span>+180% 基础暴击几率</span>
+                                        <span>+40% 装填速度</span>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">激冷装填</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <span>+40% 装填速度</span>
+                                        <span>+40% 装填速度</span>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">激冷装填</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+40% 装填速度</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="hot-function">
+                            <div>
+                                <i class="iconfont icon-up"></i>
+                                <span>作者：Regulus</span>
+                                <input type="checkbox" name="hot-function-up" style="display: none;">
+                                <input type="checkbox" name="hot-function-up" style="display: none;">
+                                <i class="iconfont"></i>
+                                <i class="iconfont"></i>
+                            </div>
+                            <div class="hot-function-adjust">
+                                <i class="iconfont icon-setting"></i>
+                                <span>一键配置</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="hot-main-modbox">
+                        <div class="hot-mods">
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">破灭 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+180% 基础暴击几率</p>
+                                        <p>+120% 暴击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">激冷装填</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+40% 装填速度</p>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">激冷装填</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+40% 装填速度</p>
+                                    </div>
+                                </section>
+                            </section>
+
+                            <section class="hot-mod">
+                                <section class="hot-mod-front">超级充电弹头 Prime</section>
+                                <section class="hot-mod-back">
+                                    <div>
+                                        <p>+120% 电击伤害</p>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="hot-function">
+
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </article>
+    </main>
+    <div class="mods-mask" style="display: none;">
+        <article class="mods">
+            <div class="mods-search">
+                <div>
+                    <input type="text" />
+                    <div>请输入名称/属性关键字</div>
+                </div>
+            </div>
+            <ul class="mods-filter">
+                <li class="all select-filter">全部</li>
+                <li class="Madurai"><i class="iconfont icon-Madurai_px"></i><span>&ensp;Madurai</span></li>
+                <li class="Naramon"><i class="iconfont icon-Naramon_px"></i><span>&ensp;Naramon</span></li>
+                <li class="Vazarin"><i class="iconfont icon-Vazarin_px"></i><span>&ensp;Vazarin</span></li>
+                <li class="Zenurik"><i class="iconfont icon-Zenurik_px"></i><span>&ensp;Zenurik</span></li>
+                <li class="Umbra"><i class="iconfont icon-Umbra_px"></i><span>&ensp;Umbra</span></li>
+            </ul>
+            <article class="mods-info">
+                <section class="mod Madurai">
+                    <span class="mod-name">膛线</span>&ensp;
+                    <span class="mod-size">10</span>
+                    <div class="mod-property">
+                        <span>基础伤害&ensp;+5%</span>
+                        <span>对Interface的终结伤害&ensp;+5%</span>
+                    </div>
+                </section>
+                <section class="mod Vazarin" data-name="灭亡 Interface Prime">
+                    <span class="mod-name">灭亡 Interface Prime</span>&ensp;
+                    <span class="mod-size">10</span>
+                    <div class="mod-property">
+                        <span>基础伤害 +5%</span>
+                        <span>对Interface的终结伤害 +5%</span>
+                    </div>
+                </section>
+            </article>
+            <i class="mods-remove iconfont icon-Closewindowicon"></i>
+        </article>
+    </div>
+    <footer class="wf-footer">
+        <div class="footer-content">
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <div class="footer-logo">
+                    <i class="iconfont icon-WF-icon"></i>
+                </div>
+                <span class="footer-webname">Warframe/Focus Created By 2020</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>Warframe Focus</h1>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <a href="#">关于我们</a>
+                        <span>&ensp;|&ensp;</span>
+                        <a href="#">使用帮助</a>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <span>孙海超</span>
+                        <span>&ensp;|&ensp;</span>
+                        <span>吴伟东</span>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <address>yusheng@gmail.com</address>
+                    </div>
+                </section>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>友情链接</h1>
+                <section>
+                    <a href="#">Warframe官网 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文维基 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文论坛 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+            </article>
+        </div>
+    </footer>
+    <div class="wf-background">
+        <section class="back back1"></section>
+        <section class="back back2"></section>
+        <section class="back back3"></section>
+        <section class="back back4"></section>
+        <section class="back back5"></section>
+        <section class="back back6"></section>
+        <section class="back back7"></section>
+        <section class="back back8"></section>
+    </div>
+
+    <script src="../src/js/modules_interaction.js" type="module"></script>
+    <script src="../src/js/utils.js"></script>
+    <script src="../dist/js/jquery-3.4.1.min.js"></script>
+    <script src="../src/js/header.js"></script>
+    <!-- <script src="../src/js/test/search_manage.js"></script> -->
+    <!-- <script src="../src/js/wfajax.js"></script>
+    <script src="../src/js/nav.js"></script>
+    
+    <script src="../src/js/header.js"></script>
+    <script src="../src/js/weapons/weapon_info.js" type="module"></script>
+    <script src="../src/js/weapons/weapon_modboxs.js" type="module"></script>
+    <script src="../src/js/mods/mods_info.js" type="module"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,4717 @@
+[
+  {
+    "name": "Braton Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "9.58 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "75 rounds per mag",
+    "max_ammo": "600 rounds",
+    "reload_time": "2.15 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "35.0 ( 60%)",
+          {
+            "impact": "1.75",
+            "puncture": "12.25",
+            "slash": "21.0"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "26%"
+      }
+    }
+  },
+  {
+    "name": "Braton Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "7.5 rounds per sec",
+    "accuracy": "33.3",
+    "magazine_size": "50 rounds per mag",
+    "max_ammo": "550 rounds",
+    "reload_time": "1.75 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "35.0 ( 60%)",
+          {
+            "impact": "12.25",
+            "puncture": "1.75",
+            "slash": "21.0"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "16%"
+      }
+    }
+  },
+  {
+    "name": "MK1-Braton",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "7.5 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "18.0 ( 50%)",
+          {
+            "impact": "4.5",
+            "puncture": "4.5",
+            "slash": "9.0"
+          }
+        ],
+        "crit_chance": "8%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "5%"
+      }
+    }
+  },
+  {
+    "name": "Boltor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "8.75 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.6 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "25.0 ( 80%)",
+          {
+            "impact": "2.5",
+            "puncture": "20.0",
+            "slash": "2.5"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "1.8x",
+        "status_chance": "14%"
+      }
+    }
+  },
+  {
+    "name": "Braton",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "8.75 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "45 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "24.0 ( 34%)",
+          {
+            "impact": "7.9",
+            "puncture": "7.9",
+            "slash": "8.2"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "6%"
+      }
+    }
+  },
+  {
+    "name": "Baza",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Silent",
+    "fire_rate": "16.67 rounds per sec",
+    "accuracy": "80",
+    "magazine_size": "40 rounds per mag",
+    "max_ammo": "800 rounds",
+    "reload_time": "1.4 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "16.0 ( 42%)",
+          {
+            "impact": "5.8",
+            "puncture": "6.7",
+            "slash": "3.5"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "10%",
+        "damage_falloff": "Full damage up to 22.0 mMin damage at 34.0 m50% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Dera",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.25 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "45 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "30.0 ( 75%)",
+          {
+            "impact": "6.0",
+            "puncture": "22.5",
+            "slash": "1.5"
+          }
+        ],
+        "crit_chance": "8%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "22%"
+      }
+    }
+  },
+  {
+    "name": "Boltor Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "10.0 rounds per sec",
+    "accuracy": "50",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "46.0 ( 90%)",
+          {
+            "impact": "4.6",
+            "puncture": "41.4"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "34%"
+      }
+    }
+  },
+  {
+    "name": "Telos Boltor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "9.33 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "30.0 ( 90%)",
+          {
+            "impact": "3.0",
+            "puncture": "27.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "16%"
+      }
+    }
+  },
+  {
+    "name": "Dera Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.25 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "32.0 ( 75%)",
+          {
+            "impact": "6.4",
+            "puncture": "24.0",
+            "slash": "1.6"
+          }
+        ],
+        "crit_chance": "8%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%"
+      }
+    }
+  },
+  {
+    "name": "Buzlok",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.25 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "50 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●●(1.45)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "60.0 ( 50%)",
+          {
+            "impact": "30.0",
+            "puncture": "24.0",
+            "slash": "6.0"
+          }
+        ],
+        "crit_chance": "23%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "21%"
+      },
+      "beacon": {
+        "total_damage": [
+          "3",
+          {
+            "puncture": "3"
+          }
+        ],
+        "crit_chance": "0%",
+        "crit_multiplier": "1.0x",
+        "status_chance": "0%",
+        "accuracy": "16.7",
+        "fire_rate": "1.67 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Prisma Grakata",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "21.67 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "120 rounds per mag",
+    "max_ammo": "1000 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "15.0 ( 40%)",
+          {
+            "impact": "6.0",
+            "puncture": "5.0",
+            "slash": "4.0"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "21%"
+      }
+    }
+  },
+  {
+    "name": "Karak Wraith",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.67 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.28)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "31.2 ( 45%)",
+          {
+            "impact": "14.1",
+            "puncture": "9.3",
+            "slash": "7.8"
+          }
+        ],
+        "crit_chance": "13%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%"
+      }
+    }
+  },
+  {
+    "name": "Karak",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.67 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "30 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.28)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "29.0 ( 45%)",
+          {
+            "impact": "13.0",
+            "puncture": "8.7",
+            "slash": "7.3"
+          }
+        ],
+        "crit_chance": "9%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "15%"
+      }
+    }
+  },
+  {
+    "name": "Panthera",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.4)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "100.0 ( 70%)",
+          {
+            "impact": "20.0",
+            "puncture": "10.0",
+            "slash": "70.0"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "24%",
+        "ammo_cost": "2 ammo per shot"
+      },
+      "secondary attacks": {
+        "total_damage": [
+          "100.0 ( 80%)",
+          {
+            "impact": "10.0",
+            "puncture": "10.0",
+            "slash": "80.0"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "35%",
+        "fire_rate": "2.0 rounds per sec",
+        "trigger_type": "Auto",
+        "ammo_cost": "1 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Grakata",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "20.0 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "750 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "11.0 ( 40%)",
+          {
+            "impact": "4.4",
+            "puncture": "3.7",
+            "slash": "2.9"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%"
+      }
+    }
+  },
+  {
+    "name": "Kuva Karak",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.67 rounds per sec",
+    "accuracy": "80",
+    "magazine_size": "70 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "23.0 ( 42%)",
+          {
+            "impact": "7.1",
+            "puncture": "6.2",
+            "slash": "9.7"
+          }
+        ],
+        "crit_chance": "23%",
+        "crit_multiplier": "2.1x",
+        "status_chance": "31%",
+        "punch_through": "0.2 m"
+      }
+    }
+  },
+  {
+    "name": "Tetra",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.67 rounds per sec",
+    "accuracy": "18.2",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.45)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "32.0 ( 80%)",
+          {
+            "impact": "6.4",
+            "puncture": "25.6"
+          }
+        ],
+        "crit_chance": "4%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "20%"
+      }
+    }
+  },
+  {
+    "name": "Prisma Tetra",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "7.08 rounds per sec",
+    "accuracy": "18.2",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.45)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "38.0 ( 80%)",
+          {
+            "impact": "7.6",
+            "puncture": "30.4"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "24%"
+      }
+    }
+  },
+  {
+    "name": "Prisma Grinlok",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.67 rounds per sec",
+    "accuracy": "32",
+    "magazine_size": "21 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●●○(1.245)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "187.0 ( 50%)",
+          {
+            "impact": "74.8",
+            "puncture": "18.7",
+            "slash": "93.5"
+          }
+        ],
+        "crit_chance": "21%",
+        "crit_multiplier": "2.9x",
+        "status_chance": "37%"
+      }
+    }
+  },
+  {
+    "name": "Supra Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.5 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "300 rounds per mag",
+    "max_ammo": "1600 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "40.0 ( 75%)",
+          {
+            "impact": "4.0",
+            "puncture": "30.0",
+            "slash": "6.0"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%"
+      }
+    }
+  },
+  {
+    "name": "Gorgon",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.5 rounds per sec",
+    "accuracy": "12.5",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "4.2 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "25.0 ( 75%)",
+          {
+            "impact": "18.75",
+            "puncture": "3.75",
+            "slash": "2.5"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "9%"
+      }
+    }
+  },
+  {
+    "name": "Gorgon Wraith",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "13.3 rounds per sec",
+    "accuracy": "16.7",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "900 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "27.0 ( 85%)",
+          {
+            "impact": "23.0",
+            "puncture": "2.7",
+            "slash": "1.3"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "1.9x",
+        "status_chance": "21%"
+      }
+    }
+  },
+  {
+    "name": "Soma",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "15.0 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "100 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●○○○(0.85)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "12.0 ( 50%)",
+          {
+            "impact": "1.2",
+            "puncture": "4.8",
+            "slash": "6.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "7%"
+      }
+    }
+  },
+  {
+    "name": "Kuva Chakkhurr",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.17 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "11 rounds per mag",
+    "max_ammo": "55 rounds",
+    "reload_time": "3.3 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Semi",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "260",
+          {
+            "impact": "260"
+          }
+        ],
+        "crit_chance": "50%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "27%"
+      },
+      "explosion": {
+        "total_damage": [
+          "106.0 ( 47%)",
+          {
+            "puncture": "50.0",
+            "slash": "36.0",
+            "blast": "20.0"
+          }
+        ],
+        "crit_chance": "50%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "27%",
+        "radius": "2.7 m",
+        "fire_rate": "1.17 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Soma Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "15.0 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "200 rounds per mag",
+    "max_ammo": "800 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●○○○(0.85)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "12.0 ( 50%)",
+          {
+            "impact": "1.2",
+            "puncture": "4.8",
+            "slash": "6.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "10%"
+      }
+    }
+  },
+  {
+    "name": "Prisma Gorgon",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "14.17 rounds per sec",
+    "accuracy": "20",
+    "magazine_size": "120 rounds per mag",
+    "max_ammo": "840 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "23.1 ( 75%)",
+          {
+            "impact": "17.3",
+            "puncture": "3.5",
+            "slash": "2.3"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "15%"
+      }
+    }
+  },
+  {
+    "name": "Grinlok",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.67 rounds per sec",
+    "accuracy": "44.4",
+    "magazine_size": "9 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●●○(1.245)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "187.0 ( 50%)",
+          {
+            "impact": "93.5",
+            "puncture": "18.7",
+            "slash": "74.8"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "35%"
+      }
+    }
+  },
+  {
+    "name": "Supra",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.5 rounds per sec",
+    "accuracy": "14.3",
+    "magazine_size": "180 rounds per mag",
+    "max_ammo": "1080 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "40.0 ( 75%)",
+          {
+            "impact": "4.0",
+            "puncture": "30.0",
+            "slash": "6.0"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "1.8x",
+        "status_chance": "30%"
+      }
+    }
+  },
+  {
+    "name": "Mutalist Quanta",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "10.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●●(1.55)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "25.0 ( 60%)",
+          {
+            "impact": "2.5",
+            "puncture": "15.0",
+            "slash": "7.5"
+          }
+        ],
+        "crit_chance": "2.5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "15%"
+      },
+      "infested orb": {
+        "total_damage": [
+          "20",
+          {
+            "radiation": "20"
+          }
+        ],
+        "crit_chance": "2.5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "100%",
+        "fire_rate": "10.0 rounds per sec",
+        "ammo_cost": "5 ammo per shot"
+      },
+      "orb explosion": {
+        "total_damage": [
+          "100",
+          {
+            "toxin": "100"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "0%",
+        "accuracy": "25",
+        "radius": "8.0 m",
+        "fire_rate": "10.0 rounds per sec",
+        "trigger_type": "Auto",
+        "reload_time": "3.0 s"
+      }
+    }
+  },
+  {
+    "name": "Latron",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "15 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "55.0 ( 70%)",
+          {
+            "impact": "8.25",
+            "puncture": "38.5",
+            "slash": "8.25"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "12%"
+      }
+    }
+  },
+  {
+    "name": "Veldt",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.67 rounds per sec",
+    "accuracy": "32",
+    "magazine_size": "26 rounds per mag",
+    "max_ammo": "528 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "90.0 ( 48%)",
+          {
+            "impact": "23.4",
+            "puncture": "23.4",
+            "slash": "43.2"
+          }
+        ],
+        "crit_chance": "22%",
+        "crit_multiplier": "2.2x",
+        "status_chance": "22%"
+      }
+    }
+  },
+  {
+    "name": "Latron Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "15 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "90.0 ( 80%)",
+          {
+            "impact": "9.0",
+            "puncture": "72.0",
+            "slash": "9.0"
+          }
+        ],
+        "crit_chance": "22%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "26%"
+      }
+    }
+  },
+  {
+    "name": "Latron Wraith",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "5.42 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "15 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "60.0 ( 70%)",
+          {
+            "impact": "15.0",
+            "puncture": "42.0",
+            "slash": "3.0"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "14%"
+      }
+    }
+  },
+  {
+    "name": "Burston",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "7.83 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "45 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "30.0 ( 33%)",
+          {
+            "impact": "10.0",
+            "puncture": "10.0",
+            "slash": "10.0"
+          }
+        ],
+        "burst_count": "3 rounds (90.0 total damage)",
+        "crit_chance": "6%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "18%"
+      }
+    }
+  },
+  {
+    "name": "Burston Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "13.64 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "45 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "36.0 ( 40%)",
+          {
+            "impact": "10.8",
+            "puncture": "10.8",
+            "slash": "14.4"
+          }
+        ],
+        "burst_count": "3 rounds (108.0 total damage)",
+        "crit_chance": "18%",
+        "crit_multiplier": "1.8x",
+        "status_chance": "30%"
+      }
+    }
+  },
+  {
+    "name": "Quartakk",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.33 rounds per sec",
+    "accuracy": "90.9",
+    "magazine_size": "84 rounds per mag",
+    "max_ammo": "840 rounds",
+    "reload_time": "1.9 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "49.0 ( 37%)",
+          {
+            "impact": "18.1",
+            "puncture": "14.2",
+            "slash": "16.7"
+          }
+        ],
+        "burst_count": "4 rounds (196.0 total damage)",
+        "crit_chance": "19%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "27%",
+        "punch_through": "0.5 m"
+      }
+    }
+  },
+  {
+    "name": "Kuva Quartakk",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "4.83 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "88 rounds per mag",
+    "max_ammo": "840 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "54.1 ( 37%)",
+          {
+            "impact": "20.0",
+            "puncture": "15.7",
+            "slash": "18.4"
+          }
+        ],
+        "crit_chance": "21%",
+        "crit_multiplier": "1.9x",
+        "status_chance": "33%"
+      },
+      "while aiming": {
+        "total_damage": [
+          "54.1 ( 37%)",
+          {
+            "impact": "20.0",
+            "puncture": "15.7",
+            "slash": "18.4"
+          }
+        ],
+        "burst_count": "4 rounds (216.4 total damage)",
+        "crit_chance": "31%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "33%",
+        "punch_through": "0.5 m",
+        "accuracy": "90.9",
+        "fire_rate": "6.33 rounds per sec",
+        "trigger_type": "Burst"
+      }
+    }
+  },
+  {
+    "name": "Tiberon",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "9.09 rounds per sec",
+    "accuracy": "33.3",
+    "magazine_size": "30 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.26 s",
+    "disposition": "●●○○○(0.85)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "44.0 ( 50%)",
+          {
+            "impact": "11.0",
+            "puncture": "22.0",
+            "slash": "11.0"
+          }
+        ],
+        "burst_count": "3 rounds (132.0 total damage)",
+        "crit_chance": "26%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "16%"
+      }
+    }
+  },
+  {
+    "name": "Hema",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.0 rounds per sec",
+    "accuracy": "20",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "60 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "47",
+          {
+            "viral": "47"
+          }
+        ],
+        "burst_count": "3 rounds (141.0 total damage)",
+        "crit_chance": "11%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%"
+      }
+    }
+  },
+  {
+    "name": "Dex Sybaris",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "14 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.5 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "75.0 ( 45%)",
+          {
+            "impact": "22.5",
+            "puncture": "18.75",
+            "slash": "33.75"
+          }
+        ],
+        "burst_count": "2 rounds (150.0 total damage)",
+        "crit_chance": "35%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      }
+    }
+  },
+  {
+    "name": "Sybaris",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.98 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "80.0 ( 34%)",
+          {
+            "impact": "26.4",
+            "puncture": "26.4",
+            "slash": "27.2"
+          }
+        ],
+        "burst_count": "2 rounds (160.0 total damage)",
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      }
+    }
+  },
+  {
+    "name": "Sybaris Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "4.72 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "87.9 ( 34%)",
+          {
+            "impact": "29.0",
+            "puncture": "29.0",
+            "slash": "29.9"
+          }
+        ],
+        "burst_count": "2 rounds (175.8 total damage)",
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%"
+      }
+    }
+  },
+  {
+    "name": "Paracyst",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.11 rounds per sec",
+    "accuracy": "50",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.315)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "33",
+          {
+            "toxin": "33"
+          }
+        ],
+        "burst_count": "3 rounds (99.0 total damage)",
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%"
+      },
+      "infested harpoon": {
+        "total_damage": [
+          "33",
+          {
+            "toxin": "33"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "accuracy": "50",
+        "fire_rate": "11.11 rounds per sec",
+        "trigger_type": "Burst"
+      }
+    }
+  },
+  {
+    "name": "Glaxion Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "100 rounds per mag",
+    "max_ammo": "1000 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "29",
+          {
+            "cold": "29"
+          }
+        ],
+        "crit_chance": "14%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "38%"
+      }
+    }
+  },
+  {
+    "name": "Quanta Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "80 rounds per mag",
+    "max_ammo": "560 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "26",
+          {
+            "electricity": "26"
+          }
+        ],
+        "beams": "2 (13.0 damage per beam)",
+        "crit_chance": "22%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "30%",
+        "ammo_cost": "0.5 ammo per shot"
+      },
+      "cube (hits enemy)": {
+        "total_damage": [
+          "250.0 ( 60%)",
+          {
+            "electricity": "100.0",
+            "blast": "150.0"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "26%",
+        "fire_rate": "4.0 rounds per sec",
+        "ammo_cost": "10 ammo per shot"
+      },
+      "cube (shot by player)": {
+        "total_damage": [
+          "600",
+          {
+            "blast": "600"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "26%"
+      }
+    }
+  },
+  {
+    "name": "Amprex",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "12.5",
+    "magazine_size": "100 rounds per mag",
+    "max_ammo": "700 rounds",
+    "reload_time": "2.6 s",
+    "disposition": "●●○○○(0.7)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "22",
+          {
+            "electricity": "22"
+          }
+        ],
+        "crit_chance": "32%",
+        "crit_multiplier": "2.2x",
+        "status_chance": "22%",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Glaxion",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "80 rounds per mag",
+    "max_ammo": "720 rounds",
+    "reload_time": "2.2 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "26",
+          {
+            "cold": "26"
+          }
+        ],
+        "crit_chance": "8%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "34%",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Miter",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.5 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.55)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "100.0 ( 90%)",
+          {
+            "impact": "5.0",
+            "puncture": "5.0",
+            "slash": "90.0"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "250.0 ( 90%)",
+          {
+            "impact": "12.5",
+            "puncture": "12.5",
+            "slash": "225.0"
+          }
+        ],
+        "charge_time": "0.75 s",
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "50%",
+        "punch_through": "2.5 m",
+        "fire_rate": "2.5 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Opticor Vandal",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "8 rounds per mag",
+    "max_ammo": "200 rounds",
+    "reload_time": "1.4 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "charged shot": {
+        "total_damage": [
+          "400.0 ( 70%)",
+          {
+            "impact": "40.0",
+            "puncture": "280.0",
+            "slash": "80.0"
+          }
+        ],
+        "charge_time": "0.6 s",
+        "crit_chance": "24%",
+        "crit_multiplier": "2.6x",
+        "status_chance": "30%",
+        "punch_through": "1.0 m",
+        "fire_rate": "2.0 rounds per sec"
+      },
+      "area attacks": {
+        "total_damage": [
+          "200",
+          {
+            "magnetic": "200"
+          }
+        ],
+        "radius": "5.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Argonak",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.0 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "43 rounds per mag",
+    "max_ammo": "473 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Auto / Semi",
+    "pattern": {
+      "full auto mode": {
+        "total_damage": [
+          "57.0 ( 46%)",
+          {
+            "impact": "24.5",
+            "puncture": "6.3",
+            "slash": "26.2"
+          }
+        ],
+        "crit_chance": "9%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "27%"
+      },
+      "semi-auto mode": {
+        "total_damage": [
+          "57.0 ( 46%)",
+          {
+            "impact": "24.5",
+            "puncture": "6.3",
+            "slash": "26.2"
+          }
+        ],
+        "crit_chance": "27%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "19%",
+        "accuracy": "28.6",
+        "fire_rate": "4.33 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Flux Rifle",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "50 rounds per mag",
+    "max_ammo": "50 rounds",
+    "reload_time": "1.0 s + 1.25 s",
+    "disposition": "●●●●●(1.55)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "22.0 ( 78%)",
+          {
+            "puncture": "4.8",
+            "slash": "17.2"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "24%",
+        "punch_through": "0.5 m",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Synapse",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "70 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.5 s",
+    "disposition": "●●●●●(1.315)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "20",
+          {
+            "corrosive": "20"
+          }
+        ],
+        "crit_chance": "39%",
+        "crit_multiplier": "2.7x",
+        "status_chance": "13%",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Ignis Wraith",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "8.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "200 rounds per mag",
+    "max_ammo": "800 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "35",
+          {
+            "heat": "35"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "29%"
+      }
+    }
+  },
+  {
+    "name": "Ignis",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "8.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "150 rounds per mag",
+    "max_ammo": "750 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "33",
+          {
+            "heat": "33"
+          }
+        ],
+        "crit_chance": "11%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "27%"
+      }
+    }
+  },
+  {
+    "name": "Fulmin",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.17 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "N/A",
+    "reload_time": "30.0 rounds per sec (2.0s total)",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Auto / Semi",
+    "pattern": {
+      "semi-auto mode": {
+        "total_damage": [
+          "500.0 ( 80%)",
+          {
+            "impact": "100.0",
+            "electricity": "400.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.2x",
+        "status_chance": "16%"
+      },
+      "full auto mode": {
+        "total_damage": [
+          "33.0 ( 76%)",
+          {
+            "puncture": "8.0",
+            "electricity": "25.0"
+          }
+        ],
+        "crit_chance": "28%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "10%",
+        "accuracy": "111.1",
+        "fire_rate": "9.33 rounds per sec",
+        "trigger_type": "Auto"
+      }
+    }
+  },
+  {
+    "name": "Harpak",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.0 rounds per sec",
+    "accuracy": "18.2",
+    "magazine_size": "45 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.55)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "50.0 ( 75%)",
+          {
+            "impact": "5.0",
+            "puncture": "37.5",
+            "slash": "7.5"
+          }
+        ],
+        "burst_count": "3 rounds (150.0 total damage)",
+        "crit_chance": "20%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "17%"
+      },
+      "harpoon": {
+        "total_damage": [
+          "100.0 ( 50%)",
+          {
+            "impact": "40.0",
+            "puncture": "50.0",
+            "slash": "10.0"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "13%",
+        "accuracy": "100",
+        "fire_rate": "1.5 rounds per sec",
+        "trigger_type": "Burst"
+      }
+    }
+  },
+  {
+    "name": "Quanta",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "20",
+          {
+            "electricity": "20"
+          }
+        ],
+        "beams": "2 (10.0 damage per beam)",
+        "crit_chance": "16%",
+        "crit_multiplier": "2.2x",
+        "status_chance": "16%",
+        "ammo_cost": "0.5 ammo per shot"
+      },
+      "cube (hits enemy)": {
+        "total_damage": [
+          "250.0 ( 60%)",
+          {
+            "electricity": "100.0",
+            "blast": "150.0"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "26%",
+        "fire_rate": "4.0 rounds per sec",
+        "ammo_cost": "10 ammo per shot"
+      },
+      "cube (shot by player)": {
+        "total_damage": [
+          "600",
+          {
+            "blast": "600"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "26%"
+      }
+    }
+  },
+  {
+    "name": "Opticor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.0 round per sec",
+    "accuracy": "N/A",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "200 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "charged shot": {
+        "total_damage": [
+          "1000.0 ( 85%)",
+          {
+            "impact": "100.0",
+            "puncture": "850.0",
+            "slash": "50.0"
+          }
+        ],
+        "charge_time": "2.0 s",
+        "crit_chance": "20%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "20%",
+        "punch_through": "1.0 m",
+        "fire_rate": "1.0 round per sec"
+      },
+      "area attacks": {
+        "total_damage": [
+          "400",
+          {
+            "magnetic": "400"
+          }
+        ],
+        "radius": "5.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Battacor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.57 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "60 rounds per mag",
+    "max_ammo": "720 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto Burst",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "66.0 ( 64%)",
+          {
+            "puncture": "24.0",
+            "magnetic": "42.0"
+          }
+        ],
+        "burst_count": "2 rounds (132.0 total damage)",
+        "crit_chance": "32%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "18%"
+      },
+      "secondary attacks": {
+        "total_damage": [
+          "208",
+          {
+            "radiation": "208"
+          }
+        ],
+        "crit_chance": "34%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "8%",
+        "punch_through": "2.0 m",
+        "accuracy": "100",
+        "charge_time": "0.4 s",
+        "fire_rate": "1.0 round per sec",
+        "trigger_type": "Charge"
+      }
+    }
+  },
+  {
+    "name": "Hind",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.25 rounds per sec",
+    "accuracy": "33.3",
+    "magazine_size": "65 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.42)",
+    "trigger_type": "Burst",
+    "pattern": {
+      "burst mode": {
+        "total_damage": [
+          "30.0 ( 50%)",
+          {
+            "impact": "7.5",
+            "puncture": "7.5",
+            "slash": "15.0"
+          }
+        ],
+        "burst_count": "5 rounds (150.0 total damage)",
+        "crit_chance": "7%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "15%"
+      },
+      "semi-auto mode": {
+        "total_damage": [
+          "60.0 ( 60%)",
+          {
+            "impact": "12.0",
+            "puncture": "12.0",
+            "slash": "36.0"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%",
+        "accuracy": "28.6",
+        "fire_rate": "2.5 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Tiberon Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "7.38 rounds per sec",
+    "accuracy": "33.3",
+    "magazine_size": "42 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●○○○(0.85)",
+    "trigger_type": "Burst/Semi/Auto",
+    "pattern": {
+      "burst": {
+        "total_damage": [
+          "46.0 ( 40%)",
+          {
+            "impact": "13.8",
+            "puncture": "18.4",
+            "slash": "13.8"
+          }
+        ],
+        "burst_count": "3 rounds (138.0 total damage)",
+        "crit_chance": "28%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "20%"
+      },
+      "auto": {
+        "total_damage": [
+          "46.0 ( 40%)",
+          {
+            "impact": "13.8",
+            "puncture": "18.4",
+            "slash": "13.8"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "32%",
+        "fire_rate": "8.33 rounds per sec"
+      },
+      "semi": {
+        "total_damage": [
+          "46.0 ( 40%)",
+          {
+            "impact": "13.8",
+            "puncture": "18.4",
+            "slash": "13.8"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "3.4x",
+        "status_chance": "18%",
+        "fire_rate": "6.0 rounds per sec",
+        "trigger_type": "Burst/Semi/Auto"
+      }
+    }
+  },
+  {
+    "name": "Zenith",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "10.83 rounds per sec",
+    "accuracy": "33.3",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.6 s",
+    "disposition": "●●●○○(1.1)",
+    "trigger_type": "Auto / Semi",
+    "pattern": {
+      "full auto mode": {
+        "total_damage": [
+          "30.0 ( 65%)",
+          {
+            "impact": "4.5",
+            "puncture": "6.0",
+            "slash": "19.5"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "34%"
+      },
+      "semi-auto mode": {
+        "total_damage": [
+          "150.0 ( 80%)",
+          {
+            "impact": "15.0",
+            "puncture": "120.0",
+            "slash": "15.0"
+          }
+        ],
+        "crit_chance": "35%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "8%",
+        "punch_through": "99999.0 m",
+        "fire_rate": "3.0 rounds per sec",
+        "trigger_type": "Semi-Auto",
+        "ammo_cost": "3 ammo per shot",
+        "reload_time": "1.4 s"
+      }
+    }
+  },
+  {
+    "name": "Stradavar Prime",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "10.0 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto / Semi",
+    "pattern": {
+      "full auto mode": {
+        "total_damage": [
+          "30.0 ( 35%)",
+          {
+            "impact": "10.5",
+            "puncture": "10.5",
+            "slash": "9.0"
+          }
+        ],
+        "crit_chance": "24%",
+        "crit_multiplier": "2.6x",
+        "status_chance": "12%"
+      },
+      "semi-auto mode": {
+        "total_damage": [
+          "80.0 ( 60%)",
+          {
+            "impact": "8.0",
+            "puncture": "24.0",
+            "slash": "48.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "22%",
+        "punch_through": "1.0 m",
+        "accuracy": "66.7",
+        "fire_rate": "3.33 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Stradavar",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "10.0 rounds per sec",
+    "accuracy": "14.3",
+    "magazine_size": "65 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto / Semi",
+    "pattern": {
+      "full auto mode": {
+        "total_damage": [
+          "28.0 ( 35%)",
+          {
+            "impact": "9.8",
+            "puncture": "9.8",
+            "slash": "8.4"
+          }
+        ],
+        "crit_chance": "24%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "12%"
+      },
+      "semi-auto mode": {
+        "total_damage": [
+          "50.0 ( 60%)",
+          {
+            "impact": "7.5",
+            "puncture": "30.0",
+            "slash": "12.5"
+          }
+        ],
+        "crit_chance": "28%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "16%",
+        "accuracy": "28.6",
+        "fire_rate": "5.0 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Acceltra",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "23.5",
+    "magazine_size": "48 rounds per mag",
+    "max_ammo": "96 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "rocket impact": {
+        "total_damage": [
+          "35",
+          {
+            "impact": "35"
+          }
+        ],
+        "crit_chance": "32%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "6%"
+      },
+      "rocket explosion": {
+        "total_damage": [
+          "44.0 ( 80%)",
+          {
+            "puncture": "35.2",
+            "slash": "8.8"
+          }
+        ],
+        "crit_chance": "32%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "6%",
+        "radius": "3.0 m",
+        "fire_rate": "12.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Tenora",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "11.67 rounds per sec",
+    "accuracy": "12.5",
+    "magazine_size": "150 rounds per mag",
+    "max_ammo": "900 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●○○(1.05)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "24.0 ( 40%)",
+          {
+            "impact": "7.2",
+            "puncture": "9.6",
+            "slash": "7.2"
+          }
+        ],
+        "crit_chance": "28%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "16%"
+      },
+      "secondary attacks": {
+        "total_damage": [
+          "240.0 ( 60%)",
+          {
+            "impact": "48.0",
+            "puncture": "144.0",
+            "slash": "48.0"
+          }
+        ],
+        "crit_chance": "34%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "11%",
+        "punch_through": "1.0 m",
+        "charge_time": "0.8 s",
+        "fire_rate": "10.0 rounds per sec",
+        "trigger_type": "Charge",
+        "ammo_cost": "10 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Carmine Penta",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Silent",
+    "fire_rate": "2.7 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "20 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Active",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "75",
+          {
+            "impact": "75"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      },
+      "grenade detonation": {
+        "total_damage": [
+          "350",
+          {
+            "blast": "350"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%",
+        "radius": "5.0 m",
+        "fire_rate": "2.7 rounds per sec",
+        "trigger_type": "Detonate"
+      }
+    }
+  },
+  {
+    "name": "Secura Penta",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "7 rounds per mag",
+    "max_ammo": "28 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Active",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "75",
+          {
+            "impact": "75"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "26%"
+      },
+      "grenade detonation": {
+        "total_damage": [
+          "300",
+          {
+            "blast": "300"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "26%",
+        "radius": "5.0 m",
+        "fire_rate": "2.0 rounds per sec",
+        "trigger_type": "Detonate"
+      }
+    }
+  },
+  {
+    "name": "Kuva Ogris",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "1.5 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "3 rounds per mag",
+    "max_ammo": "20 rounds",
+    "reload_time": "2.1 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Semi",
+    "pattern": {
+      "rocket impact": {
+        "total_damage": [
+          "27.0 ( 70%)",
+          {
+            "impact": "18.9",
+            "puncture": "8.1"
+          }
+        ],
+        "crit_chance": "9%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "47%"
+      },
+      "rocket explosion": {
+        "total_damage": [
+          "687.0 ( 40%)",
+          {
+            "puncture": "159.0",
+            "slash": "275.0",
+            "blast": "253.0"
+          }
+        ],
+        "crit_chance": "9%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "47%",
+        "radius": "7.0 m",
+        "fire_rate": "1.5 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Penta",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "1.0 round per sec",
+    "accuracy": "100",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "20 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Active",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "75",
+          {
+            "impact": "75"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      },
+      "grenade detonation": {
+        "total_damage": [
+          "350",
+          {
+            "blast": "350"
+          }
+        ],
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%",
+        "radius": "5.0 m",
+        "fire_rate": "1.0 round per sec",
+        "trigger_type": "Detonate"
+      }
+    }
+  },
+  {
+    "name": "Synoid Simulor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.33 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "16 rounds per mag",
+    "max_ammo": "96 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1.1)",
+    "trigger_type": "Active",
+    "pattern": {
+      "orb damage": {
+        "total_damage": [
+          "20",
+          {
+            "magnetic": "20"
+          }
+        ]
+      },
+      "orb merge": {
+        "total_damage": [
+          "50",
+          {
+            "magnetic": "50"
+          }
+        ],
+        "fire_rate": "3.33 rounds per sec"
+      },
+      "orb explosion": {
+        "total_damage": [
+          "75",
+          {
+            "electricity": "75"
+          }
+        ],
+        "crit_chance": "14%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "35%",
+        "radius": "8.0 m",
+        "fire_rate": "3.33 rounds per sec",
+        "trigger_type": "Active"
+      }
+    }
+  },
+  {
+    "name": "Simulor",
+    "slot": "Primary",
+    "type": "Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.0 rounds per sec",
+    "accuracy": "28.6",
+    "magazine_size": "8 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●○○(1.1)",
+    "trigger_type": "Active",
+    "pattern": {
+      "orb damage": {
+        "total_damage": [
+          "50",
+          {
+            "magnetic": "50"
+          }
+        ]
+      },
+      "orb merge": {
+        "total_damage": [
+          "75",
+          {
+            "magnetic": "75"
+          }
+        ],
+        "fire_rate": "3.0 rounds per sec"
+      },
+      "orb explosion": {
+        "total_damage": [
+          "75",
+          {
+            "electricity": "75"
+          }
+        ],
+        "crit_chance": "12%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "radius": "8.0 m",
+        "fire_rate": "3.0 rounds per sec",
+        "trigger_type": "Active"
+      }
+    }
+  },
+  {
+    "name": "Zarr",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "1.67 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "3 rounds per mag",
+    "max_ammo": "84 rounds",
+    "reload_time": "2.25 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "cannon mode projectile": {
+        "total_damage": [
+          "25",
+          {
+            "impact": "25"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "29%"
+      },
+      "cannon mode explosion": {
+        "total_damage": [
+          "175",
+          {
+            "blast": "175"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "29%",
+        "radius": "5.0 m",
+        "fire_rate": "1.67 rounds per sec"
+      },
+      "cannon mode cluster bombs": {
+        "total_damage": [
+          "300",
+          {
+            "blast": "300"
+          }
+        ],
+        "bombs": "6 (50.0 damage per bomb)",
+        "crit_chance": "17%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "29%"
+      },
+      "barrage mode": {
+        "total_damage": [
+          "800.0 ( 50%)",
+          {
+            "impact": "240.0",
+            "puncture": "400.0",
+            "slash": "160.0"
+          }
+        ],
+        "pellets": "10 (80.0 damage per pellet)",
+        "crit_chance": "17%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "29%",
+        "punch_through": "1.6 m",
+        "accuracy": "1.4",
+        "fire_rate": "3.0 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Tonkor",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "3.17 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "30 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "75",
+          {
+            "puncture": "75"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "10%"
+      },
+      "grenade explosion": {
+        "total_damage": [
+          "650",
+          {
+            "blast": "650"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "10%",
+        "radius": "6.0 m",
+        "fire_rate": "3.17 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Ogris",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "1.5 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "20 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "rocket impact": {
+        "total_damage": [
+          "100",
+          {
+            "blast": "100"
+          }
+        ],
+        "charge_time": "0.3 s",
+        "crit_chance": "5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "35%",
+        "fire_rate": "1.5 rounds per sec"
+      },
+      "rocket explosion": {
+        "total_damage": [
+          "600",
+          {
+            "blast": "600"
+          }
+        ],
+        "crit_chance": "5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "35%",
+        "radius": "6.0 m",
+        "fire_rate": "1.5 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Astilla",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "4.33 rounds per sec",
+    "accuracy": "25",
+    "magazine_size": "16 rounds per mag",
+    "max_ammo": "112 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1.1)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "slug impact": {
+        "total_damage": [
+          "70",
+          {
+            "impact": "70"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "1.9x",
+        "status_chance": "33%",
+        "damage_falloff": "Full damage up to 30.0 mMin damage at 60.0 m50% max reduction"
+      },
+      "glass explosion": {
+        "total_damage": [
+          "120.0 ( 65%)",
+          {
+            "puncture": "42.0",
+            "slash": "78.0"
+          }
+        ],
+        "crit_chance": "17%",
+        "crit_multiplier": "1.9x",
+        "status_chance": "33%",
+        "fire_rate": "4.33 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Kuva Tonkor",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "3.17 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "60 rounds",
+    "reload_time": "1.5 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Semi",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "59",
+          {
+            "puncture": "59"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "17%"
+      },
+      "grenade explosion": {
+        "total_damage": [
+          "674.0 ( 40%)",
+          {
+            "puncture": "176.0",
+            "slash": "270.0",
+            "blast": "228.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "17%",
+        "radius": "5.0 m",
+        "fire_rate": "3.17 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Boar",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "5",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.7 s",
+    "disposition": "●●●●●(1.34)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "176.0 ( 55%)",
+          {
+            "impact": "96.8",
+            "puncture": "26.4",
+            "slash": "52.8"
+          }
+        ],
+        "pellets": "8 (22.0 damage per pellet)",
+        "crit_chance": "10%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "20%",
+        "damage_falloff": "Full damage up to 15.0 mMin damage at 25.0 m50% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Scourge",
+    "slot": "Primary",
+    "type": "Speargun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.67 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "40 rounds per mag",
+    "max_ammo": "200 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "projectile impact": {
+        "total_damage": [
+          "70",
+          {
+            "corrosive": "70"
+          }
+        ],
+        "crit_chance": "2%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "30%"
+      },
+      "explosion": {
+        "total_damage": [
+          "55",
+          {
+            "corrosive": "55"
+          }
+        ],
+        "crit_chance": "2%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "30%",
+        "radius": "1.5 m",
+        "fire_rate": "2.67 rounds per sec"
+      },
+      "throw spear": {
+        "total_damage": [
+          "700.0 ( 65%)",
+          {
+            "impact": "455.0",
+            "puncture": "72.5",
+            "slash": "122.5",
+            "corrosive": "50.0"
+          }
+        ],
+        "crit_chance": "4%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "accuracy": "16.7",
+        "charge_time": "0.5 s",
+        "fire_rate": "1.0 round per sec",
+        "trigger_type": "Charge",
+        "reload_time": "0.6 s"
+      }
+    }
+  },
+  {
+    "name": "Kohm",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.67 rounds per sec",
+    "accuracy": "8",
+    "magazine_size": "245 rounds per mag",
+    "max_ammo": "960 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.4)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "single pellet": {
+        "total_damage": [
+          "30.0 ( 60%)",
+          {
+            "impact": "6.0",
+            "puncture": "6.0",
+            "slash": "18.0"
+          }
+        ],
+        "crit_chance": "11%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "25%",
+        "punch_through": "1.5 m",
+        "damage_falloff": "Full damage up to 15.0 mMin damage at 25.0 m46.67% max reduction"
+      },
+      "fully spooled": {
+        "total_damage": [
+          "360.0 ( 60%)",
+          {
+            "impact": "72.0",
+            "puncture": "72.0",
+            "slash": "216.0"
+          }
+        ],
+        "pellets": "12 (30.0 damage per pellet)",
+        "crit_chance": "11%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "25%",
+        "fire_rate": "3.67 rounds per sec",
+        "ammo_cost": "4 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Ferrox",
+    "slot": "Primary",
+    "type": "Speargun",
+    "noise_level": "Alarming",
+    "fire_rate": "1.33 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "charged shot": {
+        "total_damage": [
+          "350.0 ( 70%)",
+          {
+            "impact": "35.0",
+            "puncture": "245.0",
+            "slash": "70.0"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "32%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "10%",
+        "punch_through": "1.5 m",
+        "fire_rate": "1.33 rounds per sec"
+      },
+      "throw spear": {
+        "total_damage": [
+          "650.0 ( 70%)",
+          {
+            "impact": "455.0",
+            "puncture": "72.5",
+            "slash": "122.5"
+          }
+        ],
+        "crit_chance": "4%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "33%",
+        "charge_time": "0.5 s",
+        "fire_rate": "1.0 round per sec",
+        "trigger_type": "Charge",
+        "reload_time": "2.0 s"
+      }
+    }
+  },
+  {
+    "name": "Kuva Kohm",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "8",
+    "magazine_size": "209 rounds per mag",
+    "max_ammo": "960 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Auto-Spool",
+    "pattern": {
+      "single pellet": {
+        "total_damage": [
+          "20.0 ( 60%)",
+          {
+            "impact": "4.0",
+            "puncture": "4.0",
+            "slash": "12.0"
+          }
+        ],
+        "crit_chance": "19%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "30%",
+        "punch_through": "1.5 m",
+        "damage_falloff": "Full damage up to 13.0 mMin damage at 26.0 m93.75% max reduction"
+      },
+      "fully spooled": {
+        "total_damage": [
+          "210.0 ( 54%)",
+          {
+            "impact": "48.0",
+            "puncture": "48.0",
+            "slash": "114.0"
+          }
+        ],
+        "pellets": "12 (17.5 damage per pellet)",
+        "crit_chance": "19%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "30%",
+        "fire_rate": "4.17 rounds per sec",
+        "ammo_cost": "4 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Boar Prime",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "4.67 rounds per sec",
+    "accuracy": "5",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.75 s",
+    "disposition": "●●●●●(1.34)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "320.0 ( 65%)",
+          {
+            "impact": "208.0",
+            "puncture": "48.0",
+            "slash": "64.0"
+          }
+        ],
+        "pellets": "8 (40.0 damage per pellet)",
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "damage_falloff": "Full damage up to 18.0 mMin damage at 25.0 m70% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Exergis",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.33 rounds per sec",
+    "accuracy": "15.4",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "47 rounds",
+    "reload_time": "1.6 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Semi",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "1620.0 ( 48%)",
+          {
+            "impact": "60.0",
+            "puncture": "360.0",
+            "slash": "780.0",
+            "radiation": "420.0"
+          }
+        ],
+        "pellets": "3 (540.0 damage per pellet)",
+        "crit_chance": "8%",
+        "crit_multiplier": "1.4x",
+        "status_chance": "36%",
+        "punch_through": "0.5 m",
+        "damage_falloff": "Full damage up to 30.0 mMin damage at 60.0 m50.8% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Corinth",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "1.17 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "132 rounds",
+    "reload_time": "2.3 s",
+    "disposition": "●●●○○(0.95)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "buckshot": {
+        "total_damage": [
+          "540.0 ( 42%)",
+          {
+            "impact": "151.2",
+            "puncture": "226.8",
+            "slash": "162.0"
+          }
+        ],
+        "pellets": "6 (90.0 damage per pellet)",
+        "crit_chance": "30%",
+        "crit_multiplier": "2.8x",
+        "status_chance": "12%",
+        "damage_falloff": "Full damage up to 18.0 mMin damage at 36.0 m66.67% max reduction"
+      },
+      "air burst explosion": {
+        "total_damage": [
+          "404",
+          {
+            "blast": "404"
+          }
+        ],
+        "crit_chance": "4%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "28%",
+        "radius": "8.0 m"
+      },
+      "air burst projectile": {
+        "total_damage": [
+          "100",
+          {
+            "impact": "100"
+          }
+        ],
+        "crit_chance": "4%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "28%",
+        "fire_rate": "1.17 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Sobek",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.5 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "240 rounds",
+    "reload_time": "2.7 s",
+    "disposition": "●●●●●(1.33)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "350.0 ( 75%)",
+          {
+            "impact": "262.5",
+            "puncture": "43.75",
+            "slash": "43.75"
+          }
+        ],
+        "pellets": "5 (70.0 damage per pellet)",
+        "crit_chance": "11%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "27%",
+        "damage_falloff": "Full damage up to 20.0 mMin damage at 30.0 m50% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Torid",
+    "slot": "Primary",
+    "type": "Launcher",
+    "noise_level": "Alarming",
+    "fire_rate": "1.5 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "60 rounds",
+    "reload_time": "1.7 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "grenade impact": {
+        "total_damage": [
+          "100",
+          {
+            "toxin": "100"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "23%"
+      },
+      "poison cloud": {
+        "total_damage": [
+          "400",
+          {
+            "toxin": "400"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "23%",
+        "duration": "10 s",
+        "fire_rate": "1.5 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Javlok",
+    "slot": "Primary",
+    "type": "Speargun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.33 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "6 rounds per mag",
+    "max_ammo": "300 rounds",
+    "reload_time": "1.9 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "projectile impact": {
+        "total_damage": [
+          "230",
+          {
+            "heat": "230"
+          }
+        ],
+        "charge_time": "0.3 s",
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "fire_rate": "3.33 rounds per sec"
+      },
+      "explosion": {
+        "total_damage": [
+          "50",
+          {
+            "heat": "50"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "radius": "1.6 m",
+        "fire_rate": "0.0 rounds per sec"
+      },
+      "spear explosion": {
+        "total_damage": [
+          "300",
+          {
+            "heat": "300"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "radius": "7.0 m"
+      },
+      "throw spear": {
+        "total_damage": [
+          "150.0 ( 50%)",
+          {
+            "impact": "45.0",
+            "puncture": "75.0",
+            "slash": "30.0"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "accuracy": "16.7",
+        "charge_time": "0.5 s",
+        "fire_rate": "1.0 round per sec",
+        "trigger_type": "Charge",
+        "reload_time": "0.6 s"
+      }
+    }
+  },
+  {
+    "name": "Arca Plasmor",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "1.1 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "48 rounds",
+    "reload_time": "2.8 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "600",
+          {
+            "radiation": "600"
+          }
+        ],
+        "crit_chance": "22%",
+        "crit_multiplier": "1.6x",
+        "status_chance": "28%",
+        "damage_falloff": "Full damage up to 10.0 mMin damage at 20.0 m66.67% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Hek",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.17 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "4 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(0.95)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "525.0 ( 65%)",
+          {
+            "impact": "78.75",
+            "puncture": "341.25",
+            "slash": "105.0"
+          }
+        ],
+        "pellets": "7 (75.0 damage per pellet)",
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "damage_falloff": "Full damage up to 10.0 mMin damage at 20.0 m80% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Vaykor Hek",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.0 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "8 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.25 s",
+    "disposition": "●●●○○(0.95)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "525.0 ( 65%)",
+          {
+            "impact": "78.75",
+            "puncture": "341.25",
+            "slash": "105.0"
+          }
+        ],
+        "pellets": "7 (75.0 damage per pellet)",
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "damage_falloff": "Full damage up to 10.0 mMin damage at 25.0 m73.33% max reduction"
+      }
+    }
+  },
+  {
+    "name": "MK1-Strun",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.08 rounds per sec",
+    "accuracy": "4",
+    "magazine_size": "6 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "0.62 sec per round (3.75s total)",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "180.0 ( 55%)",
+          {
+            "impact": "99.0",
+            "puncture": "27.0",
+            "slash": "54.0"
+          }
+        ],
+        "pellets": "10 (18.0 damage per pellet)",
+        "crit_chance": "7.5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%",
+        "damage_falloff": "Full damage up to 15.0 mMin damage at 25.0 m50% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Strun",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.5 rounds per sec",
+    "accuracy": "4",
+    "magazine_size": "6 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "0.62 sec per round (3.75s total)",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "300.0 ( 55%)",
+          {
+            "impact": "165.0",
+            "puncture": "45.0",
+            "slash": "90.0"
+          }
+        ],
+        "pellets": "12 (25.0 damage per pellet)",
+        "crit_chance": "7.5%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "20%",
+        "damage_falloff": "Full damage up to 12.0 mMin damage at 25.0 m40% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Strun Wraith",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.5 rounds per sec",
+    "accuracy": "6.7",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "0.5 sec per round (5.0s total)",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "400.0 ( 65%)",
+          {
+            "impact": "260.0",
+            "puncture": "60.0",
+            "slash": "80.0"
+          }
+        ],
+        "pellets": "10 (40.0 damage per pellet)",
+        "crit_chance": "18%",
+        "crit_multiplier": "2.2x",
+        "status_chance": "40%",
+        "damage_falloff": "Full damage up to 15.0 mMin damage at 30.0 m50% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Sancti Tigris",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "6.5",
+    "magazine_size": "2 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "1.5 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Duplex",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "1260.0 ( 80%)",
+          {
+            "impact": "126.0",
+            "puncture": "126.0",
+            "slash": "1008.0"
+          }
+        ],
+        "pellets": "6 (210.0 damage per pellet)",
+        "crit_chance": "15%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "28%",
+        "damage_falloff": "Full damage up to 8.0 mMin damage at 20.0 m57.14% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Kuva Drakgoon",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.33 rounds per sec",
+    "accuracy": "1.4",
+    "magazine_size": "11 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "262.9 ( 80%)",
+          {
+            "impact": "26.3",
+            "puncture": "26.3",
+            "slash": "210.3"
+          }
+        ],
+        "pellets": "10 (26.29 damage per pellet)",
+        "crit_chance": "7.5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "460.0 ( 80%)",
+          {
+            "impact": "46.0",
+            "puncture": "46.0",
+            "slash": "368.0"
+          }
+        ],
+        "charge_time": "0.3 s",
+        "pellets": "10 (46.0 damage per pellet)",
+        "crit_chance": "21%",
+        "crit_multiplier": "2.5x",
+        "status_chance": "30%",
+        "punch_through": "1.5 m",
+        "fire_rate": "3.33 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Drakgoon",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "3.33 rounds per sec",
+    "accuracy": "1.4",
+    "magazine_size": "7 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "2.3 s",
+    "disposition": "●●●●●(1.48)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "400.0 ( 80%)",
+          {
+            "impact": "40.0",
+            "puncture": "40.0",
+            "slash": "320.0"
+          }
+        ],
+        "pellets": "10 (40.0 damage per pellet)",
+        "crit_chance": "7.5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%",
+        "punch_through": "1.5 m"
+      },
+      "charged shot": {
+        "total_damage": [
+          "700.0 ( 80%)",
+          {
+            "impact": "70.0",
+            "puncture": "70.0",
+            "slash": "560.0"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "pellets": "10 (70.0 damage per pellet)",
+        "crit_chance": "7.5%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "23%",
+        "punch_through": "2.0 m",
+        "fire_rate": "3.33 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Tigris Prime",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "2 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Duplex",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "1560.0 ( 80%)",
+          {
+            "impact": "156.0",
+            "puncture": "156.0",
+            "slash": "1248.0"
+          }
+        ],
+        "pellets": "8 (195.0 damage per pellet)",
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "damage_falloff": "Full damage up to 10.0 mMin damage at 20.0 m48.72% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Convectrix",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "50",
+    "magazine_size": "70 rounds per mag",
+    "max_ammo": "700 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.46)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "24.0 ( 80%)",
+          {
+            "impact": "2.4",
+            "puncture": "2.4",
+            "slash": "19.2"
+          }
+        ],
+        "beams": "2 (12.0 damage per beam)",
+        "crit_chance": "16%",
+        "crit_multiplier": "2.4x",
+        "status_chance": "30%",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Phantasma",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "100",
+    "magazine_size": "11 rounds per mag",
+    "max_ammo": "275 rounds",
+    "reload_time": "0.5 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "75.0 ( 67%)",
+          {
+            "impact": "25.0",
+            "radiation": "50.0"
+          }
+        ],
+        "beams": "5 (15.0 damage per beam)",
+        "crit_chance": "3%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "37%"
+      },
+      "plasma bomb": {
+        "total_damage": [
+          "88.0 ( 83%)",
+          {
+            "impact": "15.0",
+            "radiation": "73.0"
+          }
+        ],
+        "charge_time": "1.0 s",
+        "crit_chance": "3%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "37%",
+        "radius": "5.0 m",
+        "fire_rate": "2.0 rounds per sec",
+        "ammo_cost": "11 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Tigris",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "9.1",
+    "magazine_size": "2 rounds per mag",
+    "max_ammo": "120 rounds",
+    "reload_time": "1.8 s",
+    "disposition": "●○○○○(0.55)",
+    "trigger_type": "Duplex",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "1050.0 ( 80%)",
+          {
+            "impact": "105.0",
+            "puncture": "105.0",
+            "slash": "840.0"
+          }
+        ],
+        "pellets": "5 (210.0 damage per pellet)",
+        "crit_chance": "10%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "28%",
+        "damage_falloff": "Full damage up to 10.0 mMin damage at 20.0 m52.38% max reduction"
+      }
+    }
+  },
+  {
+    "name": "Rubico",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.67 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "2.4 s",
+    "disposition": "●○○○○(0.65)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "180.0 ( 80%)",
+          {
+            "impact": "144.0",
+            "puncture": "27.0",
+            "slash": "9.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "12%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Phage",
+    "slot": "Primary",
+    "type": "Shotgun",
+    "noise_level": "Alarming",
+    "fire_rate": "12.0 rounds per sec",
+    "accuracy": "50",
+    "magazine_size": "90 rounds per mag",
+    "max_ammo": "720 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●●(1.46)",
+    "trigger_type": "Held",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "35",
+          {
+            "viral": "35"
+          }
+        ],
+        "beams": "7 (5.0 damage per beam)",
+        "crit_chance": "19%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "31%",
+        "ammo_cost": "0.5 ammo per shot"
+      }
+    }
+  },
+  {
+    "name": "Rubico Prime",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "3.67 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "5 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●○○○○(0.65)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "187.0 ( 80%)",
+          {
+            "impact": "149.6",
+            "puncture": "28.1",
+            "slash": "9.3"
+          }
+        ],
+        "crit_chance": "38%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "16%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Vulkar Wraith",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "8 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●●(1.4)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "273.0 ( 90%)",
+          {
+            "impact": "245.7",
+            "puncture": "27.3"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Snipetron",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "4 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "3.5 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "180.0 ( 80%)",
+          {
+            "impact": "18.0",
+            "puncture": "144.0",
+            "slash": "18.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "1.5x",
+        "status_chance": "12%",
+        "punch_through": "2.5 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Vulkar",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.5 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "6 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●●(1.4)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "225.0 ( 80%)",
+          {
+            "impact": "180.0",
+            "puncture": "33.8",
+            "slash": "11.2"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Vectis",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.5 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "1.0 s",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "225.0 ( 40%)",
+          {
+            "impact": "90.0",
+            "puncture": "78.75",
+            "slash": "56.25"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Snipetron Vandal",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.0 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "6 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●●●○(1.25)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "200.0 ( 90%)",
+          {
+            "impact": "10.0",
+            "puncture": "180.0",
+            "slash": "10.0"
+          }
+        ],
+        "crit_chance": "28%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "16%",
+        "punch_through": "3.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Vectis Prime",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "2.67 rounds per sec",
+    "accuracy": "13.3",
+    "magazine_size": "2 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.85 s",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "350.0 ( 45%)",
+          {
+            "impact": "140.0",
+            "puncture": "157.5",
+            "slash": "52.5"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "punch_through": "1.0 m",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      }
+    }
+  },
+  {
+    "name": "Dargyn",
+    "slot": "Vehicle",
+    "type": "Turret",
+    "noise_level": "Alarming",
+    "fire_rate": "9.03 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "75 rounds per mag",
+    "max_ammo": "N/A",
+    "reload_time": "41.7 rounds per sec (1.8s total)",
+    "disposition": "Unknown",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "450.0 ( 33%)",
+          {
+            "impact": "150.0",
+            "puncture": "150.0",
+            "slash": "150.0"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Komorex",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "6.0 rounds per sec",
+    "accuracy": "20",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "40 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●○○(1)",
+    "trigger_type": "Semi-Auto",
+    "pattern": {
+      "normal": {
+        "total_damage": [
+          "87.0 ( 48%)",
+          {
+            "impact": "8.7",
+            "puncture": "36.5",
+            "slash": "41.8"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.1x",
+        "status_chance": "35%",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      },
+      "area attacks": {
+        "total_damage": [
+          "66",
+          {
+            "viral": "66"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.1x",
+        "status_chance": "35%",
+        "radius": "3.5 m",
+        "fire_rate": "1.5 rounds per sec"
+      },
+      "3.5x zoom mode": {
+        "total_damage": [
+          "174.0 ( 48%)",
+          {
+            "impact": "17.4",
+            "puncture": "73.0",
+            "slash": "83.6"
+          }
+        ],
+        "crit_chance": "16%",
+        "crit_multiplier": "2.1x",
+        "status_chance": "35%",
+        "fire_rate": "1.5 rounds per sec",
+        "trigger_type": "Semi-Auto"
+      }
+    }
+  },
+  {
+    "name": "Zhuge",
+    "slot": "Primary",
+    "type": "Crossbow",
+    "noise_level": "Silent",
+    "fire_rate": "4.17 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.5 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "100.0 ( 75%)",
+          {
+            "impact": "5.0",
+            "puncture": "75.0",
+            "slash": "20.0"
+          }
+        ],
+        "crit_chance": "20%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "35%"
+      }
+    }
+  },
+  {
+    "name": "Nagantaka",
+    "slot": "Primary",
+    "type": "Crossbow",
+    "noise_level": "Silent",
+    "fire_rate": "2.5 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "9 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.3 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Semi / Burst",
+    "pattern": {
+      "semi-auto": {
+        "total_damage": [
+          "159.0 ( 90%)",
+          {
+            "impact": "1.6",
+            "puncture": "14.3",
+            "slash": "143.1"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "39%"
+      },
+      "burst shot": {
+        "total_damage": [
+          "159.0 ( 90%)",
+          {
+            "impact": "1.6",
+            "puncture": "14.3",
+            "slash": "143.1"
+          }
+        ],
+        "burst_count": "9 rounds (1431.0 total damage)",
+        "crit_chance": "15%",
+        "crit_multiplier": "2.3x",
+        "status_chance": "39%",
+        "accuracy": "40",
+        "fire_rate": "5.81 rounds per sec",
+        "trigger_type": "Semi / Burst",
+        "reload_time": "2.0 s"
+      }
+    }
+  },
+  {
+    "name": "Zhuge Prime",
+    "slot": "Primary",
+    "type": "Crossbow",
+    "noise_level": "Silent",
+    "fire_rate": "5.5 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "30 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "3.0 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "50.0 ( 45%)",
+          {
+            "impact": "10.0",
+            "puncture": "22.5",
+            "slash": "17.5"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%"
+      },
+      "arrow explosion": {
+        "total_damage": [
+          "40.0 ( 62%)",
+          {
+            "impact": "11.2",
+            "puncture": "4.0",
+            "slash": "24.8"
+          }
+        ],
+        "crit_chance": "26%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "radius": "2.2 m",
+        "fire_rate": "5.5 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Cernos",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7 (100 when aimed)",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.6 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "190.0 ( 90%)",
+          {
+            "impact": "171.0",
+            "puncture": "9.5",
+            "slash": "9.5"
+          }
+        ],
+        "crit_chance": "36%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "18%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "380.0 ( 90%)",
+          {
+            "impact": "342.0",
+            "puncture": "19.0",
+            "slash": "19.0"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "36%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "18%",
+        "punch_through": "1.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Attica",
+    "slot": "Primary",
+    "type": "Crossbow",
+    "noise_level": "Silent",
+    "fire_rate": "3.67 rounds per sec",
+    "accuracy": "40",
+    "magazine_size": "20 rounds per mag",
+    "max_ammo": "540 rounds",
+    "reload_time": "2.83 s",
+    "disposition": "●●●●●(1.415)",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "80.0 ( 75%)",
+          {
+            "impact": "4.0",
+            "puncture": "60.0",
+            "slash": "16.0"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "3.0x",
+        "status_chance": "10%"
+      }
+    }
+  },
+  {
+    "name": "Cernos Prime",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.65 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "276.0 ( 90%)",
+          {
+            "impact": "248.4",
+            "puncture": "13.8",
+            "slash": "13.8"
+          }
+        ],
+        "arrows": "3 (92.0 damage per arrow)",
+        "crit_chance": "35%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "552.0 ( 90%)",
+          {
+            "impact": "496.8",
+            "puncture": "27.6",
+            "slash": "27.6"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "arrows": "3 (184.0 damage per arrow)",
+        "crit_chance": "35%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "30%",
+        "punch_through": "1.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Mutalist Cernos",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7 (100 aimed)",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.6 s",
+    "disposition": "●●●●●(1.35)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "205.0 ( 90%)",
+          {
+            "impact": "184.5",
+            "puncture": "10.25",
+            "slash": "10.25"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "49%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "410.0 ( 90%)",
+          {
+            "impact": "369.0",
+            "puncture": "20.5",
+            "slash": "20.5"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "49%",
+        "punch_through": "1.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      },
+      "toxin cloud": {
+        "total_damage": [
+          "50",
+          {
+            "toxin": "50"
+          }
+        ],
+        "crit_chance": "15%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "49%",
+        "duration": "10 s",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Lanka",
+    "slot": "Primary",
+    "type": "Sniper Rifle",
+    "noise_level": "Alarming",
+    "fire_rate": "1.0 round per sec",
+    "accuracy": "100",
+    "magazine_size": "10 rounds per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "2.0 s",
+    "disposition": "●●○○○(0.8)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "200",
+          {
+            "electricity": "200"
+          }
+        ],
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "damage_falloff": "Full damage up to 400.0 mMin damage at 600.0 m"
+      },
+      "charged shot": {
+        "total_damage": [
+          "525",
+          {
+            "electricity": "525"
+          }
+        ],
+        "charge_time": "1.0 s",
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "25%",
+        "punch_through": "5.0 m",
+        "fire_rate": "1.0 round per sec"
+      }
+    }
+  },
+  {
+    "name": "Daikyu",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "N/A",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.6 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "charged shot": {
+        "total_damage": [
+          "700.0 ( 40%)",
+          {
+            "impact": "210.0",
+            "puncture": "280.0",
+            "slash": "210.0"
+          }
+        ],
+        "charge_time": "1.0 s",
+        "crit_chance": "34%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "46%",
+        "punch_through": "3.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Rakta Cernos",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.6 s",
+    "disposition": "●●●●○(1.15)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "235.0 ( 90%)",
+          {
+            "impact": "211.5",
+            "puncture": "11.75",
+            "slash": "11.75"
+          }
+        ],
+        "crit_chance": "35%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "15%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "470.0 ( 90%)",
+          {
+            "impact": "423.0",
+            "puncture": "23.5",
+            "slash": "23.5"
+          }
+        ],
+        "charge_time": "0.25 s",
+        "crit_chance": "35%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "15%",
+        "punch_through": "1.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Dread",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.7 s",
+    "disposition": "●●●●○(1.2)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "168.0 ( 90%)",
+          {
+            "impact": "8.4",
+            "puncture": "8.4",
+            "slash": "151.2"
+          }
+        ],
+        "crit_chance": "50%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "336.0 ( 90%)",
+          {
+            "impact": "16.8",
+            "puncture": "16.8",
+            "slash": "302.4"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "50%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%",
+        "punch_through": "2.5 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Lenz",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Alarming",
+    "fire_rate": "1.0 round per sec",
+    "accuracy": "N/A",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "6 rounds",
+    "reload_time": "0.6 s",
+    "disposition": "●●●○○(0.9)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "charged shot": {
+        "total_damage": [
+          "50",
+          {
+            "impact": "50"
+          }
+        ],
+        "charge_time": "1.2 s",
+        "crit_chance": "50%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "5%",
+        "fire_rate": "1.0 round per sec"
+      },
+      "initial burst": {
+        "total_damage": [
+          "10",
+          {
+            "cold": "10"
+          }
+        ],
+        "radius": "8.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      },
+      "bubble collapse": {
+        "total_damage": [
+          "660",
+          {
+            "blast": "660"
+          }
+        ],
+        "radius": "6.0 m"
+      }
+    }
+  },
+  {
+    "name": "Rampart",
+    "slot": "Emplacement",
+    "type": "Dual Machine Gun",
+    "noise_level": "Alarming",
+    "fire_rate": "13.3 rounds per sec",
+    "accuracy": "N/A",
+    "magazine_size": "200 rounds per mag",
+    "max_ammo": "N/A",
+    "reload_time": "50.0 rounds per sec (4.0s total)",
+    "disposition": "N/A",
+    "trigger_type": "Auto",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "200.0 ( 33%)",
+          {
+            "impact": "66.7",
+            "puncture": "66.7",
+            "slash": "66.6"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "MK1-Paris",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7 (100 Aimed)",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.55 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "115.0 ( 80%)",
+          {
+            "impact": "5.75",
+            "puncture": "92.0",
+            "slash": "17.25"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "15%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "230.0 ( 80%)",
+          {
+            "impact": "11.5",
+            "puncture": "184.0",
+            "slash": "34.5"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "15%",
+        "punch_through": "2.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Paris",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7 (100 aimed)",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.65 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "160.0 ( 80%)",
+          {
+            "impact": "8.0",
+            "puncture": "128.0",
+            "slash": "24.0"
+          }
+        ],
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "320.0 ( 80%)",
+          {
+            "impact": "16.0",
+            "puncture": "256.0",
+            "slash": "48.0"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "30%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "10%",
+        "punch_through": "2.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Artemis Bow",
+    "slot": "Primary",
+    "type": "Exalted Weapon",
+    "noise_level": "Alarming",
+    "fire_rate": "0",
+    "accuracy": "100",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "N/A",
+    "reload_time": "0.9 s",
+    "disposition": "Unknown",
+    "trigger_type": "Charge",
+    "pattern": {
+      "normal attacks": {
+        "total_damage": [
+          "1680.0 ( 80%)",
+          {
+            "impact": "235.2",
+            "puncture": "1344.0",
+            "slash": "100.8"
+          }
+        ],
+        "arrows": "7 (240.0 damage per arrow)",
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%",
+        "punch_through": "1.0 m"
+      },
+      "charged shot": {
+        "total_damage": [
+          "1680.0 ( 80%)",
+          {
+            "impact": "235.2",
+            "puncture": "1344.0",
+            "slash": "100.8"
+          }
+        ],
+        "charge_time": "1.0 s",
+        "arrows": "7 (240.0 damage per arrow)",
+        "crit_chance": "25%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%",
+        "punch_through": "1.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  },
+  {
+    "name": "Paris Prime",
+    "slot": "Primary",
+    "type": "Bow",
+    "noise_level": "Silent",
+    "fire_rate": "0",
+    "accuracy": "16.7 (100 aimed)",
+    "magazine_size": "1 round per mag",
+    "max_ammo": "72 rounds",
+    "reload_time": "0.7 s",
+    "disposition": "●●●●○(1.3)",
+    "trigger_type": "Charge",
+    "pattern": {
+      "uncharged shot": {
+        "total_damage": [
+          "180.0 ( 80%)",
+          {
+            "impact": "4.5",
+            "puncture": "144.0",
+            "slash": "31.5"
+          }
+        ],
+        "crit_chance": "45%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%"
+      },
+      "charged shot": {
+        "total_damage": [
+          "360.0 ( 80%)",
+          {
+            "impact": "9.0",
+            "puncture": "288.0",
+            "slash": "63.0"
+          }
+        ],
+        "charge_time": "0.5 s",
+        "crit_chance": "45%",
+        "crit_multiplier": "2.0x",
+        "status_chance": "20%",
+        "punch_through": "3.0 m",
+        "fire_rate": "0.0 rounds per sec"
+      }
+    }
+  }
+]

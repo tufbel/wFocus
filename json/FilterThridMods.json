@@ -1,0 +1,2747 @@
+[
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Accelerated Blast",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "射速": "+15%",
+      "穿刺伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Adept Surge",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "生命值": "-6.2"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Adrenaline Boost",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "生命值": "-5%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 5,
+    "name": "Amalgam Barrel Diffusion",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "多重射击": "+18%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Amalgam Javlok Magazine Warp",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "+7.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Amalgam Organ Shatter",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "基础伤害": "+14%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Amalgam Ripkas True Steel",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "暴击几率": "+13%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Amalgam Serration",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "伤害": "+14%",
+      "冲刺速度": "+2%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Amalgam Shotgun Spazz",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "射速": "+14%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Ammo Drum",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "弹药最大值": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Ammo Stock",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "弹夹容量": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Anemic Agility",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "射速": "+15%",
+      "伤害": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Armored Agility",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "冲刺速度": "+2.5%",
+      "护甲": "+7.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Auger Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "穿刺伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Accord",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "+30%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Message",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Warframe",
+    "property": {
+      "技能持续时间": "+4%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Pact",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Reach",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "技能范围": "+5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Secrets",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+4%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Augur Seeker",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "异常持续时间": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Barrel Diffusion",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "多重射击": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Blade Of Truth",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Blaze",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "伤害": "+15%",
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Blind Rage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+9%",
+      "技能效率": "-5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Blunderbuss",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "暴击几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Bore",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "穿刺伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Breach Loader",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "穿刺伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Bright Purity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Burdened Magazine",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "弹夹容量": "+10%",
+      "装填速度": "-3%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Buzz Kill",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "切割伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Calculated Spring",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "生命值": "+6.3%"
+    }
+  },
+  {
+    "baseDrain": 0,
+    "fusionLimit": 10,
+    "name": "Cautious Shot",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "伤害": "-9%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Charged Shell",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Chilling Grasp",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "冰冻伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Chilling Reload",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "冰冻伤害": "+15%",
+      "装填速度": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Collision Force",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "冲击伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Concussion Rounds",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "冲击伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Constitution",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能持续时间": "+7%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Contagious Spread",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "毒素伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Continuity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能持续时间": "+3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Continuous Misery",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "异常持续时间": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Convulsion",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Corrosive Projection",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "护甲": "-5%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Covert Lethality",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Crash Course",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "冲击伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Creeping Bullseye",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "暴击几率": "+8%",
+      "射速": "-6%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Critical Deceleration",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "暴击几率": "+8%",
+      "射速": "-5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Critical Delay",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "暴击几率": "+8%",
+      "射速": "-6%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Cryo Rounds",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "冰冻伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Cunning Drift",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能范围": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Dead Eye",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "伤害": "+8.8%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Deadly Sequence",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "暴击几率": "+50%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Deep Freeze",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "冰冻伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Depleted Reload",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "-10%",
+      "装填速度": "+8%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Disruptor",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "冲击伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Draining Gloom",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "-15%",
+      "弹药最大值": "-15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Drifting Contact",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "异常触发几率": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Efficient Beams",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "异常触发几率": "+25%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Endurance Drift",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "能量": "+2.5%",
+      "冲刺速度": "+2%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Entropy Burst",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "异常触发几率": "+5"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Entropy Detonation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Eroding Blight",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+50%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Fanged Fusillade",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "切割伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Fast Hands",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "装填速度": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Feathered Arrows",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "伤害": "-5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Fever Strike",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "毒素伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Finishing Touch",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Flechette",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "穿刺伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Fleeting Expertise",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能效率": "+10%",
+      "技能持续时间": "-10%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Flow",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "能量": "+18%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Focus Energy",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Frail Momentum",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "射速": "+15%",
+      "伤害": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Frigid Blast",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "冰冻伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Frostbite",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "冰冻伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Full Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+5%",
+      "装填速度": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Full Contact",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "冲击伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Gilded Truth",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "射速": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Gladiator Aegis",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe",
+    "property": {
+      "护甲": "+7.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Gladiator Might",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "基础伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Gladiator Resolve",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "生命值": "+30%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Gleaming Blight",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "异常触发几率": "+25%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Gunslinger",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "射速": "+12%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Hammer Shot",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "基础伤害": "+15%",
+      "异常触发几率": "+10%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Hastened Steps",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "冲刺速度": "+5%",
+      "护盾容量": "-5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Heated Charge",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Heavy Caliber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Heavy Trauma",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "冲击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Heightened Reflexes",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能效率": "-5%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 5,
+    "name": "Hell'S Chamber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "多重射击": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Hellfire",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "High Voltage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "电击伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Hollow Point",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "基础伤害": "+10%",
+      "伤害": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Hornet Strike",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Hunter Track",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "异常持续时间": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Hydraulic Barrel",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "武器后坐力": "-10%",
+      "弹夹容量": "-5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Hydraulic Chamber",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "武器后坐力": "-15%",
+      "弹夹容量": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Hydraulic Gauge",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "武器后坐力": "-15%",
+      "弹夹容量": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Ice Storm",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+10%",
+      "冰冻伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Impenetrable Offense",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Incendiary Coat",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Infected Clip",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "毒素伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Intensify",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+3%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Jagged Edge",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "切割伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Jolt",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "电击伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Justice Blades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Lasting Sting",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "异常持续时间": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Lethal Torrent",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "射速": "+10%",
+      "多重射击": "+10%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Lie In Wait",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "武器后坐力": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Lingering Torment",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "异常持续时间": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Loaded Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "弹夹容量": "+5%",
+      "装填速度": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Loose Chamber",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "装填速度": "+5%",
+      "武器后坐力": "+8.3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Loose Hatch",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "装填速度": "+5%",
+      "武器后坐力": "+8.3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Loose Magazine",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "装填速度": "+8.3%",
+      "武器后坐力": "+8.3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Magazine Warp",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Magnum Force",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Maim",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "切割伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Malignant Force",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "毒素伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Maximum Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "+5%",
+      "装填速度": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Measured Burst",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "射速": "-15%",
+      "伤害": "+7.5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Melee Prowess",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "异常触发几率": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Meticulous Aim",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "伤害": "-7.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Molten Impact",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Napalm Grenades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "异常触发几率": "+5"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Narrow Minded",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能持续时间": "+9%",
+      "技能范围": "-6%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "No Return",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "穿刺伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "North Wind",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "冰冻伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Organ Shatter",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "基础伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Overextended",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能范围": "+15%",
+      "技能强度": "-10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Pathogen Rounds",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "毒素伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Perpetual Agony",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "异常持续时间": "+5%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Physique",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "生命值": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Piercing Caliber",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "穿刺伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Piercing Hit",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "穿刺伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Pistol Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "伤害": "+4.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Pistol Gambit",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "暴击几率": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Pistol Pestilence",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "毒素伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Point Blank",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Point Strike",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "暴击几率": "+25%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Power Drift",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Pressure Point",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Charged Shell",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Shotgun",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Continuity",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "技能持续时间": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Cryo Rounds",
+    "polarity": "Vazarin",
+    "rarity": "Legendary",
+    "type": "Rifle",
+    "property": {
+      "冰冻伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 10,
+    "name": "Primed Fast Hands",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Rifle",
+    "property": {
+      "装填速度": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Fever Strike",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Melee",
+    "property": {
+      "毒素伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Flow",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "能量": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Heated Charge",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary",
+    "property": {
+      "火焰伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 10,
+    "name": "Primed Heavy Trauma",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Melee",
+    "property": {
+      "冲击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 10,
+    "name": "Primed Pistol Gambit",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary",
+    "property": {
+      "暴击几率": "+17%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Point Blank",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Shotgun",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Pressure Point",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Melee",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 10,
+    "name": "Primed Quickdraw",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary",
+    "property": {
+      "装填速度": "+8%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Ravage",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Shotgun",
+    "property": {
+      "基础伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Shred",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle",
+    "property": {
+      "射速": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Slip Magazine",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Primed Target Cracker",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary",
+    "property": {
+      "基础伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Primed Vigor",
+    "polarity": "Vazarin",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "+20%",
+      "生命值": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Proton Snap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Pummel",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "冲击伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Quick Charge",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "-5"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Quickdraw",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "装填速度": "+8%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Ravage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "基础伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Razor Shot",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "切割伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Redirection",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Rending Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "切割伤害": "+15%",
+      "穿刺伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Retribution",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "电击伤害": "+20"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Rifle Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "伤害": "+4.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Rifle Aptitude",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "异常触发几率": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Rime Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "冰冻伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Rising Skill",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "-7.5"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Rupture",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "冲击伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Rush",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "冲刺速度": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Sacrificial Pressure",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Melee",
+    "property": {
+      "伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Sacrificial Steel",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Melee",
+    "property": {
+      "暴击几率": "+8%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Sawtooth Clip",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle",
+    "property": {
+      "切割伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Scattered Justice",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "多重射击": "+50%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Scattering Inferno",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "火焰伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Scorch",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "火焰伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Seeking Fury",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "装填速度": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Seismic Wave",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "伤害": "+50%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Serration",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Shattering Justice",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary",
+    "property": {
+      "异常触发几率": "+5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Shell Compression",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "弹药最大值": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Shell Shock",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "电击伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Shepherd",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Aura",
+    "property": {
+      "生命值": "+50",
+      "护甲": "+30"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Shield Disruption",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "护盾容量": "-4%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Shocking Touch",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Shotgun Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "伤害": "+3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Shotgun Savvy",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "异常触发几率": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Shotgun Spazz",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "射速": "+15%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 0,
+    "name": "Shrapnel Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "多重射击": "+200%",
+      "伤害": "-66%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Shred",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "射速": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Shredder",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun",
+    "property": {
+      "切割伤害": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Slip Magazine",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Speed Drift",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "冲刺速度": "+2%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Speed Trigger",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "射速": "+10%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 5,
+    "name": "Split Chamber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "多重射击": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Spoiled Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Sprint Boost",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "冲刺速度": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Stabilizer",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "武器后坐力": "-15%"
+    }
+  },
+  {
+    "baseDrain": -2,
+    "fusionLimit": 5,
+    "name": "Stand United",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "护甲": "+4.3%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Steady Hands",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "武器后坐力": "-15%"
+    }
+  },
+  {
+    "baseDrain": -4,
+    "fusionLimit": 5,
+    "name": "Steel Charge",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura",
+    "property": {
+      "伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Steel Fiber",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe",
+    "property": {
+      "护甲": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Stinging Truth",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+10"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Stockpiled Blight",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+50%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Stormbringer",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle",
+    "property": {
+      "电击伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Streamline",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能效率": "+5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Stretch",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "技能范围": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Stunning Speed",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "装填速度": "+10%",
+      "异常触发几率": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Sundering Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "穿刺伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Sure Shot",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "异常触发几率": "+2.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Sweeping Serration",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "切割伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Tactical Pump",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun",
+    "property": {
+      "装填速度": "+5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Tainted Clip",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "弹夹容量": "+10%",
+      "装填速度": "-5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Tainted Mag",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "+6%",
+      "装填速度": "-3%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 10,
+    "name": "Tainted Shell",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "射速": "-5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Target Cracker",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary",
+    "property": {
+      "基础伤害": "+10%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Tempered Bound",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "+7.5"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Thermite Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "火焰伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 10,
+    "fusionLimit": 3,
+    "name": "Thundermiter",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "-15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Toxic Barrage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "毒素伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Toxic Blight",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "毒素伤害": "+25%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Toxic Sequence",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary",
+    "property": {
+      "异常持续时间": "+50%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Transient Fortitude",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+5%",
+      "技能持续时间": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 5,
+    "name": "Trick Mag",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary",
+    "property": {
+      "弹药最大值": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "True Punishment",
+    "polarity": "Zenurik",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "暴击几率": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "True Steel",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee",
+    "property": {
+      "暴击几率": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Umbral Fiber",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "护甲": "+10%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Umbral Intensify",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "技能强度": "+4%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 10,
+    "name": "Umbral Vitality",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe",
+    "property": {
+      "生命值": "+40%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Vicious Frost",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "冰冻伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vicious Spread",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun",
+    "property": {
+      "伤害": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vigilante Armaments",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Primary",
+    "property": {
+      "多重射击": "+10%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vigilante Fervor",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Primary",
+    "property": {
+      "射速": "+7.5%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 5,
+    "name": "Vigor",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe",
+    "property": {
+      "护盾容量": "+20%",
+      "生命值": "+20%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vile Acceleration",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "射速": "+15%",
+      "伤害": "-2.5%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vile Precision",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "武器后坐力": "-15%",
+      "射速": "-6%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Virulent Scourge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "毒素伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 5,
+    "name": "Vital Sense",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "基础伤害": "+20%"
+    }
+  },
+  {
+    "baseDrain": 2,
+    "fusionLimit": 3,
+    "name": "Vitality",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe",
+    "property": {
+      "生命值": "+30%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Volcanic Edge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "火焰伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 4,
+    "fusionLimit": 3,
+    "name": "Voltaic Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee",
+    "property": {
+      "电击伤害": "+15%",
+      "异常触发几率": "+15%"
+    }
+  },
+  {
+    "baseDrain": 6,
+    "fusionLimit": 3,
+    "name": "Wildfire",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle",
+    "property": {
+      "弹夹容量": "+5%",
+      "火焰伤害": "+15%"
+    }
+  }
+]

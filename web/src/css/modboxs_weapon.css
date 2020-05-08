@@ -1,0 +1,55 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-29 16:05:54 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-29 16:15:16
+ * @description: weapon界面配置槽大小控制
+ */
+@media screen and (max-width: 499px) {
+  .modboxs {
+    grid-row-end: span 8;
+    padding-top: 5px;
+  }
+  .modboxs > div {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 116px) 1fr;
+  }
+  .modboxs-function {
+    grid-column-end: span 1;
+  }
+}
+@media screen and (min-width: 499px) and (max-width: 1200px) {
+  .modboxs {
+    grid-row-end: span 4;
+    padding-left: 20px;
+  }
+  .modboxs > div {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 112px) 1fr;
+  }
+  .modboxs-function {
+    grid-column-end: span 2;
+  }
+}
+@media screen and (min-width: 499px) and (max-width: 768px) {
+  .modboxs {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+}
+@media  screen and (min-width: 1200px) {
+  .modboxs {
+    grid-row-end: span 2;
+    padding-left: 20px;
+  }
+  .modboxs > div {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 108px) 1fr;
+  }
+  .modboxs-function {
+    grid-column-end: span 4;
+  }
+  .modboxs-function .modboxs-share {
+    font-size: 1em;
+  }
+}

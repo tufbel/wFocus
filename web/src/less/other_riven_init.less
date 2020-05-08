@@ -1,0 +1,130 @@
+.other-riven-box {
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+    display: inline-block;
+    position: relative;
+
+    .below-wrapper {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #8c8fefa3;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+
+        &>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &>div:nth-child(1) {
+            flex: 2;
+
+            border-bottom: 1px solid #B3B2B2;
+
+            &>span {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            #my-riven-id {
+                display: none;
+            }
+        }
+
+        &>div:nth-child(2) {
+            flex: 6;
+            border-bottom: 1px solid #B3B2B2;
+
+            &>ul {
+                list-style-type: none;
+
+                &>li {
+                    font-size: 13px;
+                    margin: 5px 0;
+                    padding: 0 10px;
+                    text-align: center;
+                    color: #0033FF;
+                    background: #99CCFF;
+                    border: 1px solid #0033FF;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        &>div:nth-child(3) {
+            flex: 2;
+
+            &>span {
+                font-size: 20px;
+                color: black;
+                font-family: Fantasy; //5种通用字体系列之一
+                font-style: italic; //文本斜体显示
+                text-shadow: 2px -2px 2px white; //字体阴影（水平阴影的位置 垂直阴影的位置 模糊的距离 阴影的颜色）
+            }
+        }
+
+        .not-sell-logo {
+            width: 400px;
+            height: 80px;
+            font-size: 28px;
+            color: #faf1f1de;
+            background: #a8a8a1bf;
+            position: absolute;
+            top: 105px;
+            right: -95px;
+            transform: rotate(59deg);
+        }
+    }
+
+    .above-wrapper {
+        width: 200px;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: #60a3bcc2;
+        transition: all 0.2s ease-in;
+
+        &>ul {
+            // height: 200px;
+            list-style-type: none;
+
+            &>li {
+                font-size: 16px;
+                margin: 15px 0;
+                padding: 10px 20px;
+                cursor: pointer;
+                color: white;
+                border-radius: 10px;
+                background: #0488e5;
+
+                &:hover {
+                    background: #40739e;
+                }
+            }
+
+            &>li:nth-child(2) {
+                position: relative;
+            }
+        }
+    }
+
+    &:hover {
+        .above-wrapper {
+            height: 100%;
+        }
+    }
+}

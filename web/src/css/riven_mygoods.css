@@ -1,0 +1,228 @@
+.main {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+.main .my-riven-wrapper {
+  width: 1200px;
+  min-height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.add-my-riven-box {
+  width: 200px;
+  height: 300px;
+  margin: 20px 20px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #efeff4a3;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.add-my-riven-box > span:nth-child(1) {
+  font-size: 50px;
+  color: #5f5f62;
+}
+.add-my-riven-box > span:nth-child(2) {
+  font-size: 19px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  display: none;
+  background: white;
+}
+.add-my-riven-box > span:nth-child(2) > div {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 29px;
+  left: 48px;
+  transform: rotate(45deg);
+  background: white;
+}
+.add-my-riven-box:hover #release {
+  display: block;
+}
+.riven-sell {
+  width: 350px;
+  height: 550px;
+  background: #6f609b;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+}
+.riven-sell .riven-image-wrapper {
+  width: 100px;
+  height: 100px;
+  background: white;
+  position: relative;
+}
+.riven-sell .riven-image-wrapper .new-image-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 40px;
+  color: #5f5f62;
+}
+.riven-sell .riven-image-wrapper > input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.riven-sell .riven-image-wrapper .new-image {
+  width: 100%;
+  height: 100%;
+}
+.riven-sell .riven-image-wrapper .new-btn {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+}
+.riven-sell .sell-data-wrapper {
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+  position: relative;
+}
+.riven-sell .sell-data-wrapper .sell-data-above {
+  width: 100%;
+  height: 0;
+  background: #6f609b;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-data {
+  width: 100%;
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-data .riven-sell-name {
+  font-size: 25px;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-data .riven-sell-property {
+  padding-top: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-data .riven-sell-property > li {
+  font-size: 17px;
+  margin: 5px auto;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-price {
+  margin-top: 40px;
+  height: 30px;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-price > input {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.riven-sell .sell-data-wrapper .sell-data-above .riven-sell-price > input:focus {
+  width: 150px;
+}
+.riven-sell .sell-data-wrapper .sell-data-above #riven-sell-btn {
+  width: 80%;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: #908c8c;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.riven-sell .sell-data-wrapper .sell-data-above #submit-audit-btn {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #00d0ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.riven-sell .sell-data-wrapper .sell-data-below {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.riven-sell .sell-data-wrapper .sell-data-below > span {
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+.riven-sell .sell-data-wrapper .sell-data-below > span > a {
+  color: #00d0ff;
+}
+.riven-sell .sell-data-wrapper .sell-data-below > img {
+  margin-top: 10px;
+  width: 200px;
+  height: 280px;
+}
+.riven-sell .close-release-riven {
+  position: absolute;
+  top: -4px;
+  right: -2px;
+}
+.riven-sell .close-release-riven > i {
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+.other-box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 11;
+}
+.riven-img-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 12;
+}
+.riven-img-wrapper > img {
+  width: 450px;
+  height: 650px;
+}

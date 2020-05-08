@@ -1,0 +1,100 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:29:09 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-12-20 12:29:03
+ * @description: 页眉中的checkbox点击后的组件显示效果。包括小于768px时的导航栏与搜索框、所有窗口大小下的用户信息展示界面。
+ */
+
+@import url("../less/base.less");
+
+@media @small {
+    #search-judge:checked~.header-search {
+        .search-input {
+            // 输入框的大窗口的展开样式
+            // transition: height 0.2s linear;
+            height: 50px;
+        }
+
+        .search-hint {
+            display: block;
+        }
+    }
+
+    #nav-judge:checked {
+
+        &~.header-nav {
+            &>span {
+                width: 95%;
+            }
+        }
+
+        &~.wf-nav {
+            height: 50px;
+
+            ul {
+
+                .nav-li {
+
+                    a {
+                        height: 100%;
+                    }
+                }
+
+                .nav-li-now {
+                    &::before {
+                        height: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media @bm {
+
+    #search-judge:checked~.header-search {
+        .icon-chaxun {
+            color: #000;
+
+            &::after {
+                width: 100%;
+                z-index: -10;
+            }
+        }
+
+        .search-input {
+            padding: 0 10px 0 0;
+            max-width: 400px;
+        }
+
+        .search-hint {
+            display: block;
+            max-width: 440px;
+        }
+    }
+
+}
+
+#user-judge:checked {
+    &+.header-mask {
+        width: 100%;
+
+        .user {
+            right: 0;
+        }
+    }
+}
+
+
+
+#name-editor-judge:checked {
+    &+label {
+        font-size: 1.2rem;
+        color: #2196f3;
+
+        &:hover {
+            text-shadow: 0px 0px 4px #eeeeee;
+        }
+    }
+}

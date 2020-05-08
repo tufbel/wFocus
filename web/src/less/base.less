@@ -1,0 +1,30 @@
+@small: ~" screen and (max-width: 768px)";
+@medium: ~" screen and (max-width: 1200px) and (min-width: 768px)";
+@big: ~" screen and (min-width: 1200px)";
+@bm: ~"screen and (min-width: 768px) ";
+@phone: ~"screen and (max-width: 499px)";
+
+
+.flex() {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid() {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 12px;
+    // 栅格两边留白排列(有多余空间时)
+    justify-content: space-around;
+    align-content: space-around;
+
+    //栅格内元素居中
+    justify-items: center;
+    align-items: center;
+
+    //水平布局,不自动填充
+    grid-auto-flow: row;
+}

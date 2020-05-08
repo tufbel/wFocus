@@ -1,0 +1,107 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-29 16:05:54 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-29 16:08:57
+ * @description: warframe界面配置槽大小控制
+ */
+
+@import url("../less/base.less");
+
+@media @phone {
+    .modboxs {
+        grid-row-end: span 10;
+        padding-top: 5px;
+
+        &>div {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(10, 116px) 1fr;
+        }
+    }
+
+    .modboxs-function {
+        grid-column-end: span 1;
+    }
+}
+
+@media screen and (min-width: 499px) and (max-width:1200px) {
+    .modboxs {
+        grid-row-end: span 5;
+        padding-left: 20px;
+
+        &>div {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5, 112px) 1fr;
+        }
+    }
+
+    .modboxs-function {
+        grid-column-end: span 2;
+    }
+}
+
+@media screen and (min-width:499px) and (max-width:768px) {
+    .modboxs {
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+}
+
+@media @big {
+    .modboxs {
+        grid-row-end: span 3;
+        padding-left: 20px;
+
+        &>div {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 108px) 1fr;
+        }
+    }
+
+    .modbox {
+        &:nth-of-type(1) {
+            grid-column-start: 2;
+        }
+
+        &:nth-of-type(2) {
+            grid-column-start: 3;
+        }
+
+        &:nth-of-type(3) {
+            grid-row-start: 2;
+        }
+
+        &:nth-of-type(4) {
+            grid-row-start: 2;
+        }
+
+        &:nth-of-type(5) {
+            grid-row-start: 2;
+        }
+
+        &:nth-of-type(6) {
+            grid-row-start: 2;
+        }
+
+        &:nth-of-type(7) {
+            grid-row-start: 3;
+        }
+
+        &:nth-of-type(8) {
+            grid-row-start: 3;
+        }
+
+        &:nth-of-type(9) {
+            grid-row-start: 3;
+        }
+
+        &:nth-of-type(10) {
+            grid-row-start: 3;
+        }
+    }
+
+    .modboxs-function {
+        grid-column-end: span 4;
+    }
+
+}

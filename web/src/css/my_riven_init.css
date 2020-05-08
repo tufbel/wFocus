@@ -1,0 +1,195 @@
+.my-riven-box {
+  width: 200px;
+  height: 300px;
+  margin: 20px 20px;
+  position: relative;
+  float: left;
+}
+.my-riven-box .below-wrapper {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #8c8fefa3;
+  border-radius: 5px;
+  position: relative;
+}
+.my-riven-box .below-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-riven-box .below-wrapper > div:nth-child(1) {
+  flex: 2;
+  border-bottom: 1px solid #B3B2B2;
+}
+.my-riven-box .below-wrapper > div:nth-child(1) > span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.my-riven-box .below-wrapper > div:nth-child(1) #my-riven-id {
+  display: none;
+}
+.my-riven-box .below-wrapper > div:nth-child(2) {
+  flex: 6;
+  border-bottom: 1px solid #B3B2B2;
+}
+.my-riven-box .below-wrapper > div:nth-child(2) > ul {
+  list-style-type: none;
+}
+.my-riven-box .below-wrapper > div:nth-child(2) > ul > li {
+  font-size: 13px;
+  margin: 5px 0;
+  padding: 0 10px;
+  text-align: center;
+  color: #0033FF;
+  background: #99CCFF;
+  border: 1px solid #0033FF;
+  border-radius: 5px;
+}
+.my-riven-box .below-wrapper > div:nth-child(3) {
+  flex: 2;
+}
+.my-riven-box .below-wrapper > div:nth-child(3) > span {
+  font-size: 20px;
+  color: black;
+  font-family: Fantasy;
+  font-style: italic;
+  text-shadow: 2px -2px 2px white;
+}
+.my-riven-box .below-wrapper .audit-logo {
+  width: 400px;
+  height: 80px;
+  font-size: 28px;
+  color: #faf1f1de;
+  background: #d65030ba;
+  position: absolute;
+  top: 105px;
+  right: -95px;
+  transform: rotate(59deg);
+}
+.my-riven-box .above-wrapper {
+  width: 200px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #60a3bcc2;
+  transition: all 0.2s ease-in;
+}
+.my-riven-box .above-wrapper > ul {
+  list-style-type: none;
+}
+.my-riven-box .above-wrapper > ul > li {
+  font-size: 16px;
+  margin: 15px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  background: #0488e5;
+}
+.my-riven-box .above-wrapper > ul > li:hover {
+  background: #40739e;
+}
+.my-riven-box .above-wrapper > ul > li:nth-child(2) {
+  position: relative;
+}
+.my-riven-box:hover .below-wrapper > span {
+  display: none;
+}
+.my-riven-box:hover .above-wrapper {
+  height: 100%;
+}
+.change-price-box {
+  width: 0;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #6f609b;
+  border-radius: 5px;
+  position: relative;
+}
+.change-price-box > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.change-price-box > div:nth-child(1) {
+  flex: 1.5;
+  border-bottom: 2px solid #B3B2B2;
+}
+.change-price-box > div:nth-child(1) > span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.change-price-box > div:nth-child(1) #my-riven-id {
+  display: none;
+}
+.change-price-box > div:nth-child(2) {
+  flex: 6;
+  border-bottom: 2px solid #B3B2B2;
+}
+.change-price-box > div:nth-child(2) > ul {
+  list-style-type: none;
+}
+.change-price-box > div:nth-child(2) > ul > li {
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 0 20px;
+  text-align: center;
+  color: #0033FF;
+  background: #99CCFF;
+  border: 1px solid #0033FF;
+  border-radius: 5px;
+}
+.change-price-box > div:nth-child(3) {
+  flex: 2.5;
+}
+.change-price-box > div:nth-child(3) > input {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.change-price-box > div:nth-child(3) > input:focus {
+  width: 150px;
+}
+.change-price-box > div:nth-child(3) > button {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.change-price-box .close-change-price {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  cursor: pointer;
+  z-index: 11;
+}
+.change-price-box .close-change-price > i {
+  line-height: 30px;
+  font-size: 30px;
+  color: red;
+}
+.new-msg {
+  color: red;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  display: none;
+}

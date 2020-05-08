@@ -1,0 +1,57 @@
+{% extends 'riven/rivenmarkets_base.html' %}
+
+{% block title %}
+    紫卡市场
+{% endblock %}
+
+{% block link %}
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1501852_4cfzlv5r4s4.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/wf_rivenmarket.css' %}">
+{% endblock %}
+
+{% block ul %}
+    <ul class="menu">
+        <li class="item active"><a href="{% url 'rivenmarket:index' %}">紫卡市场</a></li>
+        <li class="item"><a href="{% url 'rivenmygoods:index' %}">我的紫卡<span class = "icon-dian iconfont title-new-msg"></span></a></li>
+        <li class="item"><a href="{% url 'rivenmygoods:rivencollection' %}">我的收藏</a></li>
+    </ul>
+{% endblock %}
+
+{% block main %}
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="search-wrapper">
+                <input type="text" placeholder="请输入查询的武器"  name="search" value="{{ search }}" autocomplete="off">
+                <button class="search-btn">搜索</button>
+                <div class="all-name-area">
+                    <ul class="all-name-list" search-event="false" >
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="radio-wrapper">
+                <ul class="riven-search-mode">
+                    <li class="mode active">时间</li>
+                    <li class="mode">热度</li>
+                    <li class="mode">价格</li>
+                </ul>
+            </div>
+            <div class="riven-wrapper">
+            
+			</div>
+			<div class="other-wrapper">
+				<button class="load-other">查看更多</button>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+{% block script %}
+    <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
+    <script type="module" src="{% static 'js/riven/riven_list.js' %}"></script>
+    <script type="module" src="{% static 'js/riven/riven_info.js' %}"></script>
+    <script type="module" src="{% static 'js/riven/riven.js' %}"></script>
+    <script type="module" src="{% static 'js/riven/riven_market.js' %}"></script>
+{% endblock %}
+

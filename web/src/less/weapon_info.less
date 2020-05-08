@@ -1,0 +1,150 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-26 13:07:52 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-30 12:56:23
+ * @description: 武器信息框样式
+ */
+
+@import url("../less/base.less");
+
+.weapon-info {
+    width: 100%;
+    padding-bottom: 10px;
+    align-self: start;
+    border-radius: 4px;
+    background-color: rgba(3, 2, 2, 0.7);
+    box-shadow: 0px 0px 2px 1px #fff;
+    display: flex;
+    flex-direction: column;
+
+    article {
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+
+        span {
+            color: orange;
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+
+        img {
+            position: absolute;
+            border: none;
+            top: 0;
+            right: 5px;
+            width: 60px;
+        }
+    }
+
+    section {
+        height: 40px;
+        padding: 0 10px;
+
+        &>span {
+            padding: 0px 10px;
+            pointer-events: none;
+        }
+
+        &:hover {
+            background-color: rgba(4, 73, 143, 0.7);
+        }
+    }
+
+    .imm-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .var-item {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: end;
+
+        &>span:nth-of-type(1) {
+            justify-self: start;
+        }
+    }
+}
+
+.mod-size {
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+    background-color: rgba(170, 169, 169, 0.2);
+
+    i {
+        top: 2px;
+        left: 2px;
+        height: calc(100% - 4px);
+        position: absolute;
+        outline: none;
+        background: repeating-linear-gradient(-45deg,
+                rgba(0, 170, 255, 0.8),
+                rgba(0, 170, 255, 0.8) 15px,
+                transparent 15px,
+                transparent 30px);
+        z-index: -1;
+        width: 0;
+    }
+}
+
+.weapon-pattern {
+    height: 26px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+
+    span {
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 10px;
+    }
+}
+
+.pattern-item {
+    div {
+        display: flex;
+        flex-direction: column;
+
+        [data-pattern="crit_chance"] {
+            order: -3;
+        }
+
+        [data-pattern="crit_multiplier"] {
+            order: -2;
+        }
+
+        [data-pattern="status_chance"] {
+            order: -1;
+        }
+
+        [data-pattern="impact"] {
+            order: -3;
+        }
+
+        [data-pattern="puncture"] {
+            order: -2;
+        }
+
+        [data-pattern="slash"] {
+            order: -1;
+        }
+
+    }
+}

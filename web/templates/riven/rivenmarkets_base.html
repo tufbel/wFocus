@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/riven_login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header_init.css' %}">
+    <link rel="stylesheet" href="{% static 'css/init.css' %}">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1485753_9mdl37k5osw.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1501852_jjudnqt184.css">
+
+    {% block link %}
+
+    {% endblock %}
+</head>
+
+<body>
+    <img class="market-bg" src="{% static 'img/banner_bg.jpg' %}">
+    <header class="header">
+        <div class="container">
+            <div class="logo-box"><a href="javascript:void(0)"></a></div>
+            <div class="nav">
+
+                {% block ul %}
+
+                {% endblock %}
+
+            </div>
+            <div class="user-box">
+                {% if user.is_authenticated %}
+                <span class="icon-wo iconfont"></span>
+                <span id="userinfor-btn"><a href="#">{{ user.username }}</a></span>
+                {% else %}
+                <span id="signin-btn"><a href="{% url 'app_wfusers:sign' %}?next={{ request.path }}">登录</a> /</span>
+                <span><a href="{% url 'app_wfusers:sign' %}?next={{ request.path }}">注册</a></span>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+    <input id="text-copy-data" style="z-index:-1; opacity:0;">
+
+    {% block main %}
+
+    {% endblock %}
+
+    <div class="mask-wrapper">
+        <form action="/" method="POST" style="display:none;">
+            {% csrf_token %}
+        </form>
+        <div class="personal-box">
+            <div class="personal-front-box">
+                <div class="personal-box-img">
+                    <img src="{% static 'img/headerLogo.png' %}" alt="">
+                </div>
+                <div class="personal-front-box-user">
+                    <section>
+                        <div>
+                            <span>账号:</span>
+                            <span id="user-email">{{ user.email }}</span>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <span>昵称:</span>
+                            <span id="user-name">{{ user.username }}</span>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <span>游戏ID:</span>
+                            {% if user.game_name == none %}
+                                <a href="{% url 'app_wfusers:personal_detail' %}"><button id="personal-window">+</button></a>
+                            {% else %}
+                                <span>{{ user.game_name }}</span>
+                                <a href="{% url 'app_wfusers:personal_detail' %}"><button id="personal-window-check">人工审核</button></a>
+                            {% endif %}
+                        </div>
+                    </section>
+                    <div>
+                        <i class="fa fa-sign-out logoff"></i>
+                        <a href="{% url 'app_wfusers:signout' %}?next={{ request.path }}" id="user-logoff">注销</a>
+                    </div>
+                </div>
+            </div>
+            <div class="personal-back-box">
+                <div class="personal-box-img">
+                    <img src="{% static 'img/zhanghao.png' %}" alt="">
+                </div>
+                <div class="personal-back-box-user">
+                    <section>
+                        <input type="text" placeholder="邮箱账号" value="" name='email'>
+                    </section>
+                    <section>
+                        <input type="password" placeholder="密码" value="" name='password'>
+                    </section>
+                    <div>
+                        <button id="user-login">登录</button>
+                        <button>注册</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="close-box"><i class="icon-semon-guanbi1 iconfont"></i></div>
+    </div>
+
+</body>
+<script src=" {% static 'js/utils.js' %} "></script>
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+<script src="{% static 'js/message.js' %}" type="module"></script>
+<script src="{% static 'js/myajax.js' %}"></script>
+<script src="{% static 'js/riven/header.js' %}" type="module"></script>
+<script src="{% static 'js/riven/listen_msg.js' %}"></script>
+<script src="{% static 'js/riven/menu.js' %}" type="module"></script>
+{% block script %}
+
+{% endblock%}
+
+</html>

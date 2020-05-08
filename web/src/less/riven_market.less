@@ -1,0 +1,127 @@
+.main {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+
+    .main-wrapper {
+        width: 1020px;
+        min-height: 700px;
+        margin: 0 auto;
+
+        &>div:nth-child(1) {
+            width: 600px;
+            height: 50px;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+
+            &>input {
+                flex: 8;
+                height: 50px;
+                padding: 10px;
+                outline: none;
+                font-size: 15px;
+            }
+
+            &>button {
+                flex: 2;
+                height: 50px;
+                background: #8e44adb5;
+                color: #ecf0f1;
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            .all-name-area {
+                width: 484px;
+                max-height: 150px;
+                overflow: auto;
+                background: white;
+                position: absolute;
+                top: 50px;
+                left: 0px;
+                z-index: 1;
+
+                .all-name-list {
+                    width: 100%;
+                    list-style: none;
+
+                    &>li {
+                        width: 100%;
+                        height: 30px;
+                        padding-left: 10px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        cursor: pointer;
+                        display: none;
+
+                        &:hover {
+                            background: #cccccc;
+                        }
+                    }
+                }
+            }
+        }
+
+        &>div:nth-child(2) {
+            text-align: center;
+
+            &>ul {
+                width: 285px;
+                overflow: hidden;
+                list-style-type: none;
+                margin: 0 auto;
+                margin-top: 40px;
+                margin-bottom: 10px;
+
+                &>li {
+                    margin: 0 20px;
+                    padding: 5px 10px;
+                    float: left;
+                    font-family: Cursive; //Cursive通用字体系列
+                    border-radius: 5px;
+                    cursor: pointer;
+                    background: #ffffff9e;
+                }
+
+                .active {
+                    background: #8e44adb5;
+                    color: #fff;
+                }
+            }
+        }
+
+        &>div:nth-child(3) {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 30px;
+            // overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        &>div:nth-child(4) {
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+
+            &>button {
+                width: 400px;
+                height: 40px;
+                font-size: 18px;
+                background: #ffffff9e;
+                outline: none;
+                cursor: pointer;
+                border-radius: 5px;
+                font-family: Cursive; //Cursive通用字体系列
+                // letter-spacing: 2px; //字间距
+            }
+        }
+    }
+
+    .text-data {
+        z-index: -1;
+        opacity: 0;
+    }
+}

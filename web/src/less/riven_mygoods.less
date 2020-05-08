@@ -1,0 +1,262 @@
+.main {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+
+    .my-riven-wrapper {
+        width: 1200px;
+        min-height: 700px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+.add-my-riven-box {
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #efeff4a3;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+
+    &>span:nth-child(1) {
+        font-size: 50px;
+        color: #5f5f62;
+    }
+
+    &>span:nth-child(2) {
+        font-size: 19px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        position: absolute;
+        top: 70px;
+        display: none;
+        background: white;
+
+        &>div {
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 29px;
+            left: 48px;
+            transform: rotate(45deg);
+            background: white;
+        }
+    }
+
+    &:hover {
+        #release {
+            display: block;
+        }
+    }
+}
+
+.riven-sell {
+    width: 350px;
+    height: 550px;
+    background: #6f609b;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+
+    .riven-image-wrapper {
+        width: 100px;
+        height: 100px;
+        background: white;
+        position: relative;
+
+        .new-image-logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            font-size: 40px;
+            color: #5f5f62;
+        }
+
+        &>input {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .new-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .new-btn {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: red;
+            color: white;
+            border-radius: 50%;
+            z-index: 2;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .sell-data-wrapper {
+        width: 100%;
+        height: 380px;
+        margin-top: 30px;
+        position: relative;
+
+        .sell-data-above {
+            width: 100%;
+            height: 0;
+            background: #6f609b;
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+
+            .riven-sell-data {
+                width: 100%;
+                height: 213px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+
+                .riven-sell-name {
+                    font-size: 25px;
+                }
+
+                .riven-sell-property {
+                    padding-top: 20px;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    &>li {
+                        font-size: 17px;
+                        margin: 5px auto;
+                    }
+                }
+            }
+
+            .riven-sell-price {
+                margin-top: 40px;
+                height: 30px;
+
+                &>input {
+                    height: 30px;
+                    width: 100px;
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 5px;
+                }
+
+                &>input:focus {
+                    width: 150px;
+                }
+            }
+
+            #riven-sell-btn {
+                width: 80%;
+                padding: 5px 20px;
+                font-size: 18px;
+                border-radius: 5px;
+                margin-top: 20px;
+                background: #908c8c;
+                color: white;
+                outline: none;
+                cursor: pointer;
+            }
+
+            #submit-audit-btn {
+                font-size: 12px;
+                margin-top: 20px;
+                color: #00d0ff;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        .sell-data-below {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &>span {
+                font-size: 14px;
+                line-height: 20px;
+                color: white;
+
+                &>a {
+                    color: #00d0ff;
+                }
+            }
+
+            &>img {
+                margin-top: 10px;
+                width: 200px;
+                height: 280px;
+            }
+        }
+    }
+
+    .close-release-riven {
+        position: absolute;
+        top: -4px;
+        right: -2px;
+
+        &>i {
+            font-size: 30px;
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+
+.other-box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+
+.riven-img-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 12;
+
+    &>img {
+        width: 450px;
+        height: 650px;
+    }
+}

@@ -1,0 +1,52 @@
+{% extends 'index.html' %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/index_home.css' %} ">
+{% endblock %}
+
+{% block title %}
+    <title>首页-wFocus</title>
+{% endblock %}
+
+
+{% block nav %}
+    <li class="nav-li nav-li-now "><a href="javascript:void(0)">首页</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:alerts' %}">实时信息</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:warframes' %}">战术模拟</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:weapons' %}">武器配装</a><span></span></li>
+{% endblock %}
+
+{% block main %}
+        <main class="wf-main">
+        <div class="wf-main-title">
+            <a href="https://www.warframe.com" target="_blank" rel="noopener noreferrer">WARFRAME</a>
+            <p>wFocus是一个多功能Warframe玩家网站，我们提供游戏实时信息查询、配卡模拟及紫卡交易市场等。</p>
+        </div>
+        <div class="wf-main-content">
+            <section>
+                <a href="{% url 'app_index:alerts' %}">
+                    <i class="iconfont icon-warframe"></i>
+                    <h2>实时信息</h2>
+                    <span>突击/赏金/裂缝</span>
+                </a>
+            </section>
+            <section>
+                <a href="{% url 'app_index:warframes' %}">
+                    <i class="iconfont icon-icon-test1"></i>
+                    <h2>战术模拟</h2>
+                    <span>配卡模拟/配卡分享</span>
+                </a>
+            </section>
+            <section>
+                <a href="{% url 'app_index:weapons' %}">
+                    <i class="iconfont icon-weapon_p"></i>
+                    <h2>武器配装</h2>
+                    <span>配卡模拟/配卡分享</span>
+                </a>
+            </section>
+        </div>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

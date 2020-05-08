@@ -1,0 +1,68 @@
+@import url("../../src/less/base.less");
+
+
+.wf-background {
+    position: fixed;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    pointer-events: none;
+
+    section {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.back {
+    pointer-events: none;
+    background-size: cover;
+    animation: flash 24s ease-in-out infinite,
+        backtransform 12s linear infinite;
+
+}
+
+.create-back(@n, @i: 1) when (@i =< @n) {
+    .back@{i} {
+        animation-delay: replace(~"-delays", "delay", "@{i}");
+        background: url("../../src/img/star@{i}.png");
+    }
+
+    .create-back(@n, (@i + 1));
+}
+
+.create-back(8);
+
+@keyframes flash {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        opacity: 0;
+    }
+
+    10%,
+    35%,
+    70%,
+    90% {
+        opacity: 1;
+    }
+}
+
+@keyframes backtransform {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1.6);
+    }
+}

@@ -1,0 +1,79 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:26:16 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-17 19:47:49
+ * @description: 窗口大于等于768px小于1200px的样式。
+ */
+.col-md-1 {
+  grid-column-end: span 1;
+}
+.col-md-2 {
+  grid-column-end: span 2;
+}
+.col-md-3 {
+  grid-column-end: span 3;
+}
+.col-md-4 {
+  grid-column-end: span 4;
+}
+.col-md-5 {
+  grid-column-end: span 5;
+}
+.col-md-6 {
+  grid-column-end: span 6;
+}
+.col-md-7 {
+  grid-column-end: span 7;
+}
+.col-md-8 {
+  grid-column-end: span 8;
+}
+.col-md-9 {
+  grid-column-end: span 9;
+}
+.col-md-10 {
+  grid-column-end: span 10;
+}
+.col-md-11 {
+  grid-column-end: span 11;
+}
+.col-md-12 {
+  grid-column-end: span 12;
+}
+.start-md-1 {
+  grid-column-start: 2;
+}
+.start-md-2 {
+  grid-column-start: 3;
+}
+.start-md-3 {
+  grid-column-start: 4;
+}
+.start-md-4 {
+  grid-column-start: 5;
+}
+.start-md-5 {
+  grid-column-start: 6;
+}
+.start-md-6 {
+  grid-column-start: 7;
+}
+.start-md-7 {
+  grid-column-start: 8;
+}
+.start-md-8 {
+  grid-column-start: 9;
+}
+.start-md-9 {
+  grid-column-start: 10;
+}
+.start-md-10 {
+  grid-column-start: 11;
+}
+.start-md-11 {
+  grid-column-start: 12;
+}
+.start-md-12 {
+  grid-column-start: 13;
+}

@@ -1,0 +1,30 @@
+/* 页眉 */
+@import url(../css/header.css);
+@import url(../css/nav.css);
+@import url(../css/header_user.css);
+@import url(../css/header_manage.css);
+
+/* 页脚 */
+@import url(../css/footer.css);
+
+/* 背景 */
+@import url(../css/background.css);
+
+/* 主内容区域 */
+@import url(../css/warframe_info.css);
+@import url(../css/mods.css);
+@import url(../css/modboxs.css);
+@import url(../css/modboxs_warframe.css);
+@import url(../css/hot_modboxs.css);
+
+.wf-main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-around;
+    align-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: row;
+    grid-auto-rows: 120px;
+    min-height: 480px;
+}

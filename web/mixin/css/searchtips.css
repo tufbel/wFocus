@@ -1,0 +1,47 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-10 22:36:38 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-12-19 14:27:07
+ * @description: 搜索提示框样式
+ */
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search-tips {
+  margin: 12px 5px 5px 5px;
+}
+.search-tips > div:first-of-type {
+  width: 100%;
+  height: 10px;
+  clip-path: polygon(30% 0, calc(30% - 10px) 100%, calc(30% + 7px) 100%);
+  background: #f5f6fa;
+}
+.search-tips > div:last-of-type {
+  width: 100%;
+  max-height: 262px;
+  background: #f5f6fa;
+  border-radius: 5px;
+  border: solid 2px #f5f6fa;
+  border-top: solid 5px #f5f6fa;
+  border-bottom: solid 5px #f5f6fa;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #535c68;
+}
+.search-tip {
+  width: 300px;
+  height: 66px;
+}
+.search-tip:hover {
+  background: rgba(165, 235, 243, 0.61);
+}
+[type="text"] {
+  width: 260px;
+  height: 50px;
+  padding: 0 10px;
+  transform: translateY(-160px);
+}

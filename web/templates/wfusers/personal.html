@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>个人信息-WF</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" >
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1485753_9mdl37k5osw.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/personal.css' %}">
+</head>
+<body>
+<div class="personal">
+    <div class="personal-information">
+        <div class=" information-img">
+            <img src="{% static 'img/personal_logo.jpg' %}">
+        </div>
+        <div class="information-user">
+            <label>邮箱账号：</label>
+            <span id="user_email"></span>
+        </div>
+        <div class="information-user">
+            <label>昵称：</label>
+            <span id="user_name"></span>
+        </div>
+        <div class="information-user check-box">
+            <label>游戏ID：</label>
+            <span id="game_id"></span>
+            <button id="check-btn" judge="false">+</button>
+            <button id="manual-check-btn">人工审核</button>
+        </div>
+    </div>
+    <div class="information-check">
+        <div>
+            <span>游戏ID提交审核</span>
+        </div>
+        <div class="uploadImgBtn" id="uploadImgBtn">
+            <input class="uploadImg" id="file" type="file" name="file">
+        </div>
+        <div>
+            <button type="button" id="submit-btn">提交</button>
+        </div>
+    </div>
+</div>
+<script src=" {% static 'js/jquery-3.4.1.min.js' %} "></script>
+<script src="{% static 'js/myajax.js' %}"></script>
+<script src="{% static 'js/wfuser/personal.js' %}" type="module" ></script>
+</body>
+</html>

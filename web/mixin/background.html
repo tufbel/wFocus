@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1485753_c4woehgym3m.css">
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../src/css/index_home.css">
+    <link rel="stylesheet" href="css/background.css">
+
+
+    <script src="../dist/js/jquery-3.4.1.min.js"></script>
+    <script src="../src/js/wfajax.js"></script>
+    <script src="../src/js/nav.js"></script>
+    <script src="../src/js/header.js"></script>
+
+    <title>WF首页</title>
+</head>
+
+<body>
+    <header class="wf-header">
+        <input type="checkbox" name="header-manage" id="nav-judge">
+        <input type="checkbox" name="header-manage" id="search-judge">
+        <label class="header-nav" for="nav-judge">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="header-logo">
+            <i class="iconfont icon-WF-icon"></i>
+        </div>
+        <nav class="wf-nav">
+            <ul>
+                <li class="nav-li nav-li-now "><a href="#">首页</a><span></span></li>
+                <li class="nav-li"><a href="#">实时信息</a><span></span></li>
+                <li class="nav-li"><a href="#">战术模拟</a><span></span></li>
+                <li class="nav-li"><a href="#">武器配装</a><span></span></li>
+            </ul>
+        </nav>
+        <div class="header-search">
+            <label class="iconfont icon-chaxun" for="search-judge"></label>
+            <input class="search-input" type="text" placeholder="请输入关键字">
+            <article class="search-hint"></article>
+        </div>
+        <div class="header-user">
+            <label class="user-icon" for="user-judge">
+                <!-- <span>L</span><span>U</span> -->
+                <span class="iconfont icon-account"></span><span></span>
+            </label>
+
+            <input type="checkbox" name="header-manage" id="user-judge">
+            <div class="header-mask">
+                <div class="user">
+                    <div>
+                        <label class="iconfont icon-right" for="user-judge"></label>
+                        <!-- <a class="iconfont icon-tuichu"></a> -->
+                    </div>
+                    <article class="user-details">
+                        <article class="user-icon">
+                            <!-- <span>L</span><span>U</span> -->
+                            <span></span><span class="iconfont icon-account"></span>
+                        </article>
+                        <article>
+                            <a href="#">登录</a>
+                        </article>
+                    </article>
+                    <div class="user-function">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-account"></i>
+                                    <span>个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-cart-full-fill"></i>
+                                    <span>紫卡市场</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-admin"></i>
+                                    <span>后台管理</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="wf-main">
+        主内容区域
+    </main>
+    <footer class="wf-footer">
+        <div class="footer-content">
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <div class="footer-logo">
+                    <i class="iconfont icon-WF-icon"></i>
+                </div>
+                <span class="footer-webname">Warframe/Focus Created By 2020</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>Warframe Focus</h1>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <a href="#">关于我们</a>
+                        <span>&ensp;|&ensp;</span>
+                        <a href="#">使用帮助</a>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <span>孙海超</span>
+                        <span>&ensp;|&ensp;</span>
+                        <span>吴伟东</span>
+                    </div>
+                </section>
+                <section>
+                    <span class="col-lg-3 col-md-2 col-sm-3"></span>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <address>yusheng@gmail.com</address>
+                    </div>
+                </section>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-12">
+                <h1>友情链接</h1>
+                <section>
+                    <a href="#">Warframe官网 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文维基 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+                <section>
+                    <a href="#">Warframe中文论坛 <sup><i class="iconfont icon-external"></i></sup></a>
+                </section>
+            </article>
+        </div>
+    </footer>
+    <div class="wf-background">
+        <section class="back back1"></section>
+        <section class="back back2"></section>
+        <section class="back back3"></section>
+        <section class="back back4"></section>
+        <section class="back back5"></section>
+        <section class="back back6"></section>
+        <section class="back back7"></section>
+        <section class="back back8"></section>
+    </div>
+
+</body>
+
+</html>

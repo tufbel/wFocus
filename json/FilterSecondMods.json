@@ -1,0 +1,6959 @@
+[
+  {
+    "baseDrain": 6,
+    "description": "Link Augment: Reduces Armor Rating by 25% on enemies targeted by Link.",
+    "fusionLimit": 3,
+    "name": "Abating Link",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Fire Rate,+15% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Accelerated Blast",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Whipclaw Augment: Hitting 3 enemies will grant a 10% stacking Damage Bonus to subsequent Whipclaws. Bonus will decay after 10s.",
+    "fusionLimit": 3,
+    "name": "Accumulating Whipclaw",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Enemies explode on death, dealing 75 <DT_CORROSIVE>Corrosive Damage (+8% Enemy Max Health) in a 2.5m radius.",
+    "fusionLimit": 5,
+    "name": "Acid Shells",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "When Damaged:+5% Resistance to that Damage Type for 10s. Stacks up to 90%.",
+    "fusionLimit": 10,
+    "name": "Adaptation",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5% Mobility,-6.2 Health",
+    "fusionLimit": 3,
+    "name": "Adept Surge",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Grenades have 17% chance to stick to surfaces.",
+    "fusionLimit": 5,
+    "name": "Adhesive Blast",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+12.5% Energy,-5% Health",
+    "fusionLimit": 3,
+    "name": "Adrenaline Boost",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Reload Speed while Aim Gliding",
+    "fusionLimit": 3,
+    "name": "Aero Agility",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-12.5% Zoom while Aim Gliding",
+    "fusionLimit": 3,
+    "name": "Aero Periphery",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Reduced Gravity during Aim Glide",
+    "fusionLimit": 3,
+    "name": "Aero Vantage",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Reduces damage by 4% when Airborne.,+1s Aim Glide/Wall Latch Duration",
+    "fusionLimit": 5,
+    "name": "Aerodynamic",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 25 Damage for each second the ability was active, to a maximum of 200 Damage.",
+    "fusionLimit": 3,
+    "name": "Afterburn",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Movement Speed when Aiming",
+    "fusionLimit": 3,
+    "name": "Agile Aim",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Reduces damage by 2% when Airborne.,+1% Evasion",
+    "fusionLimit": 5,
+    "name": "Agility Drift",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-10% Zoom during Aim Glide",
+    "fusionLimit": 5,
+    "name": "Air Recon",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+25% Slide Boost when Airborne,-5% Mobility",
+    "fusionLimit": 3,
+    "name": "Air Thrusters",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+0.5 Punch Through,Damage from Daggers reduces Armor by 1.<LINE_SEPARATOR>Enemies are revealed by Punch Through.",
+    "fusionLimit": 5,
+    "name": "Amalgam Argonak Metal Auger",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+18% Multishot,+10% Dodge Speed",
+    "fusionLimit": 5,
+    "name": "Amalgam Barrel Diffusion",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+12.5% to Headshot Multiplier,+0.5% Life Steal on Nikanas,<LINE_SEPARATOR>10% chance to pickup used arrows.",
+    "fusionLimit": 5,
+    "name": "Amalgam Daikyu Target Acquired",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+2.5s Combo Duration+3% Blast Radius on Specialized Launchers<LINE_SEPARATOR>Melee kills knockdown enemies within 2.5m",
+    "fusionLimit": 5,
+    "name": "Amalgam Furax Body Count",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+7.5% Magazine Capacity,+16.7% Combo Count Chance while Blocking with a Shield",
+    "fusionLimit": 5,
+    "name": "Amalgam Javlok Magazine Warp",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+14% Critical Damage,+10% Heavy Attack Wind Up Speed",
+    "fusionLimit": 5,
+    "name": "Amalgam Organ Shatter",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+13% Critical Chance,+3% Reload Speed on Shotguns,<LINE_SEPARATOR>+17% Gore Chance",
+    "fusionLimit": 5,
+    "name": "Amalgam Ripkas True Steel",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+14% Damage,+2% Sprint Speed",
+    "fusionLimit": 10,
+    "name": "Amalgam Serration",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+14% Fire Rate,+8% Revive Speed",
+    "fusionLimit": 5,
+    "name": "Amalgam Shotgun Spazz",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-12.5% Zoom",
+    "fusionLimit": 3,
+    "name": "Ambush Optics",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Ammo Maximum",
+    "fusionLimit": 5,
+    "name": "Ammo Drum",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% Magazine Capacity",
+    "fusionLimit": 5,
+    "name": "Ammo Stock",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Fire Rate,-2.5% Damage",
+    "fusionLimit": 5,
+    "name": "Anemic Agility",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5 <DT_EXPLOSION>Blast Resistance,-2.5% Mobility",
+    "fusionLimit": 3,
+    "name": "Anti-Flak Plating",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Immune to Knockdown for an additional +1s after being knocked down.,Immune to Stagger for an additional +1s after being Staggered.",
+    "fusionLimit": 3,
+    "name": "Anticipation",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Antimatter Drop Augment: Absorbs enemy bullets within 1m, increasing its damage when it explodes.",
+    "fusionLimit": 3,
+    "name": "Antimatter Absorb",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Antimatter Drop Augment: Creates a fully charged stationary orb that explodes after 12s or within enemy proximity.",
+    "fusionLimit": 3,
+    "name": "Antimatter Mine",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+7.5% <DT_POISON>Toxin Resistance",
+    "fusionLimit": 5,
+    "name": "Antitoxin",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:,Reveals target on Minimap for +1s.",
+    "fusionLimit": 5,
+    "name": "Apex Predator",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Argent Scourge",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Headshot:+22.5% Critical Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Argon Scope",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Damage Resistance during Bullet Jump,+0 Mobility",
+    "fusionLimit": 3,
+    "name": "Armored Acrobatics",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+2.5% Sprint Speed,+7.5% Armor",
+    "fusionLimit": 5,
+    "name": "Armored Agility",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Damage Resistance while Dodging,-2.5% Mobility",
+    "fusionLimit": 3,
+    "name": "Armored Evade",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+12.5% Damage Resistance when knocked down,-5% Slide",
+    "fusionLimit": 3,
+    "name": "Armored Recovery",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Converts unused ammo pickups into Arrows. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 5,
+    "name": "Arrow Mutation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Absorb Augment: Nyx can move at 30% Speed while using Absorb, but the area is reduced by half.",
+    "fusionLimit": 3,
+    "name": "Assimilate",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Orbiting slashes and lashing strikes.",
+    "fusionLimit": 3,
+    "name": "Astral Twilight",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Rapid strikes, deceptive movements.",
+    "fusionLimit": 3,
+    "name": "Atlantis Vulcan",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Auger Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+30% Shield Capacity",
+    "fusionLimit": 5,
+    "name": "Augur Accord",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+4% Ability Duration",
+    "fusionLimit": 5,
+    "name": "Augur Message",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Damage",
+    "fusionLimit": 5,
+    "name": "Augur Pact",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Ability Range",
+    "fusionLimit": 5,
+    "name": "Augur Reach",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+4% Ability Strength",
+    "fusionLimit": 5,
+    "name": "Augur Secrets",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Status Duration",
+    "fusionLimit": 5,
+    "name": "Augur Seeker",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack.,+0.3 'Truth'",
+    "fusionLimit": 3,
+    "name": "Avenging Truth",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Reduces damage by 10% when Airborne.",
+    "fusionLimit": 3,
+    "name": "Aviator",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Ballistic Battery Augment: Applies a 70% Status Chance bonus to the shot, based on the amount charged.",
+    "fusionLimit": 3,
+    "name": "Ballistic Bullseye",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 5,
+    "name": "Bane Of Corpus",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 5,
+    "name": "Bane Of Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 5,
+    "name": "Bane Of Grineer",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 5,
+    "name": "Bane Of Infested",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% Multishot",
+    "fusionLimit": 5,
+    "name": "Barrel Diffusion",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+3% to Bullet Jump,+3% Aim Glide/Wall Latch Duration,+10% <DT_IMPACT>Impact on Bullet Jump",
+    "fusionLimit": 5,
+    "name": "Battering Maneuver",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Lantern Augment: Attracted enemies take 25% more Melee Damage.",
+    "fusionLimit": 3,
+    "name": "Beguiling Lantern",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Attack Speed (Max: 75%) for 4s on Critical Hit",
+    "fusionLimit": 5,
+    "name": "Berserker",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Biting Piranha",
+    "polarity": "Unairu",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Melee Damage,+0.3 'Truth'",
+    "fusionLimit": 3,
+    "name": "Blade Of Truth",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Kill:+20% Critical Damage when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Bladed Rounds",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Damage,+15% <DT_FIRE>Heat",
+    "fusionLimit": 3,
+    "name": "Blaze",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "A blend of strong and rapid strikes with leaping combos.",
+    "fusionLimit": 3,
+    "name": "Bleeding Willow",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Reverse grip style emphasizing slashing and impaling strikes.",
+    "fusionLimit": 3,
+    "name": "Blind Justice",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+9% Ability Strength,-5% Ability Efficiency",
+    "fusionLimit": 10,
+    "name": "Blind Rage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Projectile Speed,-1% Accuracy",
+    "fusionLimit": 3,
+    "name": "Blind Shot",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Reave Augment: Enemies hit are blinded by fog for 6s.",
+    "fusionLimit": 3,
+    "name": "Blinding Reave",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5.5% Critical Chance stacks with Combo Multiplier",
+    "fusionLimit": 10,
+    "name": "Blood Rush",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Critical Chance",
+    "fusionLimit": 5,
+    "name": "Blunderbuss",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2s Combo Duration",
+    "fusionLimit": 5,
+    "name": "Body Count",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Bore",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:,Reveals target on Minimap for +1s.",
+    "fusionLimit": 5,
+    "name": "Bounty Hunter",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Headshot:+25% Ammo Efficiency for 0s",
+    "fusionLimit": 3,
+    "name": "Brain Storm",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Breach Loader",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "On Ability Cast:,Converts 25% of Energy spent to Shields while Overshields are inactive.",
+    "fusionLimit": 5,
+    "name": "Brief Respite",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Melee Damage,+0.3 'Purity'",
+    "fusionLimit": 3,
+    "name": "Bright Purity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-10% Zoom during Aim Glide",
+    "fusionLimit": 5,
+    "name": "Broad Eye",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Round-house attacks and leaping fists.",
+    "fusionLimit": 3,
+    "name": "Brutal Tide",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Sharpened blades dance with gunfire.",
+    "fusionLimit": 3,
+    "name": "Bullet Dance",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Magazine Capacity,-3% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Burdened Magazine",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Chaining combos.",
+    "fusionLimit": 3,
+    "name": "Burning Wasp",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "The infested mass accumulates 50% of the damage that goes through it and deals it in 15m radius when it expires. Secondary fire will manually detonate an existing mass.",
+    "fusionLimit": 5,
+    "name": "Bursting Mass",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Buzz Kill",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-2.5% Mobility,+6.3% Health",
+    "fusionLimit": 3,
+    "name": "Calculated Spring",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:-25% Shield Recharge Delay for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Calculated Victory",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rest & Rage Augment: Killing an affected enemy causes the effect to spread to enemies within 2m for 40% of the remaining duration.",
+    "fusionLimit": 3,
+    "name": "Calm & Frenzy",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Discharge Augment: Converts 1.5% of Damage dealt into Shields split between Volt and Squadmates.",
+    "fusionLimit": 3,
+    "name": "Capacitance",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Strong slashes and quick stabs that keeps momentum forward.",
+    "fusionLimit": 3,
+    "name": "Carving Mantis",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Cataclysm Augment: Duration increased by 0.3s for each enemy killed.",
+    "fusionLimit": 3,
+    "name": "Cataclysmic Continuum",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Ability Cast:+10% Status Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Catalyzer Link",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 0,
+    "description": "-9% Self-damage-5% Total Damage",
+    "fusionLimit": 10,
+    "name": "Cautious Shot",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Celestial Nightfall",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Celestial Twin Augment: Hold to command the twin to perform a slam attack suspending enemies in the air within 12m for 25 Energy.",
+    "fusionLimit": 3,
+    "name": "Celestial Stomp",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Chaos Augment: Enemies entering the Effect Range will be inflicted with Chaos. Effect Range lasts for 25% of the ability duration and shrinks over time.",
+    "fusionLimit": 3,
+    "name": "Chaos Sphere",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Damage on first shot in Magazine",
+    "fusionLimit": 3,
+    "name": "Charged Chamber",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 5,
+    "name": "Charged Shell",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Snow Globe Augment: Enemies that enter have a 30% chance to become frozen solid for 4s.",
+    "fusionLimit": 3,
+    "name": "Chilling Globe",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FREEZE>Cold",
+    "fusionLimit": 5,
+    "name": "Chilling Grasp",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% <DT_FREEZE>Cold,+10% Reload Speed",
+    "fusionLimit": 3,
+    "name": "Chilling Reload",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Exalted Blade Augment: Exalted Blade's Damage Type changes depending on Excalibur's Emissive Color, and Status Chance is increased by 25%.",
+    "fusionLimit": 3,
+    "name": "Chromatic Blade",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Arcing strikes and focused combos.",
+    "fusionLimit": 3,
+    "name": "Clashing Forest",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 5,
+    "name": "Cleanse Corpus",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 5,
+    "name": "Cleanse Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 5,
+    "name": "Cleanse Grineer",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 5,
+    "name": "Cleanse Infested",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Arcing cuts with spinning finish.",
+    "fusionLimit": 3,
+    "name": "Cleaving Whirlwind",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2.5% Aura Strength,+2.5% Aura Effectiveness",
+    "fusionLimit": 5,
+    "name": "Coaction Drift",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Powerful arcing strikes with energetic flips.",
+    "fusionLimit": 3,
+    "name": "Coiling Viper",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Collision Force",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Lose 1 Health on killAllies gain 5 Health on kill",
+    "fusionLimit": 5,
+    "name": "Combat Discipline",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Enemies killed explode, dealing 100 Damage shortly after death.",
+    "fusionLimit": 5,
+    "name": "Combustion Beam",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_IMPACT>Impact",
+    "fusionLimit": 3,
+    "name": "Comet Rounds",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% Chance to Explode (Use with Caution)",
+    "fusionLimit": 3,
+    "name": "Concealed Explosives",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Artemis Bow Augment: Fires a single arrow that has +20% Critical Chance on Headshots and explodes in a 7m radius. Removes Punch Through.",
+    "fusionLimit": 3,
+    "name": "Concentrated Arrow",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Concussion Rounds",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+20% Melee Damage per Status Type affecting the target.",
+    "fusionLimit": 5,
+    "name": "Condition Overload",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Resonator Augment: Reactivate the ability to command Resonator to move to your aim point at 100% Speed.",
+    "fusionLimit": 3,
+    "name": "Conductor",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+10% Faster Knockdown Recovery,+7% Ability Duration",
+    "fusionLimit": 3,
+    "name": "Constitution",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Toxic Lash Augment: Create 5m toxic clouds, dealing 150 <DT_POISON>Toxin/s for 8s with every kill. Damage is twice as strong for Melee kills.",
+    "fusionLimit": 3,
+    "name": "Contagion Cloud",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_POISON>Toxin",
+    "fusionLimit": 5,
+    "name": "Contagious Spread",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+3% Ability Duration",
+    "fusionLimit": 3,
+    "name": "Continuity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Status Duration",
+    "fusionLimit": 3,
+    "name": "Continuous Misery",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 5,
+    "name": "Convulsion",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tempest Barrage Augment: Each projectile has a 50% chance of inflicting a <DT_CORROSIVE>Corrosive Status Effect.",
+    "fusionLimit": 3,
+    "name": "Corroding Barrage",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Enemy armor reduced.,-5% Armor",
+    "fusionLimit": 5,
+    "name": "Corrosive Projection",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+7.5 Initial Combo,-12.5% Combo Duration",
+    "fusionLimit": 3,
+    "name": "Corrupt Charge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Polarize Augment: Enemy weapons are jammed and robotics are disabled for 2s when hit by Polarize.",
+    "fusionLimit": 3,
+    "name": "Counter Pulse",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_IMPACT>Impact",
+    "fusionLimit": 3,
+    "name": "Counterweight",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+4 Initial Combo,+25% Finisher Damage",
+    "fusionLimit": 3,
+    "name": "Covert Lethality",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Crash Course",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_IMPACT>Impact",
+    "fusionLimit": 3,
+    "name": "Crash Shot",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Crashing Havoc",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Crashing Timber",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+8% Critical Chance,-6% Fire Rate",
+    "fusionLimit": 5,
+    "name": "Creeping Bullseye",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Terrify Augment: Affected enemies have 30% reduced Movement Speed.",
+    "fusionLimit": 3,
+    "name": "Creeping Terrify",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Strong whirlwind attacks.",
+    "fusionLimit": 3,
+    "name": "Crimson Dervish",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+8% Critical Chance,-5% Fire Rate",
+    "fusionLimit": 5,
+    "name": "Critical Deceleration",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+8% Critical Chance,-6% Fire Rate (x2 for Bows)",
+    "fusionLimit": 5,
+    "name": "Critical Delay",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Multi-angle strikes and deadly thrust attacks.",
+    "fusionLimit": 3,
+    "name": "Crossing Snakes",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Aerial attacks with Crowd Control combos.",
+    "fusionLimit": 3,
+    "name": "Crushing Ruin",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FREEZE>Cold",
+    "fusionLimit": 5,
+    "name": "Cryo Rounds",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Cunning Aspect",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2% Slide,-5% Friction,+2.5% Ability Range",
+    "fusionLimit": 5,
+    "name": "Cunning Drift",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Undertow Augment: Allies can enter the pool to regain 15% Health every 1.5s, with each ally in the pool increasing Energy drain on Hydroid.",
+    "fusionLimit": 3,
+    "name": "Curative Undertow",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Brutal strikes with deft movement.",
+    "fusionLimit": 3,
+    "name": "Cyclone Kraken",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Sniper Rifle damage increased.,+8.8% Damage",
+    "fusionLimit": 5,
+    "name": "Dead Eye",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Critical Chance,+0.3 'Sequence'",
+    "fusionLimit": 3,
+    "name": "Deadly Sequence",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Decoy Augment: 20% of damage Loki takes is transferred to Decoy, and vice versa.",
+    "fusionLimit": 3,
+    "name": "Deceptive Bond",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fierce, double-handed strikes.",
+    "fusionLimit": 3,
+    "name": "Decisive Judgement",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FREEZE>Cold",
+    "fusionLimit": 5,
+    "name": "Deep Freeze",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Reckoning Augment: Health Orbs become unusable by enemies for 2.5s.",
+    "fusionLimit": 3,
+    "name": "Defiled Reckoning",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Sudden lashes, lethal slashes.",
+    "fusionLimit": 3,
+    "name": "Defiled Snapdragon",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Headshot:+2.5 Mobility for 1s",
+    "fusionLimit": 3,
+    "name": "Deft Tempo",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-10% Magazine Capacity,+8% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Depleted Reload",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Desiccation Augment: Killing a blinded enemy with a finisher has a 35% chance of summoning a Sand Shadow.",
+    "fusionLimit": 3,
+    "name": "Desiccation'S Curse",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Desecrate Augment: No longer consumes Energy, but consumes 16 Health per corpse instead.",
+    "fusionLimit": 3,
+    "name": "Despoil",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+7.5% <DT_RADIATION>Radiation Resistance",
+    "fusionLimit": 5,
+    "name": "Diamond Skin",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+25% Accuracy when Aiming",
+    "fusionLimit": 3,
+    "name": "Directed Convergence",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Secondary Fire mode has a 10% chance to disarm enemies.,+0.3 'Purity'",
+    "fusionLimit": 3,
+    "name": "Disarming Purity",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Soul Punch Augment: Depletes up to 10 Energy from the target.",
+    "fusionLimit": 3,
+    "name": "Discharge Strike",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Heavy Attack Hit:+10% Movement Speed for 3s",
+    "fusionLimit": 5,
+    "name": "Dispatch Overdrive",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Disruptor",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Dividing Blades",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Hit:5% Bonus Damage on next Hit for 1s",
+    "fusionLimit": 3,
+    "name": "Double Tap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-5% Recoil and Spread when Sliding",
+    "fusionLimit": 3,
+    "name": "Double-Barrel Drift",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+25% chance of Energy Drain explosion,-15% Magazine Capacity,-15% Ammo Maximum",
+    "fusionLimit": 3,
+    "name": "Draining Gloom",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Dread Mirror Augment: Become unkillable for 3s when Dread Mirror kills a target by ripping its life force.",
+    "fusionLimit": 3,
+    "name": "Dread Ward",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5s Combo Duration,+10% Status Chance",
+    "fusionLimit": 3,
+    "name": "Drifting Contact",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Metamorphosis Augment: Equinox's other half breaks free for 7s, dealing 100% Damage.",
+    "fusionLimit": 3,
+    "name": "Duality",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Zoom",
+    "fusionLimit": 3,
+    "name": "Eagle Eye",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Only consume ammo when dealing damage.,+25% Status Chance",
+    "fusionLimit": 5,
+    "name": "Efficient Beams",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Magazine Reloaded/s when Holstered",
+    "fusionLimit": 3,
+    "name": "Eject Magazine",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "While blocking, redirect 25% of damage taken by allies within 2m to yourself.",
+    "fusionLimit": 5,
+    "name": "Electromagnetic Shielding",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Sandstorm Augment: Sandstorm has a 25% chance of inflicting Status Effects based on the Damage Types and mods on equipped Melee Weapon.",
+    "fusionLimit": 3,
+    "name": "Elemental Sandstorm",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Rapid attacks using sword and shield.",
+    "fusionLimit": 3,
+    "name": "Eleventh Storm",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Ability Cast:+15% Status Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Embedded Catalyzer",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+12.5% Reload Speed for 1s",
+    "fusionLimit": 3,
+    "name": "Emergent Aftermath",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Corpus enemies have reduced Accuracy.,-2.5% Hit Chance",
+    "fusionLimit": 5,
+    "name": "Emp Aura",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": -2,
+    "description": "+10% Status Chance and Status Damage on Heavy Attacks, but drains 15 Shields per hit.",
+    "fusionLimit": 5,
+    "name": "Empowered Blades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Quiver Augment: Dashwire grants allies 75% Critical Damage. Cloak arrow has a 50% chance to prevent Status Effects.",
+    "fusionLimit": 3,
+    "name": "Empowered Quiver",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2.5% Energy Max,+2% Parkour Velocity",
+    "fusionLimit": 5,
+    "name": "Endurance Drift",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+16.7% Status Chance on Lifted enemies",
+    "fusionLimit": 5,
+    "name": "Enduring Affliction",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Additional Combo Count Chance on Lifted enemies",
+    "fusionLimit": 3,
+    "name": "Enduring Strike",
+    "polarity": "Zenurik",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Enemies appear on Minimap.,+5 Enemy Radar",
+    "fusionLimit": 5,
+    "name": "Enemy Radar",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+3 Enemy Radar",
+    "fusionLimit": 3,
+    "name": "Enemy Sense",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Converts 50% of Energy used to up to 50 Bonus Damage on next Melee Attack.",
+    "fusionLimit": 3,
+    "name": "Energy Channel",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "Energy orbs grant 9% more Ability Strength to your next cast.",
+    "fusionLimit": 5,
+    "name": "Energy Conversion",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Warframe Energy regenerates.,+0.1 Energy Rate",
+    "fusionLimit": 5,
+    "name": "Energy Siphon",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Mend & Maim Augment: 50% of charge is conserved when switching between forms.",
+    "fusionLimit": 3,
+    "name": "Energy Transfer",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5 Base Status Chance,+0.3 'Entropy'",
+    "fusionLimit": 3,
+    "name": "Entropy Burst",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Lethal ground attacks cause enemies to explode dealing +250,(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage,in a +2.5m radius.,+0.3 'Entropy'",
+    "fusionLimit": 3,
+    "name": "Entropy Detonation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+35% Projectile Speed,+0.3 'Entropy'",
+    "fusionLimit": 3,
+    "name": "Entropy Flight",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Chance to Explode (Use with Caution),+0.3 'Entropy'",
+    "fusionLimit": 3,
+    "name": "Entropy Spike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Cloud Walker Augment: Allies within 2.5m of the cloud become invisible to enemies for 8s.",
+    "fusionLimit": 3,
+    "name": "Enveloping Cloud",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Health pickups give +8% Energy. Energy pickups give +8% Health.",
+    "fusionLimit": 3,
+    "name": "Equilibrium",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Magazine Capacity,+0.3 'Blight'",
+    "fusionLimit": 3,
+    "name": "Eroding Blight",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Worm Hole Augment: Allies that travel through wormhole gain a 30% Speed bonus for 4s.",
+    "fusionLimit": 3,
+    "name": "Escape Velocity",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Warcry Augment: While active, Warcry's duration is increased by 1.25s for each Melee Kill.",
+    "fusionLimit": 3,
+    "name": "Eternal War",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Elemental Ward Augment: Allies that leave the radius will retain the effect for 50% of the remaining duration.",
+    "fusionLimit": 3,
+    "name": "Everlasting Ward",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Inferno Augment: Enemies killed while under the effect of Inferno have a 5% chance to drop an energy orb.",
+    "fusionLimit": 3,
+    "name": "Exothermic",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 5,
+    "name": "Expel Corpus",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 5,
+    "name": "Expel Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 5,
+    "name": "Expel Grineer",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 5,
+    "name": "Expel Infested",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Enemies killed explode, dealing 50 Damage shortly after death.",
+    "fusionLimit": 5,
+    "name": "Explosive Demise",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Sleight of Hand Augment: Ammo and Orbs pickups are turned into proximity mines that deal 250 Damage with a 50% Status Chance.",
+    "fusionLimit": 3,
+    "name": "Explosive Legerdemain",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Pulling an enemy will give +100% Critical Chance for 15s.",
+    "fusionLimit": 5,
+    "name": "Exposing Harpoon",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Fanged Fusillade",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Shield Recharge",
+    "fusionLimit": 5,
+    "name": "Fast Deflection",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Fast Hands",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Projectile Speed",
+    "fusionLimit": 3,
+    "name": "Fatal Acceleration",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Teleport Augment: Teleport will perform a Finisher on the target, dealing 125% Extra Damage. 50% of Energy cost is refunded on a kill.",
+    "fusionLimit": 3,
+    "name": "Fatal Teleport",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Fateful Truth",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Projectile Speed,-5% Damage",
+    "fusionLimit": 3,
+    "name": "Feathered Arrows",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_POISON>Toxin",
+    "fusionLimit": 5,
+    "name": "Fever Strike",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Low Health:+7.5% Ability Strength+7.5% Casting Speed for 2s",
+    "fusionLimit": 3,
+    "name": "Final Act",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Powerful slashes and shield attacks.",
+    "fusionLimit": 3,
+    "name": "Final Harbinger",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On 4 Hits within .05s:+25% Damage for 0s",
+    "fusionLimit": 3,
+    "name": "Final Tap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Finisher Damage",
+    "fusionLimit": 3,
+    "name": "Finishing Touch",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Fireball Augment: Hold to cast will grant all allies within 15m an additional 50% <DT_FIRE>Heat Damage to their attacks for 28s.",
+    "fusionLimit": 3,
+    "name": "Fireball Frenzy",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Improves the blast radius of Specialized Launchers.,+6% Blast Radius",
+    "fusionLimit": 3,
+    "name": "Firestorm",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.2% to Bullet Jump,+2.2% Aim Glide/Wall Latch Duration,+25% <DT_FIRE>Heat on Bullet Jump",
+    "fusionLimit": 10,
+    "name": "Firewalker",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Lifting strikes and whirlwind combos.",
+    "fusionLimit": 3,
+    "name": "Flailing Branch",
+    "polarity": "Unairu",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_SLASH>Slash",
+    "fusionLimit": 3,
+    "name": "Flak Shot",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% <DT_FIRE>Heat Resistance",
+    "fusionLimit": 5,
+    "name": "Flame Repellent",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Flechette",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Ability Efficiency,-10% Ability Duration",
+    "fusionLimit": 5,
+    "name": "Fleeting Expertise",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+18% Energy Max",
+    "fusionLimit": 3,
+    "name": "Flow",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Status Chance fluctuates between +25% and +41% over 5s while the beam is fired.",
+    "fusionLimit": 5,
+    "name": "Flux Overdrive",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Melee Combo Efficiency,+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 3,
+    "name": "Focus Energy",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "When Aiming:,+20% Projectile Speed",
+    "fusionLimit": 3,
+    "name": "Focused Acceleration",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5 Parry Angle",
+    "fusionLimit": 3,
+    "name": "Focused Defense",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Respawn:,+2.5 Energy",
+    "fusionLimit": 3,
+    "name": "Follow Through",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Flak now bounces up to 1x and travels 15% faster.",
+    "fusionLimit": 3,
+    "name": "Fomorian Accelerant",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Chance to Resist Knockdown,+20% Shield Recharge",
+    "fusionLimit": 3,
+    "name": "Fortitude",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast strikes, powerful slams.",
+    "fusionLimit": 3,
+    "name": "Four Riders",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Crush Augment: Survivors have their Armor decreased by 20% and become unable to move for 4s.",
+    "fusionLimit": 3,
+    "name": "Fracturing Crush",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast, multi-hit strikes with powerful finishers.",
+    "fusionLimit": 3,
+    "name": "Fracturing Wind",
+    "polarity": "Unairu",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Fire Rate,-2.5% Damage",
+    "fusionLimit": 5,
+    "name": "Frail Momentum",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Freeze Augment: Hold to cast will grant all allies within 15m an additional 50% <DT_FREEZE>Cold Damage to their attacks for 28s.",
+    "fusionLimit": 3,
+    "name": "Freeze Force",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FREEZE>Cold,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Frigid Blast",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FREEZE>Cold,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Frostbite",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity,-2.5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Full Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Full Contact",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Improves the Blast Radius of secondary launcher weapons.,+6% Blast Radius",
+    "fusionLimit": 3,
+    "name": "Fulmination",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tornado Augment: Creates 2 additional tornadoes. All tornadoes are 50% their original size and won't pick up enemies.",
+    "fusionLimit": 3,
+    "name": "Funnel Clouds",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Radial Javelin Augment: Each enemy hit will increase Excalibur's Melee Damage by 6% for 9s.",
+    "fusionLimit": 3,
+    "name": "Furious Javelin",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Attack Speed",
+    "fusionLimit": 5,
+    "name": "Fury",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Slow, powerful strikes.",
+    "fusionLimit": 3,
+    "name": "Gaia'S Tragedy",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% of Melee Damage converted to <DT_IMPACT>Impact Damage on Jump Kick, knocking down nearby enemies on kill.",
+    "fusionLimit": 3,
+    "name": "Gale Kick",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "A style exhibiting sweeping slash attacks and swift jabs.",
+    "fusionLimit": 3,
+    "name": "Gemini Cross",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Fire Rate,+0.3 'Truth'",
+    "fusionLimit": 3,
+    "name": "Gilded Truth",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+7.5% Armor",
+    "fusionLimit": 5,
+    "name": "Gladiator Aegis",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Drains Energy to stop Lethal Damage with 10% Efficiency.",
+    "fusionLimit": 5,
+    "name": "Gladiator Finesse",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage",
+    "fusionLimit": 5,
+    "name": "Gladiator Might",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+30% Health",
+    "fusionLimit": 5,
+    "name": "Gladiator Resolve",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+1s Combo Duration",
+    "fusionLimit": 5,
+    "name": "Gladiator Rush",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Attack Speed",
+    "fusionLimit": 5,
+    "name": "Gladiator Vice",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Status Chance,+0.3 'Blight'",
+    "fusionLimit": 3,
+    "name": "Gleaming Blight",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast arcing strikes.",
+    "fusionLimit": 3,
+    "name": "Gleaming Talon",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Lunging punctures with impaling spirals.",
+    "fusionLimit": 3,
+    "name": "Gnashing Payara",
+    "polarity": "Unairu",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+7.5% Fire Rate for 1s",
+    "fusionLimit": 3,
+    "name": "Gorgon Frenzy",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Pull Augment: Adds 40% chance to pull pickups towards Mag.",
+    "fusionLimit": 3,
+    "name": "Greedy Pull",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Lightning fast hit chains and hard-hitting combos.",
+    "fusionLimit": 3,
+    "name": "Grim Fury",
+    "polarity": "Unairu",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+15% Accuracy when Aiming",
+    "fusionLimit": 3,
+    "name": "Grinloked",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Applying Status Effects with weapons increase Ability Strength by 4% for 1s.",
+    "fusionLimit": 5,
+    "name": "Growing Power",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Blocking taunts enemies within 6 meters to target you instead of allies.,+5% Combo Count Chance while Blocking",
+    "fusionLimit": 5,
+    "name": "Guardian Derision",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Effigy Augment: Cast and hold to make Effigy move to your aim point. Deals 500 Damage/s to enemies in its path and roars on arrival stunning nearby enemies.",
+    "fusionLimit": 3,
+    "name": "Guided Effigy",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:+5% Accuracy when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Guided Ordnance",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-5% Recoil and Spread when Sliding",
+    "fusionLimit": 3,
+    "name": "Gun Glide",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+12% Fire Rate",
+    "fusionLimit": 5,
+    "name": "Gunslinger",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Hall of Mirrors Augment: The damage of your doppelgangers is increased by 2% every time you kill an enemy.",
+    "fusionLimit": 3,
+    "name": "Hall Of Malevolence",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Hallowed Ground Augment: Reactivate to deal all Remaining Damage and <DT_RADIATION>Radiation Status.Passive: +25% Hallowed Ground Duration.",
+    "fusionLimit": 3,
+    "name": "Hallowed Eruption",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Reckoning Augment: Enemies affected by Reckoning spawn zones that increase Armor by 150 for allies and inflicts 100 Damage to enemies over 7s.",
+    "fusionLimit": 3,
+    "name": "Hallowed Reckoning",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Critical Damage,+10% Status Chance",
+    "fusionLimit": 3,
+    "name": "Hammer Shot",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+40% Faster Knockdown Recovery",
+    "fusionLimit": 3,
+    "name": "Handspring",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2s Combo Duration when Aiming",
+    "fusionLimit": 5,
+    "name": "Harkonar Scope",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+5% Sprint Speed,-5% Shield Capacity",
+    "fusionLimit": 3,
+    "name": "Hastened Steps",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Zoom",
+    "fusionLimit": 3,
+    "name": "Hawk Eye",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Fire Blast Augment: Each enemy hit heals Ember by 10 to 20 depending on current Immolation level.",
+    "fusionLimit": 3,
+    "name": "Healing Flame",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Restores 1 Health per Status Type affecting the target.",
+    "fusionLimit": 10,
+    "name": "Healing Return",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "Health Orbs grant 75 Armor, stacking up to 3x. Taking damage will consume a stack after 3s.",
+    "fusionLimit": 5,
+    "name": "Health Conversion",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "-12.5% Damage Block",
+    "fusionLimit": 3,
+    "name": "Heartseeker",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FIRE>Heat",
+    "fusionLimit": 5,
+    "name": "Heated Charge",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Damage,-5% Accuracy",
+    "fusionLimit": 10,
+    "name": "Heavy Caliber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Create 1m seismic shockwaves from heavy landings, dealing 50 Damage and knocking foes off their feet.",
+    "fusionLimit": 5,
+    "name": "Heavy Impact",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Heavy Trauma",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+25% Blast Radius,-12.5% Projectile Speed",
+    "fusionLimit": 3,
+    "name": "Heavy Warhead",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+5% Casting Speed,-5% Ability Efficiency",
+    "fusionLimit": 3,
+    "name": "Heightened Reflexes",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+20% Multishot",
+    "fusionLimit": 5,
+    "name": "Hell'S Chamber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FIRE>Heat",
+    "fusionLimit": 5,
+    "name": "Hellfire",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Bullets spray between wicked slash attacks.",
+    "fusionLimit": 3,
+    "name": "High Noon",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_ELECTRICITY>Electricity,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "High Voltage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage,-2.5% Damage",
+    "fusionLimit": 5,
+    "name": "Hollow Point",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast strikes, many hits.",
+    "fusionLimit": 3,
+    "name": "Homing Fang",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Damage",
+    "fusionLimit": 10,
+    "name": "Hornet Strike",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Convert +7.5% of Damage on Health to Energy",
+    "fusionLimit": 5,
+    "name": "Hunter Adrenaline",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% chance to apply <DT_SLASH> on Critical",
+    "fusionLimit": 5,
+    "name": "Hunter Munitions",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Status Duration",
+    "fusionLimit": 5,
+    "name": "Hunter Track",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Increase Damage by 15% and Status Chance by 10% when attacking a prone enemy.",
+    "fusionLimit": 5,
+    "name": "Hunter'S Bonesaw",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Reduces the chance an enemy will hear gunfire by 25%.",
+    "fusionLimit": 3,
+    "name": "Hush",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Invisibility Augment: Weapon noise is reduced by 50% while invisible.",
+    "fusionLimit": 3,
+    "name": "Hushed Invisibility",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-10% Weapon Recoil,-5% Magazine Capacity",
+    "fusionLimit": 3,
+    "name": "Hydraulic Barrel",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-15% Weapon Recoil,-2.5% Magazine Capacity",
+    "fusionLimit": 3,
+    "name": "Hydraulic Chamber",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Headshot:+22.5% Critical Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Hydraulic Crosshairs",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-15% Weapon Recoil,-2.5% Magazine Capacity",
+    "fusionLimit": 3,
+    "name": "Hydraulic Gauge",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Hysteria Augment: Aim and then attack to leap onto enemies up to 25m away.",
+    "fusionLimit": 3,
+    "name": "Hysterical Assault",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Hysteria Augment: While Hysteria is active, each kill restores 5% Maximum Shields.",
+    "fusionLimit": 3,
+    "name": "Hysterical Fixation",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.2% to Bullet Jump,+2.2% Aim Glide/Wall Latch Duration,+25% <DT_FREEZE>Cold on Bullet Jump",
+    "fusionLimit": 10,
+    "name": "Ice Spring",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Magazine Capacity,+10% <DT_FREEZE>Cold",
+    "fusionLimit": 3,
+    "name": "Ice Storm",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Ice Wave Augment: Leaves a frozen trail for 6s that slows down enemies that come into contact with it.",
+    "fusionLimit": 3,
+    "name": "Ice Wave Impedance",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Avalanche Augment: Grants allies within the radius with a coat of ice that absorbs 40 Damage per enemy hit.",
+    "fusionLimit": 3,
+    "name": "Icy Avalanche",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Immolation Augment: Allies within Affinity range will receive 20% of Immolation's Damage Reduction.",
+    "fusionLimit": 3,
+    "name": "Immolated Radiance",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Impaler Munitions",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+7.5% Damage Block,-2.5% Melee Damage",
+    "fusionLimit": 3,
+    "name": "Impenetrable Offense",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FIRE>Heat",
+    "fusionLimit": 5,
+    "name": "Incendiary Coat",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_POISON>Toxin",
+    "fusionLimit": 5,
+    "name": "Infected Clip",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Reduces speed of Infested enemies.,-3% Speed",
+    "fusionLimit": 5,
+    "name": "Infested Impedance",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Prowl Augment: Ivara is able to bypass laser barriers and gains 10% Movement Speed.",
+    "fusionLimit": 3,
+    "name": "Infiltrate",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Ravenous Augment: Nidus has a 35% chance of generating an additional Mutation stack whenever he gains one, while standing in the Ravenous infestation.",
+    "fusionLimit": 3,
+    "name": "Insatiable",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% <DT_FREEZE>Cold Resistance",
+    "fusionLimit": 5,
+    "name": "Insulation",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+3% Ability Strength",
+    "fusionLimit": 3,
+    "name": "Intensify",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": "+8s to Hacking",
+    "fusionLimit": 0,
+    "name": "Intruder",
+    "polarity": "Universal",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast cutting attacks with puncture finish.",
+    "fusionLimit": 3,
+    "name": "Iron Phoenix",
+    "polarity": "Unairu",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Iron Skin Augment: Recasting Iron Skin will cause it to detonate, dealing 40% of its remaining Health as <DT_PUNCTURE>Puncture Damage, and knocking down enemies.",
+    "fusionLimit": 3,
+    "name": "Iron Shrapnel",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rhino Charge Augment: Each enemy hit increases Rhino's Armor Rating by 12% for 4s.",
+    "fusionLimit": 3,
+    "name": "Ironclad Charge",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Radial Disarm Augment: Enemies will be affected by <DT_RADIATION>Radiation for 4s.",
+    "fusionLimit": 3,
+    "name": "Irradiating Disarm",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Jagged Edge",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Turbulence Augment: Turbulence increases Movement Speed by 20% and Projectile Speed by 50% for Zephyr and her allies.",
+    "fusionLimit": 3,
+    "name": "Jet Stream",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_ELECTRICITY>Electricity,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Jolt",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Melee Damage,+0.3 'Justice'",
+    "fusionLimit": 3,
+    "name": "Justice Blades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Resist Hard Landings from falling at speeds of up to 25m/s.",
+    "fusionLimit": 3,
+    "name": "Kavat'S Grace",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+12.5% Reload Speed for 1s",
+    "fusionLimit": 3,
+    "name": "Kill Switch",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% Melee Damage On Heavy Attack,+10% Heavy Attack Wind Up Speed",
+    "fusionLimit": 5,
+    "name": "Killing Blow",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Speed Augment: Running into an opponent increases the duration of Speed by 1s.",
+    "fusionLimit": 3,
+    "name": "Kinetic Collision",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Shots now bounce up to 1x and travel 5% further.",
+    "fusionLimit": 5,
+    "name": "Kinetic Ricochet",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Larva Augment: Reactivate Larva to detonate and deal 150 <DT_POISON>Toxin Damage in a 1m radius. This damage stacks for every enemy grabbed by the Larva.",
+    "fusionLimit": 3,
+    "name": "Larva Burst",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Headshot:+20% Critical Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Laser Sight",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Lashing Coil",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Last Herald",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Covenant Augment: Headshot kills increase Critical Chance bonus duration by 1s.",
+    "fusionLimit": 3,
+    "name": "Lasting Covenant",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Dead Aim,+0.3 'Purity'",
+    "fusionLimit": 3,
+    "name": "Lasting Purity",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Status Duration",
+    "fusionLimit": 10,
+    "name": "Lasting Sting",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Projectile Speed",
+    "fusionLimit": 3,
+    "name": "Lethal Momentum",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Fire Rate,+10% Multishot",
+    "fusionLimit": 5,
+    "name": "Lethal Torrent",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+5% Fire Rate when Crouching,+25% Weapon Recoil",
+    "fusionLimit": 3,
+    "name": "Lie In Wait",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Life Steal on Heavy Attack",
+    "fusionLimit": 3,
+    "name": "Life Strike",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.2% to Bullet Jump,+2.2% Aim Glide/Wall Latch Duration,+25% <DT_ELECTRICITY>Electricity on Bullet Jump",
+    "fusionLimit": 10,
+    "name": "Lightning Dash",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% <DT_ELECTRICITY>Electricity Resistance",
+    "fusionLimit": 5,
+    "name": "Lightning Rod",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Status Duration",
+    "fusionLimit": 5,
+    "name": "Lingering Torment",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity,-2.5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Loaded Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Magazine Reloaded/s when Holstered",
+    "fusionLimit": 3,
+    "name": "Lock And Load",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Reload Speed,+8.3% Weapon Recoil",
+    "fusionLimit": 5,
+    "name": "Loose Chamber",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Reload Speed,+8.3% Weapon Recoil",
+    "fusionLimit": 5,
+    "name": "Loose Hatch",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+8.3% Reload Speed,+8.3% Weapon Recoil",
+    "fusionLimit": 5,
+    "name": "Loose Magazine",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Minimap shows loot crates.,+5 Loot Radar",
+    "fusionLimit": 5,
+    "name": "Loot Detector",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Projectile Speed,-0.5% Accuracy",
+    "fusionLimit": 3,
+    "name": "Lucky Shot",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Mafic Rain",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity",
+    "fusionLimit": 5,
+    "name": "Magazine Warp",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Slide,-5% Friction",
+    "fusionLimit": 5,
+    "name": "Maglev",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Magnetize Augment: Recast on the target to detonate. Enemies hit have a 20% chance to be disarmed.Passive: +20% Magnetize Range.",
+    "fusionLimit": 3,
+    "name": "Magnetized Discharge",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Damage,-5% Accuracy",
+    "fusionLimit": 10,
+    "name": "Magnum Force",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Maim",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+25% Critical Chance for Slide Attack",
+    "fusionLimit": 5,
+    "name": "Maiming Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Puncturing strikes and quick slashes.",
+    "fusionLimit": 3,
+    "name": "Malicious Raptor",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_POISON>Toxin,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Malignant Force",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+5% Attack Speed,-12.5% Energy Rate",
+    "fusionLimit": 3,
+    "name": "Martial Fury",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+10% chance to unlock locked lockers.",
+    "fusionLimit": 3,
+    "name": "Master Thief",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity,-2.5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Maximum Capacity",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "When Aiming:,-15% Fire Rate,+7.5% Damage",
+    "fusionLimit": 3,
+    "name": "Measured Burst",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increased Pistol Ammo recovery.,+25% Extra Damage against a Marked Enemy",
+    "fusionLimit": 5,
+    "name": "Mecha Empowered",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Killing a Marked Enemy grants +15% Armor for 5s for each enemy within 7.5m.",
+    "fusionLimit": 3,
+    "name": "Mecha Pulse",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Reduce Combo Duration for self by 1sIncrease Combo Duration for allies by 2s",
+    "fusionLimit": 5,
+    "name": "Melee Guidance",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5% Status Chance",
+    "fusionLimit": 5,
+    "name": "Melee Prowess",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": null,
+    "fusionLimit": 8,
+    "name": "Melee Riven Mod",
+    "polarity": "Universal",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Splinter Storm Augment: For each target affected, Splinter Storm heals 1.5 Health/s.",
+    "fusionLimit": 3,
+    "name": "Mending Splinters",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Peacemaker Augment: Mesa can move at 35% Speed while using Peacemaker.",
+    "fusionLimit": 3,
+    "name": "Mesa'S Waltz",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+0.4 Punch Through",
+    "fusionLimit": 5,
+    "name": "Metal Auger",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_IMPACT>Impact",
+    "fusionLimit": 3,
+    "name": "Meteor Munitions",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+17.5% Headshot Damage,-7.5% Bodyshot Damage",
+    "fusionLimit": 5,
+    "name": "Meticulous Aim",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Mind Control Augment: Controlled target inflicts +200% Damage.",
+    "fusionLimit": 3,
+    "name": "Mind Freak",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% to Bullet Jump,+5% Aim Glide/Wall Latch Duration",
+    "fusionLimit": 3,
+    "name": "Mobilize",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Molecular Prime Augment: When killed, primed enemies will restore a Null Star charge and have a 25% chance of restoring an additional one.",
+    "fusionLimit": 3,
+    "name": "Molecular Fission",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FIRE>Heat",
+    "fusionLimit": 5,
+    "name": "Molten Impact",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+3.8 Heal Rate for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Momentary Pause",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 10,
+    "description": "At Less than 50 Health:+15% Damage taken is reflected when Blocking attacks while Channeling for 2s",
+    "fusionLimit": 3,
+    "name": "Mortal Conduct",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Increase range of aerial melee attacks by +0.5m.",
+    "fusionLimit": 3,
+    "name": "Motus Impact",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "25% Critical and Status Chance for 1s after landing from a Double or Bullet Jump.",
+    "fusionLimit": 3,
+    "name": "Motus Setup",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Increase Double Jump strength by +50%.",
+    "fusionLimit": 3,
+    "name": "Motus Signal",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Shooting Gallery Augment: After 6 kill assists by a player with Shooting Gallery, Mesa's next shot will blind enemies within 6m for 3s.",
+    "fusionLimit": 3,
+    "name": "Muzzle Flash",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Ability Cast:+15% Status Chance when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Nano-Applicator",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Grenades leave a burning patch on impact.,+5 Base Status Chance",
+    "fusionLimit": 5,
+    "name": "Napalm Grenades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:+5% Accuracy when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Narrow Barrel",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+9% Ability Duration,-6% Ability Range",
+    "fusionLimit": 10,
+    "name": "Narrow Minded",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Improves Casting Speed on Warframe abilities if applicable.,+12.5% Casting Speed",
+    "fusionLimit": 3,
+    "name": "Natural Talent",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Scarab Swarm Augment: Scarab Armor protects Inaros from Status Effects, consuming 6% Bonus Armor for each effect resisted.",
+    "fusionLimit": 3,
+    "name": "Negation Swarm",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field.,+0.3 'Justice'",
+    "fusionLimit": 3,
+    "name": "Neutralizing Justice",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Null Star Augment: On recast, all remaining particles will seek out enemies and deal 60 <DT_EXPLOSION>Blast Damage with guaranteed Proc in 4m.",
+    "fusionLimit": 3,
+    "name": "Neutron Star",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:,Reveals target on Minimap for +1s.",
+    "fusionLimit": 5,
+    "name": "Night Stalker",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Rockets disperse napalm, inflicting 5% damage over 1s across 15% of the explosion area.",
+    "fusionLimit": 5,
+    "name": "Nightwatch Napalm",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5% Mobility,0 Energy Rate",
+    "fusionLimit": 3,
+    "name": "No Current Leap",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "No Return",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Noble Cadence",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FREEZE>Cold",
+    "fusionLimit": 5,
+    "name": "North Wind",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Petrify Augment: Petrified enemies are scanned into the Codex and have a 10% chance to drop additional loot when killed.",
+    "fusionLimit": 3,
+    "name": "Ore Gaze",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Critical Damage",
+    "fusionLimit": 5,
+    "name": "Organ Shatter",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Exposes enemies at maximum Energy Capacity within 5m.",
+    "fusionLimit": 5,
+    "name": "Overcharge Detectors",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Respawn:,Converts up to 50 Energy to Overshields at a rate of 0%.",
+    "fusionLimit": 5,
+    "name": "Overcharged",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Ability Range,-10% Ability Strength",
+    "fusionLimit": 5,
+    "name": "Overextended",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-10% Zoom during Aim Glide",
+    "fusionLimit": 5,
+    "name": "Overview",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Psychic Bolts Augment: Affected enemies will be confused for 4s.",
+    "fusionLimit": 3,
+    "name": "Pacifying Bolts",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+40% Faster Stagger Recovery",
+    "fusionLimit": 3,
+    "name": "Pain Threshold",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+16% Counter Chance",
+    "fusionLimit": 5,
+    "name": "Parry",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Mallet Augment: Allows for two simultaneous Mallets, each with 70% reduced range.",
+    "fusionLimit": 3,
+    "name": "Partitioned Mallet",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Aim Glide/Wall Latch Duration",
+    "fusionLimit": 5,
+    "name": "Patagium",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Landslide Augment: Leave a trail for 7s that petrifies enemies for 4s.",
+    "fusionLimit": 3,
+    "name": "Path Of Statues",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_POISON>Toxin",
+    "fusionLimit": 5,
+    "name": "Pathogen Rounds",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Pacify & Provoke Augment: Pacify converts damage done to allies into an aura that slows enemies by 20%. Provoke converts damage done to enemies into 6% extra Ability Strength.",
+    "fusionLimit": 3,
+    "name": "Peaceful Provocation",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Critical hits cause flowers to grow from the wounds.",
+    "fusionLimit": 5,
+    "name": "Peculiar Bloom",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Damaging an enemy will inflate the body part hit for 1s.",
+    "fusionLimit": 5,
+    "name": "Peculiar Growth",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Status Duration",
+    "fusionLimit": 5,
+    "name": "Perpetual Agony",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Renewal Augment: Taking fatal damage while under the effects of Renewal will instead Heal you or allies to 20% Health. This effect triggers only once for each ally every 90s.",
+    "fusionLimit": 3,
+    "name": "Phoenix Renewal",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Photon Strike Augment: If Photon Strike hits at least 8 enemies, the next cast will cost no Energy.",
+    "fusionLimit": 3,
+    "name": "Photon Repeater",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Maximum health increased.,+15% Health",
+    "fusionLimit": 5,
+    "name": "Physique",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Piercing Caliber",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Piercing Fury",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Piercing Hit",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Navigator Augment: Each hit increases the projectile's Critical Chance by 2.5% up to a max of 50%.+3 Projectile Punch Through. ",
+    "fusionLimit": 3,
+    "name": "Piercing Navigator",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Roar Augment: Enemies within 10m will be knocked down and suffer from a <DT_PUNCTURE>Puncture Proc. Roar can be recast.",
+    "fusionLimit": 3,
+    "name": "Piercing Roar",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+3% to Bullet Jump,+3% Aim Glide/Wall Latch Duration,+10% <DT_PUNCTURE>Puncture on Bullet Jump",
+    "fusionLimit": 5,
+    "name": "Piercing Step",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Strangledome Augment: Enemies held in Strangledome have a 30% chance of dropping additional loot.",
+    "fusionLimit": 3,
+    "name": "Pilfering Strangledome",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tentacle Swarm Augment: Enemies held by tentacles have a 25% chance at additional drops.",
+    "fusionLimit": 3,
+    "name": "Pilfering Swarm",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 5,
+    "name": "Pistol Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Pistol damage increased.,+4.5% Damage",
+    "fusionLimit": 5,
+    "name": "Pistol Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Critical Chance",
+    "fusionLimit": 5,
+    "name": "Pistol Gambit",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_POISON>Toxin,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Pistol Pestilence",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": null,
+    "fusionLimit": 8,
+    "name": "Pistol Riven Mod",
+    "polarity": "Universal",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increased Pistol Ammo recovery.,+25% Ammo Pickup",
+    "fusionLimit": 5,
+    "name": "Pistol Scavenger",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Hit:+5% Secondary Weapon Fire Rate for 1s",
+    "fusionLimit": 3,
+    "name": "Plan B",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Damage",
+    "fusionLimit": 5,
+    "name": "Point Blank",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Critical Chance",
+    "fusionLimit": 5,
+    "name": "Point Strike",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Spiral strikes, lifting combos.",
+    "fusionLimit": 3,
+    "name": "Pointed Wind",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Well of Life Augment: On death, marked enemies will drop 1 Health Orbs with a 10% chance of dropping an Energy Orb.",
+    "fusionLimit": 3,
+    "name": "Pool Of Life",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -4,
+    "description": "-5% Ability Strength+5% Ability Strength of Squadmates",
+    "fusionLimit": 5,
+    "name": "Power Donation",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2.5% Ability Strength,+5% Chance to Resist Knockdown",
+    "fusionLimit": 5,
+    "name": "Power Drift",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Quiver Augment: Quiver fires three arrows and consumes 50 more Energy.",
+    "fusionLimit": 3,
+    "name": "Power Of Three",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+0.1 Punch Through",
+    "fusionLimit": 5,
+    "name": "Power Throw",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+100% Accuracy,+50% Projectile Speed",
+    "fusionLimit": 0,
+    "name": "Precision Munition",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Melee Damage",
+    "fusionLimit": 5,
+    "name": "Pressure Point",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Reload:+15% Fire Rate when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Pressurized Magazine",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Primal Fury Augment: Killing an enemy increases Critical Chance by 8%. The increase decays by 1%/s",
+    "fusionLimit": 3,
+    "name": "Primal Rage",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 10,
+    "name": "Primed Bane Of Corpus",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 10,
+    "name": "Primed Bane Of Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 10,
+    "name": "Primed Bane Of Grineer",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 10,
+    "name": "Primed Bane Of Infested",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Damage on first shot in Magazine",
+    "fusionLimit": 3,
+    "name": "Primed Chamber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 10,
+    "name": "Primed Charged Shell",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Ability Duration",
+    "fusionLimit": 10,
+    "name": "Primed Continuity",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FREEZE>Cold",
+    "fusionLimit": 10,
+    "name": "Primed Cryo Rounds",
+    "polarity": "Vazarin",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 10,
+    "name": "Primed Expel Corpus",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 10,
+    "name": "Primed Expel Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 10,
+    "name": "Primed Expel Grineer",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 10,
+    "name": "Primed Expel Infested",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Reload Speed",
+    "fusionLimit": 10,
+    "name": "Primed Fast Hands",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_POISON>Toxin",
+    "fusionLimit": 10,
+    "name": "Primed Fever Strike",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Energy Max",
+    "fusionLimit": 10,
+    "name": "Primed Flow",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Attack Speed",
+    "fusionLimit": 10,
+    "name": "Primed Fury",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_FIRE>Heat",
+    "fusionLimit": 10,
+    "name": "Primed Heated Charge",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% <DT_IMPACT>Impact",
+    "fusionLimit": 10,
+    "name": "Primed Heavy Trauma",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 10,
+    "name": "Primed Pistol Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+17% Critical Chance",
+    "fusionLimit": 10,
+    "name": "Primed Pistol Gambit",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Damage",
+    "fusionLimit": 10,
+    "name": "Primed Point Blank",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Melee Damage",
+    "fusionLimit": 10,
+    "name": "Primed Pressure Point",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+8% Reload Speed",
+    "fusionLimit": 10,
+    "name": "Primed Quickdraw",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage",
+    "fusionLimit": 10,
+    "name": "Primed Ravage",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+0.3 Range",
+    "fusionLimit": 10,
+    "name": "Primed Reach",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 10,
+    "name": "Primed Rifle Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 10,
+    "name": "Primed Shotgun Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Fire Rate (x2 for Bows),+0.2 Punch Through",
+    "fusionLimit": 10,
+    "name": "Primed Shred",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity",
+    "fusionLimit": 10,
+    "name": "Primed Slip Magazine",
+    "polarity": "Naramon",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+9% Chance to Resist Knockdown",
+    "fusionLimit": 10,
+    "name": "Primed Sure Footed",
+    "polarity": "Vazarin",
+    "rarity": "Legendary",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage",
+    "fusionLimit": 10,
+    "name": "Primed Target Cracker",
+    "polarity": "Madurai",
+    "rarity": "Legendary",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% Shield Capacity,+20% Health",
+    "fusionLimit": 10,
+    "name": "Primed Vigor",
+    "polarity": "Vazarin",
+    "rarity": "Legendary",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Prism Augment: Prism follows above Mirage for 1s.",
+    "fusionLimit": 3,
+    "name": "Prism Guard",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:-25% Shield Recharge Delay for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Prize Kill",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Paralysis Augment: Affected enemies are pulled towards Valkyr and the stun duration is increased by 50%.",
+    "fusionLimit": 3,
+    "name": "Prolonged Paralysis",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "During a Wall Latch gain +30% Status Chance and Critical Chance.",
+    "fusionLimit": 3,
+    "name": "Proton Jet",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Wall Dashing grants +25% Bullet Jump Speed.",
+    "fusionLimit": 3,
+    "name": "Proton Pulse",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage, and +12.5% Status Chance for 5s.",
+    "fusionLimit": 3,
+    "name": "Proton Snap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Damage during Bleedout",
+    "fusionLimit": 10,
+    "name": "Provoked",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Pummel",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Slash Dash Augment: Allies in the path of Slash Dash have 1 debuffs removed and 100 Shields restored.",
+    "fusionLimit": 3,
+    "name": "Purging Slash",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Fire Blast Augment: Allies that enter the fire will have up to 1 debuffs removed.",
+    "fusionLimit": 3,
+    "name": "Purifying Flames",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Metamorphosis Augment: Switching to Day-form staggers enemies within 3m and knocks them down when switching to Night-form.",
+    "fusionLimit": 3,
+    "name": "Push & Pull",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Fire Walker Augment: Accumulate 75% of the damage Fire Walker deals, unleashing it in a trail of fire that lasts 6s.",
+    "fusionLimit": 3,
+    "name": "Pyroclastic Flow",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Quaking Hand",
+    "polarity": "Unairu",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-5% Shield Recharge Delay,-5 Shield Capacity",
+    "fusionLimit": 3,
+    "name": "Quick Charge",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "-1 Bounce",
+    "fusionLimit": 3,
+    "name": "Quick Return",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "Drains Energy to stop Lethal Damage with 40% Efficiency.",
+    "fusionLimit": 5,
+    "name": "Quick Thinking",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+8% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Quickdraw",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Attack Speed,+5% Combo Count Chance",
+    "fusionLimit": 3,
+    "name": "Quickening",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Radial Blind Augment: Blinded enemies take 150% more Finisher Damage.",
+    "fusionLimit": 3,
+    "name": "Radiant Finish",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Convert +10% of Damage on Health to Energy",
+    "fusionLimit": 3,
+    "name": "Rage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-12.5% Status Duration on Self",
+    "fusionLimit": 5,
+    "name": "Rapid Resilience",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage",
+    "fusionLimit": 5,
+    "name": "Ravage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_SLASH>Slash",
+    "fusionLimit": 3,
+    "name": "Razor Munitions",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Razor Shot",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Razorwing Augment: Flight Speed increased by 25% and Fire Rate increased by 25% for 2s when using abilities. Stacks up to 4x.",
+    "fusionLimit": 3,
+    "name": "Razorwing Blitz",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+0.3 Range",
+    "fusionLimit": 3,
+    "name": "Reach",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Blazing Chakram Augment: Each enemy hit increases the ring's Damage by 1.25x and the chance for enemies to drop Health Orbs on death by +0.10x.",
+    "fusionLimit": 3,
+    "name": "Reaping Chakram",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Far flung attacks and multi-hit combos.",
+    "fusionLimit": 3,
+    "name": "Reaping Spiral",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+1 Bounce",
+    "fusionLimit": 3,
+    "name": "Rebound",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Electric Shield Augment: Allies that pass through have 35 Shields restored.",
+    "fusionLimit": 3,
+    "name": "Recharge Barrier",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+3.8 Heal Rate for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Recover",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+3.8 Heal Rate for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Recuperate",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+20% Shield Capacity",
+    "fusionLimit": 3,
+    "name": "Redirection",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "16% Damage taken is reflected when Blocking attacks while Channeling.",
+    "fusionLimit": 5,
+    "name": "Reflection",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% Melee Combo Efficiency",
+    "fusionLimit": 5,
+    "name": "Reflex Coil",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Holster Speed",
+    "fusionLimit": 3,
+    "name": "Reflex Draw",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+9.1% Combo Count Chance while Blocking",
+    "fusionLimit": 10,
+    "name": "Reflex Guard",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Molt Augment: After casting Molt, Saryn regenerates 20 Health/s for 10s.",
+    "fusionLimit": 3,
+    "name": "Regenerative Molt",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rhino Stomp Augment: Iron Skin Health is replenished by 55 for each enemy affected.",
+    "fusionLimit": 3,
+    "name": "Reinforcing Stomp",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Team Health regenerates.,+0.5 Heal Rate/s",
+    "fusionLimit": 5,
+    "name": "Rejuvenation",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+0.5 Energy Rate for 1s",
+    "fusionLimit": 3,
+    "name": "Relentless Assault",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+25% chance to increase Melee Combo Counter when <DT_SLASH>Slash Status deals damage.",
+    "fusionLimit": 3,
+    "name": "Relentless Combination",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Downward cuts with an impact combo.",
+    "fusionLimit": 3,
+    "name": "Rending Crane",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_SLASH>Slash,+20% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Rending Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+3% to Bullet Jump,+3% Aim Glide/Wall Latch Duration,+10% <DT_SLASH>Slash on Bullet Jump",
+    "fusionLimit": 5,
+    "name": "Rending Turn",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Rending Wind",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Reload:+17.5% Fire Rate when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Repeater Clip",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Bastille Augment: Enemies within the Bastille have a 50% chance to be repelled every 4s. Vortex's duration is increased by 50% of its Maximum Duration for each additional Vortex thrown into it.",
+    "fusionLimit": 3,
+    "name": "Repelling Bastille",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Sonar Augment: Killing an enemy by shooting their weak spot will trigger another Sonar for 50% of remaining duration.",
+    "fusionLimit": 3,
+    "name": "Resonance",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Sound Quake Augment: Forgoes channeling to create a shockwave that deals 10x Damage at the epicenter, gradually weakening as it expands out.",
+    "fusionLimit": 3,
+    "name": "Resonating Quake",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Chance to deal Electrical Damage when shield struck by melee enemies.,+20 <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 3,
+    "name": "Retribution",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 5,
+    "name": "Rifle Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Rifle damage increased.,+4.5% Damage",
+    "fusionLimit": 5,
+    "name": "Rifle Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2.5% Status Chance",
+    "fusionLimit": 5,
+    "name": "Rifle Aptitude",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 0,
+    "description": null,
+    "fusionLimit": 8,
+    "name": "Rifle Riven Mod",
+    "polarity": "Universal",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increased Rifle Ammo recovery.,+25% Ammo Pickup",
+    "fusionLimit": 5,
+    "name": "Rifle Scavenger",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Banish Augment: Allies banished to the rift will have 10% of their Maximum Health restored.",
+    "fusionLimit": 3,
+    "name": "Rift Haven",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Charge attacks now step through the rift to attack enemies up to 5m away",
+    "fusionLimit": 5,
+    "name": "Rift Strike",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rift Surge Augment: Limbo deals 15% Extra Damage for each enemy affected by Rift Surge while in the rift.",
+    "fusionLimit": 3,
+    "name": "Rift Torrent",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FREEZE>Cold,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Rime Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Ice FX on Bullet Jump",
+    "fusionLimit": 0,
+    "name": "Rime Vault",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Ripper Rounds",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5% Mobility,-7.5 Shield Capacity",
+    "fusionLimit": 3,
+    "name": "Rising Skill",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Rising Steel",
+    "polarity": "Unairu",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Blade Storm Augment: Blade Storm attacks increase your Melee Counter by 1.Passive: +10s Combo Duration",
+    "fusionLimit": 3,
+    "name": "Rising Storm",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Dodge:Become invulnerable for 2s and remove all Status Effects. 12s cooldown.",
+    "fusionLimit": 10,
+    "name": "Rolling Guard",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2 Range",
+    "fusionLimit": 3,
+    "name": "Ruinous Extension",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rumblers Augment: Atlas becomes a Rumbler with Rock Armor that can absorb up to 350 Damage.",
+    "fusionLimit": 3,
+    "name": "Rumbled",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_IMPACT>Impact",
+    "fusionLimit": 5,
+    "name": "Rupture",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Sprint Speed",
+    "fusionLimit": 5,
+    "name": "Rush",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Melee Damage,+3% Damage to Sentients",
+    "fusionLimit": 10,
+    "name": "Sacrificial Pressure",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+8% Critical Chance,+3% Damage to Sentients",
+    "fusionLimit": 10,
+    "name": "Sacrificial Steel",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Warding Halo Augment: Can now be cast on allies with 20% effectiveness.",
+    "fusionLimit": 3,
+    "name": "Safeguard",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Switch Teleport Augment: After teleporting with an ally they will be invulnerable for 3s.",
+    "fusionLimit": 3,
+    "name": "Safeguard Switch",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Pull Augment: Steals up to 10 Energy from the target.",
+    "fusionLimit": 3,
+    "name": "Sapping Reach",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Silence Augment: Finisher Damage is increased by 150% while Silence is active.",
+    "fusionLimit": 3,
+    "name": "Savage Silence",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Decoy Augment: If Loki takes fatal damage, Decoy absorbs the damage and swaps locations. Also increases Casting Speed of Decoy by 20%",
+    "fusionLimit": 3,
+    "name": "Savior Decoy",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Sawtooth Clip",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Scarlet Hurricane",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Multishot,+0.3 'Justice'",
+    "fusionLimit": 3,
+    "name": "Scattered Justice",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FIRE>Heat,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Scattering Inferno",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FIRE>Heat,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Scorch",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Fire FX on Bullet Jump",
+    "fusionLimit": 0,
+    "name": "Searing Leap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:+12.5% Reload Speed for 1s",
+    "fusionLimit": 3,
+    "name": "Secondary Wind",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+0.4 Punch Through",
+    "fusionLimit": 5,
+    "name": "Seeker",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+0.4 Punch Through",
+    "fusionLimit": 5,
+    "name": "Seeking Force",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+2.5% Reload Speed,+0.2 Punch Through",
+    "fusionLimit": 5,
+    "name": "Seeking Fury",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Shuriken Augment: Hits expose weaknesses on enemies, reducing their Armor by 35% for 2s.",
+    "fusionLimit": 3,
+    "name": "Seeking Shuriken",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Methodical strikes with reaching combos.",
+    "fusionLimit": 3,
+    "name": "Seismic Palm",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+50% Melee Slam Damage",
+    "fusionLimit": 3,
+    "name": "Seismic Wave",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5 Range,+0.3 'Sequence'",
+    "fusionLimit": 3,
+    "name": "Sequence Burn",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Serrated Edges",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_SLASH>Slash",
+    "fusionLimit": 3,
+    "name": "Serrated Rounds",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Damage",
+    "fusionLimit": 10,
+    "name": "Serration",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Shadow Harvest",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_SLASH>Slash",
+    "fusionLimit": 3,
+    "name": "Sharpened Blade",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Kill:+12.5% Critical Damage when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Sharpened Bullets",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Headshot Kill:+5 Energy",
+    "fusionLimit": 10,
+    "name": "Sharpshooter",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "<DT_IMPACT>Impact damage reduces enemy armor by 1.",
+    "fusionLimit": 5,
+    "name": "Shattering Impact",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Status Chance,+0.3 'Justice'",
+    "fusionLimit": 3,
+    "name": "Shattering Justice",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Methodical strikes and high impact combos.",
+    "fusionLimit": 3,
+    "name": "Shattering Storm",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Ammo Maximum",
+    "fusionLimit": 5,
+    "name": "Shell Compression",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_ELECTRICITY>Electricity,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Shell Shock",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increases Companion Health and Armor.,+50 Health,+30 Armor",
+    "fusionLimit": 5,
+    "name": "Shepherd",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Enemy shields reduced.,-4% Shield Capacity",
+    "fusionLimit": 5,
+    "name": "Shield Disruption",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Shadows of the Dead Augment: Each Shadow within 50m take 3% of the Damage done to Nekros in his stead.",
+    "fusionLimit": 3,
+    "name": "Shield Of Shadows",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Polarize Augment: Increases the time for the target's Shields to regenerate by 4s.",
+    "fusionLimit": 3,
+    "name": "Shield Overload",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fast spinning attacks and staggering strikes.",
+    "fusionLimit": 3,
+    "name": "Shimmering Blight",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage Resistance on Knockdown",
+    "fusionLimit": 3,
+    "name": "Shock Absorbers",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Shock Augment: Hold to cast will grant all allies within 15m an additional 50% <DT_ELECTRICITY>Electricity Damage to their attacks for 28s.",
+    "fusionLimit": 3,
+    "name": "Shock Trooper",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Speed Augment: Enemies touched while sprinting under the effects of Speed will take 75 <DT_ELECTRICITY>Electricity Damage with guaranteed proc.",
+    "fusionLimit": 3,
+    "name": "Shocking Speed",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 5,
+    "name": "Shocking Touch",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3.",
+    "fusionLimit": 5,
+    "name": "Shotgun Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Shotgun damage increased.,+3% Damage",
+    "fusionLimit": 5,
+    "name": "Shotgun Amp",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 0,
+    "description": null,
+    "fusionLimit": 8,
+    "name": "Shotgun Riven Mod",
+    "polarity": "Universal",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Status Chance",
+    "fusionLimit": 5,
+    "name": "Shotgun Savvy",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increased Shotgun Ammo recovery.,+25% Ammo Pickup",
+    "fusionLimit": 5,
+    "name": "Shotgun Scavenger",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Fire Rate",
+    "fusionLimit": 5,
+    "name": "Shotgun Spazz",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+200% Multishot,-66% Damage",
+    "fusionLimit": 0,
+    "name": "Shrapnel Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Kill:+16.5% Critical Damage when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Shrapnel Shot",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Fire Rate (x2 for Bows),+0.2 Punch Through",
+    "fusionLimit": 5,
+    "name": "Shred",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "5% of Damage converted into <DT_PUNCTURE>Puncture",
+    "fusionLimit": 3,
+    "name": "Shred Shot",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Shredder",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Radial Blind Augment: Enemies blinded are marked on the Minimap for 3s.",
+    "fusionLimit": 3,
+    "name": "Signal Flare",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Reduces the chance an enemy will hear gunfire by 25%.",
+    "fusionLimit": 3,
+    "name": "Silent Battery",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Absorb Augment: Creates a ring every 3s that drags in enemies at 9m/s.",
+    "fusionLimit": 3,
+    "name": "Singularity",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+3 Range",
+    "fusionLimit": 3,
+    "name": "Sinister Reach",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Strong, focused attacks with multi-hit spins.",
+    "fusionLimit": 3,
+    "name": "Sinking Talon",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Headshot:+25% Ammo Efficiency for 1s",
+    "fusionLimit": 3,
+    "name": "Skull Shots",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Twirling, acrobatic slashes with a refined touch.",
+    "fusionLimit": 3,
+    "name": "Slicing Feathers",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Magazine Capacity",
+    "fusionLimit": 5,
+    "name": "Slip Magazine",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corpus",
+    "fusionLimit": 5,
+    "name": "Smite Corpus",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Corrupted",
+    "fusionLimit": 5,
+    "name": "Smite Corrupted",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Grineer",
+    "fusionLimit": 5,
+    "name": "Smite Grineer",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Damage to Infested",
+    "fusionLimit": 5,
+    "name": "Smite Infested",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Smite Augment: Hold to cast will grant all allies within 15m an additional 50% <DT_RADIATION>Radiation Damage to their attacks for 28s.",
+    "fusionLimit": 3,
+    "name": "Smite Infusion",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Smoke Screen Augment: Conceals allies within 8m for 2s.",
+    "fusionLimit": 3,
+    "name": "Smoke Shadow",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Movement Speed when Aiming",
+    "fusionLimit": 3,
+    "name": "Snap Shot",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Converts unused ammo pickups into Sniper ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun <AMMO_MUTATION> 3.",
+    "fusionLimit": 5,
+    "name": "Sniper Ammo Mutation",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increased Sniper Ammo recovery.,+25% Ammo Pickup",
+    "fusionLimit": 5,
+    "name": "Sniper Scavenger",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+12.5% Fire Rate when Airborne",
+    "fusionLimit": 3,
+    "name": "Soaring Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Holster Speed",
+    "fusionLimit": 3,
+    "name": "Soft Hands",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Sonic Boom Augment: Enemy Armor is reduced by 35% for 2s.",
+    "fusionLimit": 3,
+    "name": "Sonic Fracture",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Soul Punch Augment: Use on a downed ally to revive him with 15% Health. Nekros's Energy will be consumed.",
+    "fusionLimit": 3,
+    "name": "Soul Survivor",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "An outlandish style with sweeping attacks.",
+    "fusionLimit": 3,
+    "name": "Sovereign Outcast",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Spectrorage Augment: Enemies that die within Spectrorage have a 20% chance to drop an Energy Orb.",
+    "fusionLimit": 3,
+    "name": "Spectrosiphon",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+2% Sprint Speed,+2.5% Casting Speed",
+    "fusionLimit": 5,
+    "name": "Speed Drift",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Increases weapon draw and holstering speed.,+20% Holster Speed",
+    "fusionLimit": 5,
+    "name": "Speed Holster",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Fire Rate (x2 for Bows)",
+    "fusionLimit": 5,
+    "name": "Speed Trigger",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Swift stabs, twisting slashes.",
+    "fusionLimit": 3,
+    "name": "Spinning Needle",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+15% Multishot",
+    "fusionLimit": 5,
+    "name": "Split Chamber",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Hit:+16.7% Multishot-30% Accuracy for 0s. Stacks up to 4 times",
+    "fusionLimit": 5,
+    "name": "Split Flights",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Damage,-5% Attack Speed",
+    "fusionLimit": 3,
+    "name": "Spoiled Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "On Status Effect: +0.2 Range for 4s. Stacks up to 2 times.",
+    "fusionLimit": 5,
+    "name": "Spring-Loaded Blade",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "Increase damage by +40%,if the target is over 45m away.",
+    "fusionLimit": 5,
+    "name": "Spring-Loaded Broadhead",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Reload:+12.5% Fire Rate when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Spring-Loaded Chamber",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Sprint speed increased.,+2.5% Sprint Speed",
+    "fusionLimit": 5,
+    "name": "Sprint Boost",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Movement Speed when Aiming",
+    "fusionLimit": 3,
+    "name": "Spry Sights",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-15% Weapon Recoil",
+    "fusionLimit": 3,
+    "name": "Stabilizer",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Shatter Shield Augment: Reflected bullets gain a 30% chance of staggering enemies.",
+    "fusionLimit": 3,
+    "name": "Staggering Shield",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Lunging spirals and shattering combos.",
+    "fusionLimit": 3,
+    "name": "Stalking Fan",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Blocking reduces damage taken from enemy abilities by 10%.",
+    "fusionLimit": 5,
+    "name": "Stand Ground",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "+4.3% Armor",
+    "fusionLimit": 5,
+    "name": "Stand United",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Star Divide",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+12.5% Projectile Speed,-12.5% Blast Radius",
+    "fusionLimit": 3,
+    "name": "Static Alacrity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Charge Attacks electrify nearby enemies for <DT_ELECTRICITY>Electricity Damage equal to 30% of weapon damage.",
+    "fusionLimit": 5,
+    "name": "Static Discharge",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-15% Weapon Recoil",
+    "fusionLimit": 3,
+    "name": "Steady Hands",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+3 Enemy Radar,+2% Aim Glide/Wall Latch Duration",
+    "fusionLimit": 5,
+    "name": "Stealth Drift",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -4,
+    "description": "Melee Weapon damage increased.,+10% Melee Damage",
+    "fusionLimit": 5,
+    "name": "Steel Charge",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Armor",
+    "fusionLimit": 10,
+    "name": "Steel Fiber",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Vigorous slashes with forceful stabs.",
+    "fusionLimit": 3,
+    "name": "Stinging Thorn",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10 Magazine Capacity,+0.3 'Truth'",
+    "fusionLimit": 3,
+    "name": "Stinging Truth",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Magazine Capacity,+0.3 'Blight'",
+    "fusionLimit": 3,
+    "name": "Stockpiled Blight",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% <DT_ELECTRICITY>Electricity",
+    "fusionLimit": 5,
+    "name": "Stormbringer",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "-5% Recoil and Spread when Sliding",
+    "fusionLimit": 3,
+    "name": "Strafing Slide",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Increased Pistol Ammo recovery.,Dead maggots within 5m are consumed, restoring 1% Missing Health.",
+    "fusionLimit": 3,
+    "name": "Strain Consume",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Melee Attacks gain +5% Critical Damage per Cyst.",
+    "fusionLimit": 3,
+    "name": "Strain Infection",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Ability Efficiency",
+    "fusionLimit": 5,
+    "name": "Streamline",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+10% Holster Speed,+2.5% Slide,-2.5% Friction",
+    "fusionLimit": 5,
+    "name": "Streamlined Form",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Ability Range",
+    "fusionLimit": 3,
+    "name": "Stretch",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Reload Speed,+2.5% Status Chance",
+    "fusionLimit": 3,
+    "name": "Stunning Speed",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On 2 Hits within 0.2s:+7.5% Fire Rate for 1s",
+    "fusionLimit": 3,
+    "name": "Sudden Justice",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% <DT_PUNCTURE>Puncture",
+    "fusionLimit": 5,
+    "name": "Sundering Strike",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Steady chopping strikes with focused damage.",
+    "fusionLimit": 3,
+    "name": "Sundering Weave",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Reduces the chance an enemy will hear gunfire by 25%.",
+    "fusionLimit": 3,
+    "name": "Suppress",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+15% Chance to Resist Knockdown",
+    "fusionLimit": 3,
+    "name": "Sure Footed",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.5% Status Chance",
+    "fusionLimit": 5,
+    "name": "Sure Shot",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 1.",
+    "fusionLimit": 3,
+    "name": "Surging Dash",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "Gain +1 energy, upon replenishing shields completely after they have been deactivated.",
+    "fusionLimit": 5,
+    "name": "Surplus Diverters",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% <DT_SLASH>Slash",
+    "fusionLimit": 5,
+    "name": "Sweeping Serration",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "+5% Heavy Attack Wind Up Speed,+1s Combo Duration",
+    "fusionLimit": 5,
+    "name": "Swift Momentum",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rip Line Augment: After using Rip Line, the next 1 Rip Lines will have no Energy cost while Airborne.",
+    "fusionLimit": 3,
+    "name": "Swing Line",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fanning, multi-hit strikes.",
+    "fusionLimit": 3,
+    "name": "Swirling Tiger",
+    "polarity": "Zenurik",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Quick slashes with spinning lunges.",
+    "fusionLimit": 3,
+    "name": "Swooping Falcon",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 10,
+    "description": "With Melee Equipped:,+2.5% Mobility,+0.3 Sprint Speed",
+    "fusionLimit": 3,
+    "name": "Sword Alone",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+50% Bonus Damage on final shot. Requires Magazine 6 or higher.",
+    "fusionLimit": 3,
+    "name": "Synth Charge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% Holster Speed",
+    "fusionLimit": 3,
+    "name": "Synth Reflex",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Tactical Pump",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Magazine Reloaded/s when Holstered",
+    "fusionLimit": 3,
+    "name": "Tactical Reload",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Low Health:+0 Mobility for 1s",
+    "fusionLimit": 3,
+    "name": "Tactical Retreat",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Magazine Capacity,-5% Reload Speed",
+    "fusionLimit": 5,
+    "name": "Tainted Clip",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Tainted Hydra",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+6% Magazine Capacity,-3% Reload Speed",
+    "fusionLimit": 10,
+    "name": "Tainted Mag",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "-7% Spread,-5% Fire Rate",
+    "fusionLimit": 10,
+    "name": "Tainted Shell",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% to Headshot Multiplier",
+    "fusionLimit": 5,
+    "name": "Target Acquired",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Damage",
+    "fusionLimit": 5,
+    "name": "Target Cracker",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tail Wind Augment: Each enemy hit increases Tail Wind Damage by 40%. Damage resets upon being on ground for 2s.",
+    "fusionLimit": 3,
+    "name": "Target Fixation",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Hit:+5% Accuracy when Aiming for 2s",
+    "fusionLimit": 5,
+    "name": "Targeting Subsystem",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Smoke Screen Augment: Blinds enemies within 1m for 3s.",
+    "fusionLimit": 3,
+    "name": "Tear Gas",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tectonics Augment: Create up to 2 walls with 70% Health. Walls can no longer be turned into boulders.",
+    "fusionLimit": 3,
+    "name": "Tectonic Fracture",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Virulence Augment: Hitting 4 enemies with Virulence grants 70% Primary Weapon Critical Chance for 9s.",
+    "fusionLimit": 3,
+    "name": "Teeming Virulence",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Increased Pistol Ammo recovery.,+25% Critical Damage when inside the Marked Zone.",
+    "fusionLimit": 3,
+    "name": "Tek Collateral",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Slam Attacks in the Marked Zone pull all enemies within 6m.",
+    "fusionLimit": 3,
+    "name": "Tek Gravity",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "-2.5% Mobility,+7.5 Shield Capacity",
+    "fusionLimit": 3,
+    "name": "Tempered Bound",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Sweeping strikes and twisting slashes.",
+    "fusionLimit": 3,
+    "name": "Tempo Royale",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Projectile Speed",
+    "fusionLimit": 3,
+    "name": "Terminal Velocity",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tesla Nervos Augment: While a target has a Nervos attached, any damage dealt to it will be absorbed by the Nervos and channeled into a 5m burst of <DT_ELECTRICITY> Electricity on death.",
+    "fusionLimit": 3,
+    "name": "Tesla Bank",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Grenades tether up to 2 enemies from 4m away.",
+    "fusionLimit": 5,
+    "name": "Tether Grenades",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Enemies explode on death, dealing 20 <DT_MAGNETIC>Magnetic Damage (+10% Enemy Max Health) in a 1.5m radius.",
+    "fusionLimit": 3,
+    "name": "Thermagnetic Shells",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FIRE>Heat,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Thermite Rounds",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 2,
+    "description": "Highlights mods through the environment as well as the Minimap.,+7 Loot Radar",
+    "fusionLimit": 5,
+    "name": "Thief'S Wit",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+7.5% Chance to Explode (Use with Caution)",
+    "fusionLimit": 3,
+    "name": "Thunderbolt",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+25% chance charged Projectiles explode,-15% Magazine Capacity",
+    "fusionLimit": 3,
+    "name": "Thundermiter",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Tidal Surge Augment: Clears Status Effects and grants 8s of Proc Immunity for yourself and allies that come in contact with it.",
+    "fusionLimit": 3,
+    "name": "Tidal Impunity",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Rumblers Augment: Create a single rumbler with 200% Health and 200% Damage.Reactivating will cause him to slam the floor and knockdown enemies in 15m.",
+    "fusionLimit": 3,
+    "name": "Titanic Rumbler",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Eclipse Augment: While active, allies within 8m benefit from Eclipse.",
+    "fusionLimit": 3,
+    "name": "Total Eclipse",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_POISON>Toxin,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Toxic Barrage",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+25% <DT_POISON>Toxin,+0.3 'Blight'",
+    "fusionLimit": 3,
+    "name": "Toxic Blight",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+2.2% to Bullet Jump,+2.2% Aim Glide/Wall Latch Duration,+25% <DT_POISON>Toxin on Bullet Jump",
+    "fusionLimit": 10,
+    "name": "Toxic Flight",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Status Duration,+0.3 'Sequence'",
+    "fusionLimit": 3,
+    "name": "Toxic Sequence",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Reduced Toxin damage.,+2.5% <DT_POISON>Toxin Resistance",
+    "fusionLimit": 5,
+    "name": "Toxin Resistance",
+    "polarity": "Vazarin",
+    "rarity": "Uncommon",
+    "type": "Aura"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Powerful arcs with frenzied combo.",
+    "fusionLimit": 3,
+    "name": "Tranquil Cleave",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Ability Strength,-2.5% Ability Duration",
+    "fusionLimit": 10,
+    "name": "Transient Fortitude",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Electric Shield Augment: Allies can pick up Electric Shield. 150% of damage absorbed will be added to Volt's Static Discharge.",
+    "fusionLimit": 3,
+    "name": "Transistor Shield",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+15% Ammo Maximum",
+    "fusionLimit": 5,
+    "name": "Trick Mag",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Secondary Mod"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On 2 Hits within .02s:+10% Damage for 0s",
+    "fusionLimit": 3,
+    "name": "Triple Tap",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Chance,-2.5% Combo Count Chance",
+    "fusionLimit": 3,
+    "name": "True Punishment",
+    "polarity": "Zenurik",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Critical Chance",
+    "fusionLimit": 5,
+    "name": "True Steel",
+    "polarity": "Madurai",
+    "rarity": "Common",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "A mix of sweeping attacks with precise strikes.",
+    "fusionLimit": 3,
+    "name": "Twirling Spire",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+50% Holster Speed",
+    "fusionLimit": 3,
+    "name": "Twitch",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+10% Armor,+1% <DT_SENTIENT>Tau Resistance",
+    "fusionLimit": 10,
+    "name": "Umbral Fiber",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+4% Ability Strength,+1% <DT_SENTIENT>Tau Resistance",
+    "fusionLimit": 10,
+    "name": "Umbral Intensify",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+40% Health,+1% <DT_SENTIENT>Tau Resistance",
+    "fusionLimit": 10,
+    "name": "Umbral Vitality",
+    "polarity": "Umbra",
+    "rarity": "Legendary",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+7% Bleedout Reduction",
+    "fusionLimit": 5,
+    "name": "Undying Will",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Energy Vampire Augment: Excess Energy replenishes Shields by 85%.",
+    "fusionLimit": 3,
+    "name": "Vampire Leech",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 10,
+    "description": "On Kill:-25% Shield Recharge Delay for 3s,-6.2% from Health Orbs",
+    "fusionLimit": 3,
+    "name": "Vanquished Prey",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Venari Augment: Venari dies in Khora's place. Respawn timer increased to 150s. Killing enemies decreases the timer by 1s.",
+    "fusionLimit": 3,
+    "name": "Venari Bodyguard",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Hate... Dread... Despair...",
+    "fusionLimit": 3,
+    "name": "Vengeful Revenant",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Spores Augment: Hold to cast will grant all allies within 15m an additional 50% <DT_CORROSIVE>Corrosive Damage to their attacks for 28s.",
+    "fusionLimit": 3,
+    "name": "Venom Dose",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Poison FX on Bullet Jump",
+    "fusionLimit": 0,
+    "name": "Venomous Rise",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Kicks woven between spinning slashes.",
+    "fusionLimit": 3,
+    "name": "Vermillion Storm",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Vex Armor Augment: Taking 150 Damage will trigger a 4m burst. Shield damage will cause a <DT_PUNCTURE>Puncture Proc while Health damage will cause a <DT_EXPLOSION>Blast Proc.",
+    "fusionLimit": 3,
+    "name": "Vexing Retaliation",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Fighting form devised for Conclave.",
+    "fusionLimit": 3,
+    "name": "Vicious Approach",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Stance"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FREEZE>Cold,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Vicious Frost",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Damage,+10% Spread",
+    "fusionLimit": 5,
+    "name": "Vicious Spread",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Shotgun Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Multishot",
+    "fusionLimit": 5,
+    "name": "Vigilante Armaments",
+    "polarity": "Naramon",
+    "rarity": "Common",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+7.5% Fire Rate (x2 for Bows)",
+    "fusionLimit": 5,
+    "name": "Vigilante Fervor",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+0.3 Punch Through",
+    "fusionLimit": 5,
+    "name": "Vigilante Offense",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5 Enemy Radar",
+    "fusionLimit": 5,
+    "name": "Vigilante Pursuit",
+    "polarity": "Naramon",
+    "rarity": "Uncommon",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 2.",
+    "fusionLimit": 5,
+    "name": "Vigilante Supplies",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+10% Shield Recharge",
+    "fusionLimit": 5,
+    "name": "Vigilante Vigor",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+20% Shield Capacity,+20% Health",
+    "fusionLimit": 5,
+    "name": "Vigor",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 2,
+    "description": "On Equip:+15% Damage for 3s+15% Holster Speed",
+    "fusionLimit": 10,
+    "name": "Vigorous Swap",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% Fire Rate (x2 for Bows),-2.5% Damage",
+    "fusionLimit": 5,
+    "name": "Vile Acceleration",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "-15% Weapon Recoil,-6% Fire Rate (x2 for Bows)",
+    "fusionLimit": 5,
+    "name": "Vile Precision",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_POISON>Toxin,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Virulent Scourge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+20% Critical Damage",
+    "fusionLimit": 5,
+    "name": "Vital Sense",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 10,
+    "description": "+0.3 Heal Rate/s,+12.5% Shield Recharge Delay",
+    "fusionLimit": 3,
+    "name": "Vital Systems Bypass",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 2,
+    "description": "+30% Health",
+    "fusionLimit": 3,
+    "name": "Vitality",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_FIRE>Heat,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Volcanic Edge",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s,+0.3 'Sequence'",
+    "fusionLimit": 3,
+    "name": "Voltage Sequence",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Primary"
+  },
+  {
+    "baseDrain": 0,
+    "description": "Electrical FX on Bullet Jump",
+    "fusionLimit": 0,
+    "name": "Voltaic Lance",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+15% <DT_ELECTRICITY>Electricity,+15% Status Chance",
+    "fusionLimit": 3,
+    "name": "Voltaic Strike",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Enemies explode on death, dealing 50 <DT_EXPLOSION>Blast Damage (+10% Enemy Max Health) in a 1m radius.",
+    "fusionLimit": 5,
+    "name": "Vulcan Blitz",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Swift cuts, lancing strikes.",
+    "fusionLimit": 3,
+    "name": "Vulpine Mask",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Melee"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Warding Halo Augment: 35% of the casting cost returned based on how much protection is left.",
+    "fusionLimit": 3,
+    "name": "Ward Recovery",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "Thurible Augment: Allies in range take 15% less Damage while channeling Thurible and grant 0.2 additional Energy charge whenever damaged.",
+    "fusionLimit": 3,
+    "name": "Warding Thurible",
+    "polarity": "Zenurik",
+    "rarity": "Rare",
+    "type": "Warframe"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+3% Shield Resistance to Ice Levels",
+    "fusionLimit": 3,
+    "name": "Warm Coat",
+    "polarity": "Vazarin",
+    "rarity": "Common",
+    "type": "Warframe Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+6.7% Status Chance per Combo Multiplier",
+    "fusionLimit": 5,
+    "name": "Weeping Wounds",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+30% Projectile Speed",
+    "fusionLimit": 5,
+    "name": "Whirlwind",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Melee Mod"
+  },
+  {
+    "baseDrain": 4,
+    "description": "Secondary Fire will shoot with +200% Fire Rate until the magazine is empty. Killing 2 or more enemies will refund 25% of the ammo.",
+    "fusionLimit": 5,
+    "name": "Wild Frenzy",
+    "polarity": "Naramon",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 6,
+    "description": "+5% Magazine Capacity,+15% <DT_FIRE>Heat",
+    "fusionLimit": 3,
+    "name": "Wildfire",
+    "polarity": "Madurai",
+    "rarity": "Rare",
+    "type": "Rifle"
+  },
+  {
+    "baseDrain": 4,
+    "description": "+5% Life Steal,+0.3 'Purity'",
+    "fusionLimit": 3,
+    "name": "Winds Of Purity",
+    "polarity": "Vazarin",
+    "rarity": "Rare",
+    "type": "Secondary"
+  },
+  {
+    "baseDrain": -2,
+    "description": "Deftly executed sweeps and slashes.",
+    "fusionLimit": 3,
+    "name": "Wise Razor",
+    "polarity": "Madurai",
+    "rarity": "Uncommon",
+    "type": "Melee"
+  }
+]

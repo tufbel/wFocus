@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/index_warframes.css' %} ">
+{% endblock %}
+
+{% block title %}
+    <title>战术模拟-wFocus</title>
+{% endblock %}
+
+
+{% block nav %}
+    <li class="nav-li"><a href="{% url 'app_index:home' %}">首页</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:alerts' %}">实时信息</a><span></span></li>
+    <li class="nav-li nav-li-now"><a href="javascript:void(0)">战术模拟</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:weapons' %}">武器配装</a><span></span></li>
+{% endblock %}
+
+{% block main %}
+    <main class="wf-main">
+        {% if warframes %}
+            {% for warframe in warframes %}
+                <a class="wf-tags" href="{% url 'app_warframes:info' warframe_name=warframe.name|title|cut:" " %}">{{warframe.name}}</a>
+            {% endfor %}
+        {% endif %}
+    </main>
+{% endblock %}
+
+{% block scripts %}{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/wf_warframe.css' %} ">
+{% endblock %}
+
+{% block title %}
+    <title>战术模拟-wFocus</title>
+{% endblock %}
+
+
+{% block nav %}
+    <li class="nav-li"><a href="{% url 'app_index:home' %}">首页</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:alerts' %}">实时信息</a><span></span></li>
+    <li class="nav-li nav-li-now"><a href="{% url 'app_index:warframes' %}">战术模拟</a><span></span></li>
+    <li class="nav-li"><a href="{% url 'app_index:weapons' %}">武器配装</a><span></span></li>
+{% endblock %}
+
+{% block main %}
+    <main class="wf-main">
+
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script src=" {% static 'js/mods/mods_info.js' %} " type="module"></script>
+    <script src=" {% static 'js/warframes/warframe_info.js' %} " type="module"></script>
+    <script src=" {% static 'js/warframes/warframe_modboxs.js' %} " type="module"></script>
+    <script src=" {% static 'js/mods/hot_modboxs.js' %} " type="module"></script>
+{% endblock %}

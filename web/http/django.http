@@ -1,0 +1,29 @@
+
+
+GET http://127.0.0.1:8000/account/signin HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8000/accpunt/signin HTTP/1.1
+content-type: application/json
+
+{
+    "email": "admin@163.com",
+    "password": "1234",
+    "remember": false
+}
+
+###
+GET http://127.0.0.1:8000/account/signup HTTP/1.1
+###
+POST http://127.0.0.1:8000/account/signup HTTP/1.1
+content-type: application/json
+
+{  
+    "username":"孙海超",
+    "email": "admin@163.com",
+    "password": "123456789",
+    "password_again":"12345678",
+    "email_captcha":"gkTC",
+    "img_captcha":"Y2CV"
+}

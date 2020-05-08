@@ -1,0 +1,15 @@
+/* 页眉 */
+@import url(../css/header.css);
+@import url(../css/nav.css);
+@import url(../css/header_user.css);
+@import url(../css/header_manage.css);
+
+/* 页脚 */
+@import url(../css/footer.css);
+
+/* 背景 */
+@import url(../css/background.css);
+
+/* 内容 */
+@import url(../css/home.css);
+

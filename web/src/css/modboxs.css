@@ -1,0 +1,157 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-21 10:54:41 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-29 16:08:50
+ * @description: MOD配置槽样式
+ */
+.modboxs {
+  width: 100%;
+  height: 100%;
+}
+.modboxs > div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 1px #fff;
+  border-radius: 4px;
+}
+.modbox {
+  max-width: 480px;
+  width: 96%;
+  height: 100px;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+  background-color: #eaeaeaa8;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.modbox .mod {
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 1;
+  order: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 15px 1fr 30px 15px;
+  grid-template-rows: 20px 10px 1fr;
+  grid-template-areas: ". name size size" ". name size size" ". property property .";
+}
+.modbox .mod .mod-name {
+  grid-area: name;
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-shadow: 0 0 3px #e500f5, 0 0 6px rgba(229, 0, 245, 0.9);
+}
+.modbox .mod .mod-property {
+  grid-area: property;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modbox .mod .mod-property span {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 2px auto;
+}
+.modbox .mod .mod-size {
+  grid-area: size;
+}
+.modbox .mod .mod-remove {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.modbox .mod .mod-remove:hover {
+  transform: scale(1.2) rotate(-18deg);
+}
+.modbox .modbox-manage {
+  order: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modbox .modbox-manage [name="modbox-add"] {
+  grid-area: add;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.modbox .modbox-manage [name="modbox-add"]:hover {
+  transform: scale(1.6);
+}
+.modbox .polarity {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 10px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  display: grid;
+  grid-auto-flow: column dense;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 40px;
+  align-items: center;
+  justify-items: center;
+}
+.modbox .polarity .iconfont {
+  cursor: pointer;
+  font-size: 1.6rem;
+  background: none;
+  display: none;
+}
+.modbox .polarity .iconfont:hover {
+  font-size: 2rem;
+}
+.modbox .polarity:hover {
+  width: 100%;
+  background-color: #81d4fa !important;
+  padding: 5px;
+}
+.modbox .polarity:hover .iconfont {
+  display: block;
+}
+.modbox [data-polarity="Madurai"] {
+  background-color: #0652DD;
+}
+.modbox [data-polarity="Naramon"] {
+  background-color: #EA2027;
+}
+.modbox [data-polarity="Vazarin"] {
+  background-color: #009432;
+}
+.modbox [data-polarity="Zenurik"] {
+  background-color: #5b2200;
+}
+.modbox [data-polarity="Umbra"] {
+  background-color: #FFC312;
+}
+.modbox [data-polarity="Null"] {
+  background-color: #fff;
+}
+.modboxs-function {
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.modboxs-function .modboxs-share {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+.modboxs-function .modboxs-share:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 10px #90caf9;
+  transform: scale(1.2);
+}

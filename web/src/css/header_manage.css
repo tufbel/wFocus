@@ -1,0 +1,57 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:29:09 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-12-20 12:29:03
+ * @description: 页眉中的checkbox点击后的组件显示效果。包括小于768px时的导航栏与搜索框、所有窗口大小下的用户信息展示界面。
+ */
+@media  screen and (max-width: 768px) {
+  #search-judge:checked ~ .header-search .search-input {
+    height: 50px;
+  }
+  #search-judge:checked ~ .header-search .search-hint {
+    display: block;
+  }
+  #nav-judge:checked ~ .header-nav > span {
+    width: 95%;
+  }
+  #nav-judge:checked ~ .wf-nav {
+    height: 50px;
+  }
+  #nav-judge:checked ~ .wf-nav ul .nav-li a {
+    height: 100%;
+  }
+  #nav-judge:checked ~ .wf-nav ul .nav-li-now::before {
+    height: 3px;
+  }
+}
+@media screen and (min-width: 768px)  {
+  #search-judge:checked ~ .header-search .icon-chaxun {
+    color: #000;
+  }
+  #search-judge:checked ~ .header-search .icon-chaxun::after {
+    width: 100%;
+    z-index: -10;
+  }
+  #search-judge:checked ~ .header-search .search-input {
+    padding: 0 10px 0 0;
+    max-width: 400px;
+  }
+  #search-judge:checked ~ .header-search .search-hint {
+    display: block;
+    max-width: 440px;
+  }
+}
+#user-judge:checked + .header-mask {
+  width: 100%;
+}
+#user-judge:checked + .header-mask .user {
+  right: 0;
+}
+#name-editor-judge:checked + label {
+  font-size: 1.2rem;
+  color: #2196f3;
+}
+#name-editor-judge:checked + label:hover {
+  text-shadow: 0px 0px 4px #eeeeee;
+}

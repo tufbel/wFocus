@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../mixin/css/message.css">
+
+    <script src="../dist/js/jquery-3.4.1.min.js"></script>
+    <script src="../mixin/testjs/message.js" type="module"></script>
+
+    <title>WF首页</title>
+</head>
+
+<body>
+    <input type="button" value="点击出提示">
+    <div class="wf-message" style="display: none;">
+        <div class="message-title">
+            <span>提示</span>
+            <i class="iconfont icon-close"></i>
+        </div>
+        <div class="message-content">
+            <i class="iconfont icon-warning"></i>
+            <p>错误提示</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import {msg} from "../mixin/testjs/message.js";
+
+        $(`[type="button"]`).click(()=>{
+            console.log(msg);
+            msg.error_message({
+                错误:`发财了`,
+                影响:`问题不大`
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:23:46 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-08 20:26:48
+ * @description: less文件所用到的变量。
+ */
+.wf-main {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media  screen and (max-width: 768px) {
+  .wf-main {
+    padding: 10px 5px;
+  }
+}
+.wf-main a {
+  color: #000;
+  background: #e0f7fa;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: 1px solid #bdc3c7;
+  padding: 2px 5px;
+  margin: 5px;
+  border-radius: 2px;
+  font-size: 1em;
+  font-weight: 550;
+  transition: 0.2s;
+}
+.wf-main a:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #e0f7fa;
+  outline: 3px solid rgba(100, 180, 246, 0.7);
+  border: 1px solid rgba(100, 180, 246, 0.7);
+}

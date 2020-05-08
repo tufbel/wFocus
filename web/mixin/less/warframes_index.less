@@ -1,0 +1,39 @@
+@import url("../../src/less/base.less");
+
+.wf-main {
+    padding: 20px 50px;
+
+    @media @small {
+        padding: 10px 5px;
+    }
+
+    .flex;
+    justify-content: flex-start;
+
+    a {
+        color: #000;
+        background: #e0f7fa;
+        min-width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid rgb(189, 195, 199);
+        padding: 2px 5px;
+        margin: 5px;
+        border-radius: 2px;
+        font-size: 1em;
+        font-weight: 550;
+        transition: 0.2s;
+
+
+        &:hover {
+            cursor: pointer;
+            background-color: #2196f3;
+            color: #e0f7fa;
+            outline: 3px solid rgba(100, 180, 246, 0.7);
+            border: 1px solid rgba(100, 180, 246, 0.7);
+        }
+    }
+}

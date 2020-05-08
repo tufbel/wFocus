@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="../src/js/utils.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="../src/js/test/test.js"></script> -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px;
+            font: normal 16px sans-serif;
+            color: #555;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            display: block;
+            padding: 10px;
+            width: 400px;
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="content-holder">This text will be inserted into the clipboard.</p>
+    <input type="text" value="你好" id="content-input" style="display: none;">
+
+    <button id="copy-button">Copy Text</button>
+
+    <textarea placeholder="Paste here"></textarea>
+
+    <script>
+        let button = document.querySelector('#copy-button');
+        let content = document.querySelector(`#content-input`);
+        button.addEventListener(`click`, function (e) {
+            content.select();
+            document.execCommand('copy');
+        });
+    </script>
+
+    <!-- <script>
+        // 通过 getElementById 方法获取 id 为 copy-button 的 button 标签
+        var button = document.getElementById("copy-button");
+
+        // 通过 getElementById 方法获取 id 为 content-holder 的 p 标签
+        var contentHolder = document.getElementById("content-holder");
+
+        // 监听 button 标签的点击事件,当 button 标签被点击时，触发后面的回调函数
+        button.addEventListener("click", function (e) {
+
+            console.log(e);
+            console.log(window);
+            // 创建 createRange 方法对象
+            var range = document.createRange();
+            console.log(range);
+            // 创建 getSelection 方法对象，表示用户选择的文本范围或光标的当前位置。
+            var selection = window.getSelection();
+            console.log(selection);
+            // 通过 selection.removeAllRanges() 方法清除选择范围
+            selection.removeAllRanges();
+
+            // selectNodeContents 方法选择 contentHolder 子节点的内容
+            // 这里指 p 标签中的文本节点内容
+            range.selectNodeContents(contentHolder);
+
+            // 一个区域（Range）对象将被增加到选区（Selection）当中。
+            // 将刚刚选中的 p 标签文本添加到 selection
+            selection.addRange(range);
+
+            // execCommand 中的 copy 方法拷贝刚刚选到的内容
+            document.execCommand('copy');
+
+            // 重新初始化区域对象 range
+            selection.removeAllRanges();
+
+        }, false);
+    </script> -->
+</body>
+
+</html>

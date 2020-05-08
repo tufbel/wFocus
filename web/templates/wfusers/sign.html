@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico" >
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sign.css' %}">
+
+    <title>wFocus</title>
+</head>
+
+<body>
+    <main class="wf-main">
+        <div>
+            <div class="sign-form">
+                <input type="checkbox" id="sign-form-manage" style="display: none;">
+                <a href="/"> <i class="iconfont icon-WF-icon"></i> </a>
+                <div>
+                    <article id="signin">
+                        <div class="input">
+                            <input type="text" name="email" autocomplete="off">
+                            <span>Email</span>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="password" autocomplete="off">
+                            <span>Password</span>
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox" id="remember" name="remember" style="display: none;">
+                            <label for="remember"><i class="iconfont icon-ic_remember"></i><span>Remember</span></label>
+                        </div>
+                        <div class="sign-manage">
+                            <label for="sign-form-manage">Sign Up</label>
+                            <button class="no-click">Sign In</button>
+                        </div>
+                    </article>
+                    <article id="signup">
+                        {% csrf_token %}
+                        <div class="input">
+                            <input type="text" name="username" autocomplete="off">
+                            <span>Name</span>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="email" autocomplete="off">
+                            <span>Email</span>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="password" autocomplete="off">
+                            <span>Password</span>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="password_again" autocomplete="off">
+                            <span>Again Password</span>
+                        </div>
+                        <div class="captcha">
+                            <input type="text" name="email_captcha" maxlength="4" autocomplete="off"
+                                placeholder="Email Captcha">
+                            <div class="no-click" name="email_send">Send</div>
+                        </div>
+                        <div class="captcha">
+                            <input type="text" name="img_captcha" maxlength="4" autocomplete="off"
+                                placeholder="Image Captcha">
+                            <img src="" alt="">
+                        </div>
+                        <div class="sign-manage">
+                            <label for="sign-form-manage">Sign In</label>
+                            <button class="no-click">Sign Up</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src=" {% static 'js/utils.js' %} "></script>
+    <script src=" {% static 'js/jquery-3.4.1.min.js' %} "></script>
+    <script src=" {% static 'js/wfajax.js' %} "></script>
+    <script src=" {% static 'js/wfuser/sign.js' %}" type="module"></script>
+</body>
+
+</html>

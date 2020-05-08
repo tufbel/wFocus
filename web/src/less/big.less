@@ -1,0 +1,29 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:25:44 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-17 19:47:37
+ * @description: 窗口大于等于1200px时的样式。
+ */
+
+
+// 栅格占列数生成
+.generate-columns(@n, @i: 1) when (@i =< @n) {
+    .col-lg-@{i} {
+        grid-column-end: span @i;
+    }
+
+    .generate-columns(@n, (@i + 1));
+}
+
+//栅格起始位置生成
+.generate-start(@n, @i: 1) when (@i =< @n) {
+    .start-lg-@{i} {
+        grid-column-start: @i+1;
+    }
+
+    .generate-start(@n, (@i + 1));
+}
+
+.generate-columns(12);
+.generate-start(12);

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.personal {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-left: solid 1px #9F9C9C;
+  border-right: solid 1px #9F9C9C;
+}
+.personal .personal-information {
+  width: 400px;
+  height: 380px;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personal .personal-information .information-img {
+  width: 400px;
+  text-align: center;
+}
+.personal .personal-information .information-img > img {
+  width: 250px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.personal .personal-information .information-user {
+  height: 40px;
+  margin-bottom: 20px;
+}
+.personal .personal-information .information-user > label {
+  font-size: 18px;
+  color: #727171;
+  line-height: 28px;
+}
+.personal .personal-information .information-user > span {
+  max-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  color: #727171;
+}
+.personal .personal-information .information-user #check-btn {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background: #2395ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.personal .personal-information .information-user #manual-check-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  margin-left: 15px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+.personal .personal-information > div:nth-child(4) > span {
+  max-width: 130px;
+  overflow: hidden;
+}
+.personal .personal-information .information-btn {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.personal .personal-information .information-btn #btn-modification {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #545151;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+.personal .information-check {
+  width: 600px;
+  height: 0px;
+  margin: 0 auto;
+  /* border: solid 1px #9F9C9C; */
+  position: relative;
+  transition: all 0.4s ease-in;
+  overflow: hidden;
+  /* transform: translate(0,10%);
+        display: block;
+        opacity: 0; */
+}
+.personal .information-check > div:nth-child(1) {
+  width: 600px;
+  height: 20px;
+  border-bottom: solid 1px #9F9C9C;
+  position: absolute;
+  top: 0;
+}
+.personal .information-check > div:nth-child(1) > span {
+  font-size: 20px;
+  color: #727171;
+  background: white;
+  display: block;
+  position: absolute;
+  bottom: -12px;
+  padding: 0 10px;
+  left: 220px;
+  z-index: 2;
+}
+.personal .information-check .uploadImgBtn {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  cursor: pointer;
+  background: url(../img/jiahao.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.personal .information-check .uploadImgBtn .uploadImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.personal .information-check > div:nth-child(3) {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  bottom: 10px;
+}
+.personal .information-check > div:nth-child(3) #submit-btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #545151;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+/*图片回显盒子*/
+.pic {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+.pic > img {
+  width: 100%;
+  height: 100%;
+}
+.pic > button {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  z-index: 2;
+  display: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.main {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+.main .main-wrapper {
+  width: 1020px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+.main .main-wrapper > div:nth-child(1) {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.main .main-wrapper > div:nth-child(1) > input {
+  flex: 8;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+}
+.main .main-wrapper > div:nth-child(1) > button {
+  flex: 2;
+  height: 50px;
+  background: #8e44adb5;
+  color: #ecf0f1;
+  font-size: 15px;
+  cursor: pointer;
+}
+.main .main-wrapper > div:nth-child(1) .all-name-area {
+  width: 484px;
+  max-height: 150px;
+  overflow: auto;
+  background: white;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 1;
+}
+.main .main-wrapper > div:nth-child(1) .all-name-area .all-name-list {
+  width: 100%;
+  list-style: none;
+}
+.main .main-wrapper > div:nth-child(1) .all-name-area .all-name-list > li {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+.main .main-wrapper > div:nth-child(1) .all-name-area .all-name-list > li:hover {
+  background: #cccccc;
+}
+.main .main-wrapper > div:nth-child(2) {
+  text-align: center;
+}
+.main .main-wrapper > div:nth-child(2) > ul {
+  width: 285px;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.main .main-wrapper > div:nth-child(2) > ul > li {
+  margin: 0 20px;
+  padding: 5px 10px;
+  float: left;
+  font-family: Cursive;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffffff9e;
+}
+.main .main-wrapper > div:nth-child(2) > ul .active {
+  background: #8e44adb5;
+  color: #fff;
+}
+.main .main-wrapper > div:nth-child(3) {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .main-wrapper > div:nth-child(4) {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.main .main-wrapper > div:nth-child(4) > button {
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background: #ffffff9e;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Cursive;
+}
+.main .text-data {
+  z-index: -1;
+  opacity: 0;
+}

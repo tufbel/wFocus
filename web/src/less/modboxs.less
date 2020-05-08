@@ -1,0 +1,192 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-21 10:54:41 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-29 16:08:50
+ * @description: MOD配置槽样式
+ */
+
+@import url("../less/base.less");
+
+.modboxs {
+    width: 100%;
+    height: 100%;
+
+    &>div {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        padding: 5px;
+        // background-color: rgba(58, 58, 58, 0.7);
+        box-shadow: 0px 0px 2px 1px #fff;
+        border-radius: 4px;
+    }
+}
+
+.modbox {
+    max-width: 480px;
+    width: 96%;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    background-color: #eaeaeaa8;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .mod {
+        width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: relative;
+        z-index: 1;
+        order: 0;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 15px 1fr 30px 15px;
+        grid-template-rows: 20px 10px 1fr;
+        grid-template-areas: ". name size size"
+            ". name size size"
+            ". property property .";
+
+        .mod-name {
+            grid-area: name;
+            font-size: 0.8rem;
+            font-weight: 900;
+            text-shadow: 0 0 3px rgba(229, 0, 245, 1),
+                0 0 6px rgba(229, 0, 245, 0.9),
+        }
+
+        .mod-property {
+            grid-area: property;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-size: 0.8rem;
+                text-align: center;
+                margin: 2px auto;
+            }
+        }
+
+        .mod-size {
+            grid-area: size;
+        }
+
+        .mod-remove {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            font-size: 0.8rem;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.2) rotate(-18deg);
+            }
+        }
+
+    }
+
+    .modbox-manage {
+        order: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        [name="modbox-add"] {
+            grid-area: add;
+            font-size: 2rem;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.6);
+            }
+        }
+    }
+
+    .polarity {
+        position: absolute;
+        z-index: 2;
+        height: 100%;
+        width: 10px;
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+        display: grid;
+        grid-auto-flow: column dense;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-columns: 40px;
+        align-items: center;
+        justify-items: center;
+
+        .iconfont {
+            cursor: pointer;
+            font-size: 1.6rem;
+            background: none;
+            display: none;
+
+            &:hover {
+                font-size: 2rem;
+            }
+        }
+
+        &:hover {
+            width: 100%;
+            background-color: #81d4fa !important;
+            padding: 5px;
+
+            .iconfont {
+                display: block;
+            }
+        }
+    }
+
+    [data-polarity="Madurai"] {
+        background-color: #0652DD;
+    }
+
+    [data-polarity="Naramon"] {
+        background-color: #EA2027;
+    }
+
+    [data-polarity="Vazarin"] {
+        background-color: #009432;
+    }
+
+    [data-polarity="Zenurik"] {
+        background-color: #5b2200;
+    }
+
+    [data-polarity="Umbra"] {
+        background-color: #FFC312;
+    }
+
+    [data-polarity="Null"] {
+        background-color: #fff;
+    }
+}
+
+.modboxs-function {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .modboxs-share {
+        font-size: 1.2em;
+        margin-left: 10px;
+
+        &:hover {
+            cursor: pointer;
+            text-shadow: 0px 0px 10px #90caf9;
+            transform: scale(1.2);
+        }
+    }
+}

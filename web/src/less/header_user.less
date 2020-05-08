@@ -1,0 +1,166 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:28:23 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-14 20:29:23
+ * @description: 页眉右侧隐藏的用户信息界面样式。
+ */
+
+@import url("../../src/less/base.less");
+
+.user {
+    position: absolute;
+    top: 0;
+    right: -320px;
+    height: 100%;
+    width: 60vw;
+    max-width: 320px;
+    background-color: #212121;
+    color: #fff;
+    transition: right 0.2s ease;
+
+    .flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    &>div:nth-of-type(1) {
+        width: 100%;
+        .flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        label,
+        a {
+            .flex;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin: 10px 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: #fff;
+
+            &:hover {
+                text-shadow: 0px 0px 2px #0288d1,
+                    0px 0px 4px #29b6f6,
+                    0px 0px 6px #b3e5fc;
+            }
+        }
+
+    }
+
+    @media @phone {
+        right: -500px;
+        width: 100vw;
+        max-width: 500px;
+    }
+}
+
+.user-details {
+    width: 100%;
+    border-top: 1px solid rgb(194, 194, 194);
+    .flex;
+    padding: 20px 0px;
+
+
+    .user-icon {
+        width: 120px;
+        height: 120px;
+        margin: 20px 20px;
+
+        &>span {
+            font-size: 4rem;
+        }
+    }
+
+    &>article:not(:nth-of-type(1)) {
+        width: 100%;
+        .grid;
+        grid-template-columns: 3fr 4fr 1fr 1fr;
+        grid-auto-rows: 46px;
+    }
+}
+
+.user-name~label:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-shadow: 0px 0px 2px #0288d1,
+        0px 0px 4px #29b6f6,
+        0px 0px 6px #b3e5fc;
+}
+
+.user-details {
+    p {
+        justify-self: end;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1rem;
+        font-style: italic;
+        color: #666666;
+        background-color: rgba(255, 255, 255, 0);
+        text-overflow: ellipsis;
+    }
+
+    input:focus {
+        color: #2196f3;
+        font-size: 1.2rem;
+        font-style: normal;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075),
+            0 0 3px #3498db;
+    }
+
+    a {
+        grid-column-end: span 4;
+        color: #fff;
+        width: 150px;
+        height: 30px;
+        .flex;
+        justify-content: space-evenly;
+        border-radius: 3px;
+        box-shadow: 0 0 1px 1px #fbc531;
+        background-color: #1e3799;
+    }
+}
+
+.user-function {
+    width: 100%;
+    margin: 10px 0px;
+    border-top: 1px solid rgb(252, 249, 249);
+
+    &>ul {
+        margin-top: 10px;
+        width: 100%;
+        .flex;
+        flex-direction: column;
+
+        &>li {
+            width: 100%;
+            padding: 2px 20px;
+            .flex;
+        }
+
+        a {
+
+            color: #fff;
+            width: 150px;
+            height: 30px;
+            .flex;
+            justify-content: space-evenly;
+            border-radius: 3px;
+
+            &>i {
+                font-size: 1.2rem;
+            }
+
+            &:hover {
+                color: #2196f3;
+                box-shadow: 0 0 2px rgba(33, 149, 243, 0.6);
+            }
+        }
+    }
+}

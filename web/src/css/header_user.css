@@ -1,0 +1,175 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-08 20:28:23 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-11-14 20:29:23
+ * @description: 页眉右侧隐藏的用户信息界面样式。
+ */
+.user {
+  position: absolute;
+  top: 0;
+  right: -320px;
+  height: 100%;
+  width: 60vw;
+  max-width: 320px;
+  background-color: #212121;
+  color: #fff;
+  transition: right 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.user > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.user > div:nth-of-type(1) label,
+.user > div:nth-of-type(1) a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+}
+.user > div:nth-of-type(1) label:hover,
+.user > div:nth-of-type(1) a:hover {
+  text-shadow: 0px 0px 2px #0288d1, 0px 0px 4px #29b6f6, 0px 0px 6px #b3e5fc;
+}
+@media screen and (max-width: 499px) {
+  .user {
+    right: -500px;
+    width: 100vw;
+    max-width: 500px;
+  }
+}
+.user-details {
+  width: 100%;
+  border-top: 1px solid #c2c2c2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.user-details .user-icon {
+  width: 120px;
+  height: 120px;
+  margin: 20px 20px;
+}
+.user-details .user-icon > span {
+  font-size: 4rem;
+}
+.user-details > article:not(:nth-of-type(1)) {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 12px;
+  justify-content: space-around;
+  align-content: space-around;
+  justify-items: center;
+  align-items: center;
+  grid-auto-flow: row;
+  grid-template-columns: 3fr 4fr 1fr 1fr;
+  grid-auto-rows: 46px;
+}
+.user-name ~ label:hover {
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-shadow: 0px 0px 2px #0288d1, 0px 0px 4px #29b6f6, 0px 0px 6px #b3e5fc;
+}
+.user-details p {
+  justify-self: end;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+.user-details input {
+  width: 100%;
+  font-size: 1rem;
+  font-style: italic;
+  color: #666666;
+  background-color: rgba(255, 255, 255, 0);
+  text-overflow: ellipsis;
+}
+.user-details input:focus {
+  color: #2196f3;
+  font-size: 1.2rem;
+  font-style: normal;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px #3498db;
+}
+.user-details a {
+  grid-column-end: span 4;
+  color: #fff;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 1px #fbc531;
+  background-color: #1e3799;
+}
+.user-function {
+  width: 100%;
+  margin: 10px 0px;
+  border-top: 1px solid #fcf9f9;
+}
+.user-function > ul {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-function > ul > li {
+  width: 100%;
+  padding: 2px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.user-function > ul a {
+  color: #fff;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3px;
+}
+.user-function > ul a > i {
+  font-size: 1.2rem;
+}
+.user-function > ul a:hover {
+  color: #2196f3;
+  box-shadow: 0 0 2px rgba(33, 149, 243, 0.6);
+}

@@ -1,0 +1,40 @@
+{% extends 'riven/rivenmarkets_base.html' %}
+
+{% block title %}
+    我的紫卡
+{% endblock %}
+
+{% block link %}
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1501852_4cfzlv5r4s4.css">
+    <link rel="stylesheet" href="{% static 'css/wf_rivenmygoods.css' %}">
+{% endblock %}
+
+{% block ul %}
+    <ul class="menu">
+        <li class="item"><a href="{% url 'rivenmarket:index' %}">紫卡市场</a></li>
+        <li class="item active"><a href="{% url 'rivenmygoods:index' %}">我的紫卡<span class = "icon-dian iconfont title-new-msg"></span></a></li>
+        <li class="item"><a href="{% url 'rivenmygoods:rivencollection' %}">我的收藏</a></li>
+    </ul>
+{% endblock %}
+
+{% block main %}
+    <main class="main">
+        <div class="my-riven-wrapper">
+            <div class="add-my-riven-box">
+                <span class="icon-ziyuan iconfont"></span>
+                <span id="release">
+                    发布紫卡
+                    <div></div>
+                </span>
+            </div>
+            <div class="other-box" style="display: none;">
+            </div>
+        </div> 
+    </main>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/riven/riven_mygoods.js' %}" type="module"></script>
+    <script src="{% static 'js/riven/my_riven.js' %}" type="module"></script>
+    <script src="{% static 'js/riven/message_board.js' %}" type="module"></script>
+{% endblock %}

@@ -1,0 +1,314 @@
+/*
+ * @Author: Lumoon 
+ * @Date: 2019-11-20 16:26:58 
+ * @Last Modified by: Lumoon
+ * @Last Modified time: 2019-12-11 16:58:06
+ * @description: Mods信息展示界面样式
+ */
+.mods-mask {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(7, 7, 7, 0.7);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mods-mask > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mods {
+  min-height: 400px;
+  background-color: rgba(9, 9, 9, 0.7);
+  box-shadow: 2px 2px 10px #3f08b0d9;
+  border-radius: 2px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transform-origin: center top;
+  transform: perspective(1000px) rotateX(90deg);
+  transition: transform 0.2s ease-out;
+}
+.mods-search {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.mods-search > div {
+  width: 60%;
+  max-width: 460px;
+  height: 70%;
+  margin: auto auto;
+  position: relative;
+}
+.mods-search > div input {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(224, 247, 250, 0);
+  border-bottom: 1px solid #1b9cfc;
+  font-size: 1em;
+  outline: none;
+  color: #ffffff;
+  padding: 0px 152px 0px 8px;
+}
+.mods-search > div input:focus {
+  box-shadow: 0 1px 3px #42a5f5;
+}
+.mods-search > div input:focus + div {
+  opacity: 1;
+}
+.mods-search > div input:hover + div {
+  opacity: 1;
+}
+.mods-search > div div {
+  display: block;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  pointer-events: none;
+  text-shadow: 0 0 3px #e500f5, 0 0 6px rgba(229, 0, 245, 0.9), 0 0 8px rgba(229, 0, 245, 0.9), 0 0 14px rgba(229, 0, 245, 0.9), 0 0 22px rgba(229, 0, 245, 0.7), 0 0 28px rgba(229, 0, 245, 0.7), 0 0 36px rgba(229, 0, 245, 0.6), 0 0 48px rgba(229, 0, 245, 0.5), 0 0 54px rgba(229, 0, 245, 0.3), 0 0 68px rgba(229, 0, 245, 0.1);
+  opacity: 0;
+  transition: 0.2s;
+}
+.mods-search > div::before {
+  content: "搜索:";
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  transform: translate(-110%, 0px);
+}
+.mods-filter {
+  width: 96%;
+  height: 46px;
+  border-bottom: 3px solid #9e9e9e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mods-filter li {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  margin: 0px 3px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.mods-filter li:hover {
+  background-color: rgba(209, 196, 233, 0.74);
+  background-clip: content-box;
+}
+.mods-filter li:hover i {
+  font-size: 1.1rem;
+}
+.mods-filter li:hover span {
+  font-size: 1.1rem;
+}
+.mods-filter .select-filter {
+  position: relative;
+}
+.mods-filter .select-filter::after {
+  position: absolute;
+  bottom: -3px;
+  content: "";
+  display: block;
+  width: calc(100% + 6px);
+  height: 4px;
+}
+.mods-filter .all {
+  color: #fff;
+  order: 0;
+}
+.mods-filter .all::after {
+  background-color: #fff;
+}
+.mods-filter .Madurai {
+  color: #0652DD;
+  order: 1;
+}
+.mods-filter .Madurai::after {
+  background-color: #0652DD !important;
+}
+.mods-filter .Naramon {
+  color: #EA2027;
+  order: 2;
+}
+.mods-filter .Naramon::after {
+  background-color: #EA2027 !important;
+}
+.mods-filter .Vazarin {
+  color: #009432;
+  order: 3;
+}
+.mods-filter .Vazarin::after {
+  background-color: #009432 !important;
+}
+.mods-filter .Zenurik {
+  color: #5b2200;
+  order: 4;
+}
+.mods-filter .Zenurik::after {
+  background-color: #5b2200 !important;
+}
+.mods-filter .Umbra {
+  color: #FFC312;
+  order: 5;
+}
+.mods-filter .Umbra::after {
+  background-color: #FFC312 !important;
+}
+.mods-info {
+  width: 100%;
+  flex: 1;
+  padding: 5px 10px 40px 8px;
+  overflow: auto;
+}
+.mods-info .mod {
+  max-width: 300px;
+  min-width: 120px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2px 5px;
+  margin: 6px 10px;
+  border-radius: 2px;
+  font-size: 1em;
+  font-weight: 550;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 2px solid #bdc3c7;
+  position: relative;
+  z-index: 1;
+}
+.mods-info .mod .mod-size {
+  background-color: transparent;
+}
+.mods-info .mod .mod-property {
+  position: absolute;
+  width: calc(100% + 4px);
+  top: calc(100% + 1px);
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 0px 2px;
+  transition: max-height 0.2s linear;
+  overflow: hidden;
+  max-height: 0;
+}
+.mods-info .mod .mod-property span {
+  margin: 2px auto;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.mods-info .mod:hover {
+  z-index: 2;
+}
+.mods-info .mod:hover .mod-property {
+  max-height: 100px;
+  z-index: 1;
+}
+.mods-info [data-show="false"] {
+  display: none;
+}
+.mods-info [data-filter="false"] {
+  display: none;
+}
+.mods-info [data-polarity-filter="false"] {
+  display: none;
+}
+.mods-info .Madurai {
+  border: 2px solid #0652DD;
+}
+.mods-info .Madurai .mod-property {
+  background-color: #0652DD;
+}
+.mods-info .Naramon {
+  border: 2px solid #EA2027;
+}
+.mods-info .Naramon .mod-property {
+  background-color: #EA2027;
+}
+.mods-info .Vazarin {
+  border: 2px solid #009432;
+}
+.mods-info .Vazarin .mod-property {
+  background-color: #009432;
+}
+.mods-info .Zenurik {
+  border: 2px solid #5b2200;
+}
+.mods-info .Zenurik .mod-property {
+  background-color: #5b2200;
+}
+.mods-info .Umbra {
+  border: 2px solid #FFC312;
+}
+.mods-info .Umbra .mod-property {
+  background-color: #FFC312;
+}
+.mods-remove {
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+  color: #d50f04;
+}
+.mods-remove:hover {
+  text-shadow: 0px 0px 5px #d81b60, 0px 0px 10px #f48fb1;
+}
+@media  screen and (max-width: 768px) {
+  .mods {
+    width: 90vw;
+    height: 76vh;
+  }
+  .mods-filter li span {
+    display: none;
+  }
+}
+@media  screen and (max-width: 1200px) and (min-width: 768px) {
+  .mods {
+    width: 736px;
+    height: 66vh;
+  }
+}
+@media  screen and (min-width: 1200px) {
+  .mods {
+    width: 880px;
+    height: 66vh;
+  }
+}
