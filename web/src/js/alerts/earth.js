@@ -101,7 +101,7 @@ class Earth extends AlertsBase {
         self.status.data = undefined;
 
         wfajax.post({
-            url: self.base_url + `earthStatus`,
+            url: self.base_url + `earthCycle`,
             success: (response) => {
                 if (response.code == 200) {
                     self.status.data = response.data;

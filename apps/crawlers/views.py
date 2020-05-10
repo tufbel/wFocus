@@ -278,39 +278,69 @@ class WfaCrawler(object):
     """Wfa实时信息网络爬虫"""
 
     def __init__(self):
-        self.url_template = 'https://api.richasy.cn/wfa/basic/pc/{url}'
+        self.url_template = 'https://data.richasy.cn/wfa/basic/total?platform=pc'
+        self.url_reword = 'https://data.richasy.cn/wfa/basic/bounty?platform=pc&region={}&language=zh'
 
     def run_get(self, url):
-        complete_url = self.url_template.format(url=url)
-        response = requests.options(url=complete_url, headers=OPTIONS_HEADERS)
-        if response.status_code != 204:
-            raise Exception('授权获取失败')
+        complete_url = self.url_template
+        response = requests.get(url=complete_url, headers=GET_DATA_HEADERS)
+        if response.status_code != 200:
+            raise Exception('数据获取失败')
+        json_data = response.json()
+        re_data = json_data.get(url, None)
+        return re_data
+
+    def run_get_reword(self, url):
+        complete_url = self.url_reword.format(url)
         response = requests.get(url=complete_url, headers=GET_DATA_HEADERS)
         if response.status_code != 200:
             raise Exception('数据获取失败')
         return response.json()
 
 
-class TranslationDictCrawler(object):
-
-    def __init__(self):
-        pass
-
-
-OPTIONS_HEADERS = {
-    'Access-Control-Request-Headers': 'authorization',
-    'Access-Control-Request-Method': 'GET',
-    'Origin': 'https://wfa.richasy.cn',
-    'Referer': 'https://wfa.richasy.cn/',
-    'Sec-Fetch-Mode': 'cors',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36 '
-}
-
 GET_DATA_HEADERS = {
-    'Origin': 'https://wfa.richasy.cn',
-    'Referer': 'https://wfa.richasy.cn/',
-    'Sec-Fetch-Mode': 'cors',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36 ',
     'Accept': 'application/json, text/plain, */*',
-    'Authorization': 'Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2Iiwia2lkIjoiNjRBM0E0OTlGMkRBOUZGMkM3QzY0MzY0MEUxOTc0NzUxMkQzMjBDNSIsInR5cCI6IkpXVCIsIng1dCI6IlpLT2ttZkxhbl9MSHhrTmtEaGwwZFJMVElNVSJ9.eyJuYmYiOjE1NzI5Mzc0ODQsImV4cCI6MTYwNDQ3MzQ4NCwiaXNzIjoiaHR0cDovL2FwaS5yaWNoYXN5LmNuIiwiYXVkIjpbImh0dHA6Ly9hcGkucmljaGFzeS5jbi9yZXNvdXJjZXMiLCJiYXNpY1Byb2ZpbGUiXSwiY2xpZW50X2lkIjoiZWFkZmE2NzBlZDExNGM3ZGJjYWVjYjFhM2ExZjVmYWMiLCJzY29wZSI6WyJiYXNpY1Byb2ZpbGUiXX0.gY4kP2fc51-bLzXcRVt6yV-UfITdwUyPHi37fZ1LiDt4wsJ8__UT45GBEgfQdfffMACklCxnZS6_ahMmrb8WrCyNOLpK426QZZzPn4VC0uRVBb4UdK8C4X53DL3zljH1z8nEji55078NSG6IZ_n4frYEEsPj2pi4x666lvEel3qc2uLpguNEYs-KklcBYqtzW5HGMXAduHmHkAhD6CcRTAgOzU6ypgGZI0fEvLEmRYi8te9s_z2J707bCuoN_vRMrMDaY1S3Fl9aef7aPncs7-cnF8UHmFVGiD_OqYP5qkVsQi_4Z7i44AmVdad6T2Yu_LGjQmXHRKtcuJR5R_iEVw'
+    'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkMwQkU5QUI4OUYyQTBFOTMxQUFGMjBEOEVDREY4Nzc2OTFFRDcyRjgiLCJ0eXAiOiJhdCtqd3QiLCJ4NXQiOiJ3TDZhdUo4cURwTWFyeURZN04tSGRwSHRjdmcifQ.eyJuYmYiOjE1ODkwODUwODEsImV4cCI6MTU5MDI5NDY4MSwiaXNzIjoiaHR0cDovL2lkZW50aXR5LnJpY2hhc3kuY24iLCJhdWQiOiJ3ZmEiLCJjbGllbnRfaWQiOiI1NjdhNDEyODBhMzA0MTgzODMzZmU1ZTZjMDYzYTg3ZCIsImNsaWVudF91c3JpZCI6Iml3QzE0NTFpdzEiLCJzY29wZSI6WyJ3ZmEuYmFzaWMiXX0.lhzyeOvS6_fumhhzwR1Oj6S2lc1L0Viv5rxyj44q6vEkZXNnNdj0rDWw9Ng6WLnb2GSugo85-oDIuZUgAuMC_Bwm_uC2FzIPEN7hLJImSg-ry_UY_EJgUe2sJSFO_8D0yBAfeV3sne-GkfVseoWQSLkj0CnPL9cdnvYvZpUy4v5Z3Fgzlnj_L18BNMeOcmrIZGtCpq5tVZ7_7B2X6GVBBNwYz9RZGtVrs8ajkscX_6ETVfh__1nzNnDoMoUjPQ4THJXFFr90NOQqNEs-t5FP03E4Rg8q5bq8cosbKvcwM0KVQzL3bmC5rvbizGRlRv3JVqfWKRpz9JigRfxU1BRDAA'
 }
+
+# class WfaCrawler(object):
+#     """Wfa实时信息网络爬虫"""
+#
+#     def __init__(self):
+#         self.url_template = 'https://api.richasy.cn/wfa/basic/pc/{url}'
+#
+#     def run_get(self, url):
+#         complete_url = self.url_template.format(url=url)
+#         response = requests.options(url=complete_url, headers=OPTIONS_HEADERS)
+#         if response.status_code != 204:
+#             raise Exception('授权获取失败')
+#         response = requests.get(url=complete_url, headers=GET_DATA_HEADERS)
+#         if response.status_code != 200:
+#             raise Exception('数据获取失败')
+#         return response.json()
+#
+#
+# class TranslationDictCrawler(object):
+#
+#     def __init__(self):
+#         pass
+#
+#
+# OPTIONS_HEADERS = {
+#     'Access-Control-Request-Headers': 'authorization',
+#     'Access-Control-Request-Method': 'GET',
+#     'Origin': 'https://wfa.richasy.cn',
+#     'Referer': 'https://wfa.richasy.cn/',
+#     'Sec-Fetch-Mode': 'cors',
+#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36 '
+# }
+#
+# GET_DATA_HEADERS = {
+#     'Origin': 'https://wfa.richasy.cn',
+#     'Referer': 'https://wfa.richasy.cn/',
+#     'Sec-Fetch-Mode': 'cors',
+#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36 ',
+#     'Accept': 'application/json, text/plain, */*',
+#     'Authorization': 'Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2Iiwia2lkIjoiNjRBM0E0OTlGMkRBOUZGMkM3QzY0MzY0MEUxOTc0NzUxMkQzMjBDNSIsInR5cCI6IkpXVCIsIng1dCI6IlpLT2ttZkxhbl9MSHhrTmtEaGwwZFJMVElNVSJ9.eyJuYmYiOjE1NzI5Mzc0ODQsImV4cCI6MTYwNDQ3MzQ4NCwiaXNzIjoiaHR0cDovL2FwaS5yaWNoYXN5LmNuIiwiYXVkIjpbImh0dHA6Ly9hcGkucmljaGFzeS5jbi9yZXNvdXJjZXMiLCJiYXNpY1Byb2ZpbGUiXSwiY2xpZW50X2lkIjoiZWFkZmE2NzBlZDExNGM3ZGJjYWVjYjFhM2ExZjVmYWMiLCJzY29wZSI6WyJiYXNpY1Byb2ZpbGUiXX0.gY4kP2fc51-bLzXcRVt6yV-UfITdwUyPHi37fZ1LiDt4wsJ8__UT45GBEgfQdfffMACklCxnZS6_ahMmrb8WrCyNOLpK426QZZzPn4VC0uRVBb4UdK8C4X53DL3zljH1z8nEji55078NSG6IZ_n4frYEEsPj2pi4x666lvEel3qc2uLpguNEYs-KklcBYqtzW5HGMXAduHmHkAhD6CcRTAgOzU6ypgGZI0fEvLEmRYi8te9s_z2J707bCuoN_vRMrMDaY1S3Fl9aef7aPncs7-cnF8UHmFVGiD_OqYP5qkVsQi_4Z7i44AmVdad6T2Yu_LGjQmXHRKtcuJR5R_iEVw'
+# }

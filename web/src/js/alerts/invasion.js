@@ -42,7 +42,7 @@ class Invasion extends AlertsBase {
         let self = this;
 
         wfpromise.post({
-            url: self.base_url + `invasion`,
+            url: self.base_url + `invasions`,
         }).then(response => {
             if (response.code == 200) {
                 self._add_invasion_card(response.data);
@@ -69,6 +69,7 @@ class Invasion extends AlertsBase {
         let self = this;
         self.content.html(``);
 
+        console.log(data);
         for (const item of data) {
             let card = $(`
                 <div alert-card>
@@ -77,21 +78,24 @@ class Invasion extends AlertsBase {
             `);
 
             let attacker = $(`<div invasion-content></div>`);
-            attacker.append(self._init_alert_item(`enemy`, item.attacker.faction, `入侵阵营`));
-            attacker.append(self._init_alert_item(`enemy`, item.attacker.reward, `入侵奖励`));
+            attacker.append(self._init_alert_item(`enemy`, item.attackingFaction, `入侵阵营`));
+            attacker.append(self._init_alert_item(`enemy`, item.attackerReward.asString, `入侵奖励`));
 
             let defender = $(`<div invasion-content></div>`);
-            defender.append(self._init_alert_item(`normal`, item.defender.faction, `抵抗阵营`));
-            defender.append(self._init_alert_item(`normal`, item.defender.reward, `抵抗奖励`));
+            defender.append(self._init_alert_item(`normal`, item.defendingFaction, `抵抗阵营`));
+            defender.append(self._init_alert_item(`normal`, item.defenderReward.asString, `抵抗奖励`));
 
             let node_line = $(`
                 <div class="content-line">
                     <span>${item.node.split('|')[0].trim()}</span>
                 </div>
             `);
+
+            let num = item.completion;
+            num = num>0 ? num.toFixed(2):0;
             let progress_line = $(`
                 <div class="content-line">
-                    <span>${`${item.completion}%`}</span>
+                    <span>${`${num}%`}</span>
                 </div>
             `);
 

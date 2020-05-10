@@ -10,7 +10,7 @@ from utils import paths
 import pytesseract as tocr
 
 # 指定pytesseract的路径
-tocr.pytesseract.tesseract_cmd = r'D:\AppTools\Tesseract-OCR\tesseract'
+tocr.pytesseract.tesseract_cmd = r'D:\Scoop\Scoop\apps\tesseract4\4.1.0-elag2019'
 
 
 # 识别游戏ID图片
@@ -27,7 +27,7 @@ def add_wfuser_gamename(wfuser, user_game):
             name_img = r.run()
             oct_img = cv2.cvtColor(name_img, cv2.COLOR_BGR2GRAY)
 
-            text = tocr.image_to_string(oct_img, lang='chi_sim')
+            text = tocr.image_to_string(oct_img, lang='eng')
 
             user_game.game_status = WfUserGame.HAVE_GAMENAME
             wfuser.game_name = text.strip()

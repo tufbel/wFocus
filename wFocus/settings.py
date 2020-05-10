@@ -124,10 +124,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'warframe',
-        'USER': 'root',
+        'USER': 'tuffy',
         'PASSWORD': 'sy14213ZM',
         'HOST': '127.0.0.1',
-        'PORT': '3308',
+        'PORT': '3306',
         'OPTIONS': {
             # 告诉mysql使用的是'utf8mb4'
             'charset': 'utf8mb4',

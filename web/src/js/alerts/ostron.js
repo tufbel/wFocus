@@ -119,10 +119,11 @@ class Ostron extends AlertsBase {
         self.status.data = null;
 
         wfajax.post({
-            url: self.base_url + `cetusStatus`,
+            url: self.base_url + `cetusCycle`,
             success: (response) => {
                 if (response.code == 200) {
                     self.status.data = response.data;
+                    console.log(self.status.data);
                 } else {
                     msg.error_message(response.message);
                 }
@@ -133,7 +134,7 @@ class Ostron extends AlertsBase {
         });
 
         wfajax.post({
-            url: self.base_url + `ostron`,
+            url: self.base_url + `cetus`,
             success: (response) => {
                 if (response.code == 200) {
                     self.ostron.data = response.data;
@@ -167,7 +168,7 @@ class Ostron extends AlertsBase {
 
             page_el.html(``);
             data.rewards.forEach((item, index, arr) => {
-                let element = self._init_alert_item(item.type, item.zh);
+                let element = self._init_alert_item(item.rarity, item.itemName);
                 page_el.append(element);
             });
             Resize.resize_element(self.element[0]);

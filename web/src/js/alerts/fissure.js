@@ -43,7 +43,7 @@ class Fissure extends AlertsBase {
         let self = this;
 
         wfpromise.post({
-            url: self.base_url + `fissure`,
+            url: self.base_url + `fissures`,
         }).then(response => {
             if (response.code == 200) {
                 self._add_fissure_card(response.data);

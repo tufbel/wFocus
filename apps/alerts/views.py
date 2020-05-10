@@ -19,15 +19,13 @@ def index(request):
 @require_POST
 def get_data(request, data_name):
     crawlers = WfaCrawler()
+    print(data_name)
     try:
-        data = crawlers.run_get(data_name)
-        if re.match(r'sortie', data_name, flags=re.IGNORECASE):
-            data = sortie_translation(data)
-        elif re.match(r'invasion', data_name, flags=re.IGNORECASE):
-            data = invasion_translaton(data)
-        elif re.match(r'fissure', data_name, flags=re.IGNORECASE):
-            data = fissure_translation(data)
-
+        if re.fullmatch(r'cetus|solaris', data_name, flags=re.IGNORECASE):
+            data = crawlers.run_get_reword(data_name)
+        else:
+            data = crawlers.run_get(data_name)
+        print(data_name,data is not None)
         return restful.ok(data=data)
     except:
         return restful.server_error('数据抓取失败！')

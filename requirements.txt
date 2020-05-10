@@ -18,10 +18,10 @@ lazy-object-proxy==1.4.3
 lxml==4.4.1
 matplotlib==3.1.2
 mccabe==0.6.1
-mysqlclient==1.4.4
-numpy==1.17.4
-opencv-contrib-python==3.4.2.16
-opencv-python==3.4.2.16
+mysqlclient
+numpy
+opencv-contrib-python
+opencv-python
 Pillow==6.2.1
 psycopg2==2.8.4
 pylint==2.4.4
