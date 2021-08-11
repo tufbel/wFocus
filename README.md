@@ -1,7 +1,7 @@
 # wFocus
 
 ## 介绍
-小组毕业设计项目，wFocus为针对warframe游戏所做的玩家网站。
+wFocus为针对warframe游戏所做的玩家网站。
 
 ## 作者
 
