@@ -22,7 +22,7 @@ mysqlclient
 numpy
 opencv-contrib-python
 opencv-python
-Pillow==6.2.1
+Pillow==9.3.0
 psycopg2==2.8.4
 pylint==2.4.4
 PyMySQL==0.9.3
